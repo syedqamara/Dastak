@@ -1,0 +1,1066 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		333CD97524A12DB30026E30E /* save_location.json in Resources */ = {isa = PBXBuildFile; fileRef = 333CD97424A12DB20026E30E /* save_location.json */; };
+		333CD97724A12FD60026E30E /* modules.rb in Resources */ = {isa = PBXBuildFile; fileRef = 333CD97624A12FD60026E30E /* modules.rb */; };
+		3360B9C324B1F83D001D8394 /* merchant_detail.json in Resources */ = {isa = PBXBuildFile; fileRef = 3360B9C224B1F83D001D8394 /* merchant_detail.json */; };
+		3360B9C524B2518C001D8394 /* search_results.json in Resources */ = {isa = PBXBuildFile; fileRef = 3360B9C424B2518C001D8394 /* search_results.json */; };
+		33AB4778248BCE0600EEB840 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33AB46AC248BCE0500EEB840 /* LaunchScreen.storyboard */; };
+		33AB4779248BCE0600EEB840 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33AB46AE248BCE0500EEB840 /* Main.storyboard */; };
+		33AB477B248BCE0600EEB840 /* rules.json in Resources */ = {isa = PBXBuildFile; fileRef = 33AB46B4248BCE0500EEB840 /* rules.json */; };
+		33AB477C248BCE0600EEB840 /* currencies.json in Resources */ = {isa = PBXBuildFile; fileRef = 33AB46B5248BCE0500EEB840 /* currencies.json */; };
+		33AB477F248BCE0600EEB840 /* DDThirdPartySDKConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AB46E8248BCE0500EEB840 /* DDThirdPartySDKConfig.m */; };
+		33AB4780248BCE0600EEB840 /* DDApiRouteConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AB46EB248BCE0500EEB840 /* DDApiRouteConfig.m */; };
+		33AB4781248BCE0600EEB840 /* DDThemeConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AB46EE248BCE0500EEB840 /* DDThemeConfiguration.m */; };
+		33AB4782248BCE0600EEB840 /* DDAppConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AB46F1248BCE0500EEB840 /* DDAppConfiguration.m */; };
+		33AB4783248BCE0600EEB840 /* DDDeeplinkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AB46F6248BCE0500EEB840 /* DDDeeplinkConfig.m */; };
+		33AB4784248BCE0600EEB840 /* DDDeepLinkUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AB46F7248BCE0500EEB840 /* DDDeepLinkUtils.m */; };
+		33AB4785248BCE0600EEB840 /* DDNavigationConfigurations.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AB46F9248BCE0500EEB840 /* DDNavigationConfigurations.m */; };
+		33AB4786248BCE0600EEB840 /* DDAnalyticsConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AB46FD248BCE0500EEB840 /* DDAnalyticsConfiguration.m */; };
+		33AB4787248BCE0600EEB840 /* icInactiveTravel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33AB46FF248BCE0500EEB840 /* icInactiveTravel@2x.png */; };
+		33AB4788248BCE0600EEB840 /* icInactiveTravel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33AB4700248BCE0500EEB840 /* icInactiveTravel@3x.png */; };
+		33AB4789248BCE0600EEB840 /* icInactiveNotifications.png in Resources */ = {isa = PBXBuildFile; fileRef = 33AB4701248BCE0500EEB840 /* icInactiveNotifications.png */; };
+		33AB478A248BCE0600EEB840 /* icInactiveNotifications@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33AB4702248BCE0500EEB840 /* icInactiveNotifications@3x.png */; };
+		33AB478B248BCE0600EEB840 /* icInactiveNotifications@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33AB4703248BCE0500EEB840 /* icInactiveNotifications@2x.png */; };
+		33AB478C248BCE0600EEB840 /* icInactiveTravel.png in Resources */ = {isa = PBXBuildFile; fileRef = 33AB4704248BCE0500EEB840 /* icInactiveTravel.png */; };
+		33AB478D248BCE0600EEB840 /* DDRedemptionsUI_dark.json in Resources */ = {isa = PBXBuildFile; fileRef = 33AB4707248BCE0500EEB840 /* DDRedemptionsUI_dark.json */; };
+		33AB478E248BCE0600EEB840 /* DDRedemptionsUI_light.json in Resources */ = {isa = PBXBuildFile; fileRef = 33AB4708248BCE0500EEB840 /* DDRedemptionsUI_light.json */; };
+		33AB478F248BCE0600EEB840 /* DDOutletsUI_dark.json in Resources */ = {isa = PBXBuildFile; fileRef = 33AB470A248BCE0500EEB840 /* DDOutletsUI_dark.json */; };
+		33AB4790248BCE0600EEB840 /* DDOutletsUI_light.json in Resources */ = {isa = PBXBuildFile; fileRef = 33AB470B248BCE0500EEB840 /* DDOutletsUI_light.json */; };
+		33AB4791248BCE0600EEB840 /* DDPingsUI_dark.json in Resources */ = {isa = PBXBuildFile; fileRef = 33AB470D248BCE0500EEB840 /* DDPingsUI_dark.json */; };
+		33AB4792248BCE0600EEB840 /* DDPingsUI_light.json in Resources */ = {isa = PBXBuildFile; fileRef = 33AB470E248BCE0500EEB840 /* DDPingsUI_light.json */; };
+		33AB4793248BCE0600EEB840 /* DDSearchUI_dark.json in Resources */ = {isa = PBXBuildFile; fileRef = 33AB4710248BCE0500EEB840 /* DDSearchUI_dark.json */; };
+		33AB4794248BCE0600EEB840 /* DDSearchUI_light.json in Resources */ = {isa = PBXBuildFile; fileRef = 33AB4711248BCE0500EEB840 /* DDSearchUI_light.json */; };
+		33AB4797248BCE0600EEB840 /* DDLocationsUI_light.json in Resources */ = {isa = PBXBuildFile; fileRef = 33AB4716248BCE0500EEB840 /* DDLocationsUI_light.json */; };
+		33AB4798248BCE0600EEB840 /* DDLocationsUI_dark.json in Resources */ = {isa = PBXBuildFile; fileRef = 33AB4717248BCE0500EEB840 /* DDLocationsUI_dark.json */; };
+		33AB4799248BCE0600EEB840 /* DDFavouritesUI_dark.json in Resources */ = {isa = PBXBuildFile; fileRef = 33AB4719248BCE0500EEB840 /* DDFavouritesUI_dark.json */; };
+		33AB479A248BCE0600EEB840 /* DDFavouritesUI_light.json in Resources */ = {isa = PBXBuildFile; fileRef = 33AB471A248BCE0500EEB840 /* DDFavouritesUI_light.json */; };
+		33AB479B248BCE0600EEB840 /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 33AB471B248BCE0500EEB840 /* countries.json */; };
+		33AB479C248BCE0600EEB840 /* light.json in Resources */ = {isa = PBXBuildFile; fileRef = 33AB471C248BCE0500EEB840 /* light.json */; };
+		33AB479D248BCE0600EEB840 /* DDMapsUI_light.json in Resources */ = {isa = PBXBuildFile; fileRef = 33AB471E248BCE0500EEB840 /* DDMapsUI_light.json */; };
+		33AB479E248BCE0600EEB840 /* DDMapsUI_dark.json in Resources */ = {isa = PBXBuildFile; fileRef = 33AB471F248BCE0500EEB840 /* DDMapsUI_dark.json */; };
+		33AB479F248BCE0600EEB840 /* DDAuthUI_dark.json in Resources */ = {isa = PBXBuildFile; fileRef = 33AB4721248BCE0500EEB840 /* DDAuthUI_dark.json */; };
+		33AB47A0248BCE0600EEB840 /* DDAuthUI_light.json in Resources */ = {isa = PBXBuildFile; fileRef = 33AB4722248BCE0500EEB840 /* DDAuthUI_light.json */; };
+		33AB47A1248BCE0600EEB840 /* DDHomeUI_dark.json in Resources */ = {isa = PBXBuildFile; fileRef = 33AB4724248BCE0500EEB840 /* DDHomeUI_dark.json */; };
+		33AB47A2248BCE0600EEB840 /* DDHomeUI_light.json in Resources */ = {isa = PBXBuildFile; fileRef = 33AB4725248BCE0500EEB840 /* DDHomeUI_light.json */; };
+		33AB47A3248BCE0600EEB840 /* DDFiltersUI_dark.json in Resources */ = {isa = PBXBuildFile; fileRef = 33AB4727248BCE0500EEB840 /* DDFiltersUI_dark.json */; };
+		33AB47A4248BCE0600EEB840 /* DDFiltersUI_light.json in Resources */ = {isa = PBXBuildFile; fileRef = 33AB4728248BCE0500EEB840 /* DDFiltersUI_light.json */; };
+		33AB47A5248BCE0600EEB840 /* DDFamilyUI_light.json in Resources */ = {isa = PBXBuildFile; fileRef = 33AB472A248BCE0500EEB840 /* DDFamilyUI_light.json */; };
+		33AB47A6248BCE0600EEB840 /* DDFamilyUI_dark.json in Resources */ = {isa = PBXBuildFile; fileRef = 33AB472B248BCE0500EEB840 /* DDFamilyUI_dark.json */; };
+		33AB47A7248BCE0600EEB840 /* dark.json in Resources */ = {isa = PBXBuildFile; fileRef = 33AB472C248BCE0500EEB840 /* dark.json */; };
+		33AB47A8248BCE0600EEB840 /* DDAccountsUI_light.json in Resources */ = {isa = PBXBuildFile; fileRef = 33AB472E248BCE0500EEB840 /* DDAccountsUI_light.json */; };
+		33AB47A9248BCE0600EEB840 /* DDAccountsUI_dark.json in Resources */ = {isa = PBXBuildFile; fileRef = 33AB472F248BCE0500EEB840 /* DDAccountsUI_dark.json */; };
+		33AB47AA248BCE0600EEB840 /* DDCashlessUI_dark.json in Resources */ = {isa = PBXBuildFile; fileRef = 33AB4731248BCE0500EEB840 /* DDCashlessUI_dark.json */; };
+		33AB47AB248BCE0600EEB840 /* DDCashlessUI_light.json in Resources */ = {isa = PBXBuildFile; fileRef = 33AB4732248BCE0500EEB840 /* DDCashlessUI_light.json */; };
+		33AB47AC248BCE0600EEB840 /* loader_api.json in Resources */ = {isa = PBXBuildFile; fileRef = 33AB4734248BCE0500EEB840 /* loader_api.json */; };
+		33AB47AD248BCE0600EEB840 /* refresh_control.json in Resources */ = {isa = PBXBuildFile; fileRef = 33AB4735248BCE0500EEB840 /* refresh_control.json */; };
+		33AB47AE248BCE0600EEB840 /* smile_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 33AB4736248BCE0500EEB840 /* smile_animation.json */; };
+		33AB47AF248BCE0600EEB840 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33AB4737248BCE0500EEB840 /* Images.xcassets */; };
+		33AB47B0248BCE0600EEB840 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AB4738248BCE0500EEB840 /* main.m */; };
+		33AB47B1248BCE0600EEB840 /* MuseoSans_500.otf in Resources */ = {isa = PBXBuildFile; fileRef = 33AB473A248BCE0500EEB840 /* MuseoSans_500.otf */; };
+		33AB47B2248BCE0600EEB840 /* MuseoSans_700.otf in Resources */ = {isa = PBXBuildFile; fileRef = 33AB473B248BCE0500EEB840 /* MuseoSans_700.otf */; };
+		33AB47B3248BCE0600EEB840 /* MuseoSans_300.otf in Resources */ = {isa = PBXBuildFile; fileRef = 33AB473C248BCE0500EEB840 /* MuseoSans_300.otf */; };
+		33AB47B4248BCE0600EEB840 /* Museo 900.otf in Resources */ = {isa = PBXBuildFile; fileRef = 33AB473D248BCE0500EEB840 /* Museo 900.otf */; };
+		33AB47B5248BCE0600EEB840 /* MuseoSans_100.otf in Resources */ = {isa = PBXBuildFile; fileRef = 33AB473E248BCE0500EEB840 /* MuseoSans_100.otf */; };
+		33AB47B6248BCE0600EEB840 /* DDTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AB4740248BCE0500EEB840 /* DDTabbarController.m */; };
+		33AB47C4248BCE0600EEB840 /* DDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AB475B248BCE0500EEB840 /* DDAppDelegate.m */; };
+		33AB47D7248BCE0600EEB840 /* Lahore, PAK.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 33AB4771248BCE0600EEB840 /* Lahore, PAK.gpx */; };
+		33AB47D8248BCE0600EEB840 /* Dubai, UAE.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 33AB4772248BCE0600EEB840 /* Dubai, UAE.gpx */; };
+		33AB47D9248BCE0600EEB840 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 33AB4774248BCE0600EEB840 /* Settings.bundle */; };
+		33AB47DA248BCE0600EEB840 /* Settings_DD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 33AB4775248BCE0600EEB840 /* Settings_DD.bundle */; };
+		33AB47DB248BCE0600EEB840 /* Settings_release.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 33AB4776248BCE0600EEB840 /* Settings_release.bundle */; };
+		33F8A8F02506D74100D5834C /* favourites.json in Resources */ = {isa = PBXBuildFile; fileRef = 33F8A8DF2506D74100D5834C /* favourites.json */; };
+		33F8A8F12506D74100D5834C /* delivery_locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 33F8A8E02506D74100D5834C /* delivery_locations.json */; };
+		33F8A8F22506D74100D5834C /* cashless_merchant_detail.json in Resources */ = {isa = PBXBuildFile; fileRef = 33F8A8E12506D74100D5834C /* cashless_merchant_detail.json */; };
+		33F8A8F32506D74100D5834C /* arabic.json in Resources */ = {isa = PBXBuildFile; fileRef = 33F8A8E22506D74100D5834C /* arabic.json */; };
+		33F8A8F42506D74100D5834C /* family_info.json in Resources */ = {isa = PBXBuildFile; fileRef = 33F8A8E32506D74100D5834C /* family_info.json */; };
+		33F8A8F52506D74100D5834C /* outlets_cashless.json in Resources */ = {isa = PBXBuildFile; fileRef = 33F8A8E42506D74100D5834C /* outlets_cashless.json */; };
+		33F8A8F62506D74100D5834C /* configs.json in Resources */ = {isa = PBXBuildFile; fileRef = 33F8A8E52506D74100D5834C /* configs.json */; };
+		33F8A8F72506D74100D5834C /* english.json in Resources */ = {isa = PBXBuildFile; fileRef = 33F8A8E62506D74100D5834C /* english.json */; };
+		33F8A8F82506D74100D5834C /* pending_order_status.json in Resources */ = {isa = PBXBuildFile; fileRef = 33F8A8E72506D74100D5834C /* pending_order_status.json */; };
+		33F8A8F92506D74100D5834C /* auto-suggestion.json in Resources */ = {isa = PBXBuildFile; fileRef = 33F8A8E82506D74100D5834C /* auto-suggestion.json */; };
+		33F8A8FA2506D74100D5834C /* places_search.json in Resources */ = {isa = PBXBuildFile; fileRef = 33F8A8E92506D74100D5834C /* places_search.json */; };
+		33F8A8FB2506D74100D5834C /* delivery_filters.json in Resources */ = {isa = PBXBuildFile; fileRef = 33F8A8EA2506D74100D5834C /* delivery_filters.json */; };
+		33F8A8FC2506D74100D5834C /* reorder.json in Resources */ = {isa = PBXBuildFile; fileRef = 33F8A8EB2506D74100D5834C /* reorder.json */; };
+		33F8A8FD2506D74100D5834C /* home.json in Resources */ = {isa = PBXBuildFile; fileRef = 33F8A8EC2506D74100D5834C /* home.json */; };
+		33F8A8FE2506D74100D5834C /* order_currDD_status.json in Resources */ = {isa = PBXBuildFile; fileRef = 33F8A8ED2506D74100D5834C /* order_currDD_status.json */; };
+		33F8A8FF2506D74100D5834C /* order_details.json in Resources */ = {isa = PBXBuildFile; fileRef = 33F8A8EE2506D74100D5834C /* order_details.json */; };
+		33F8A9002506D74100D5834C /* filters.json in Resources */ = {isa = PBXBuildFile; fileRef = 33F8A8EF2506D74100D5834C /* filters.json */; };
+		33F8A9CA25113BDB00D5834C /* DDSplashVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F8A9C825113BDB00D5834C /* DDSplashVC.m */; };
+		33F8A9CB25113BDB00D5834C /* DDSplashVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33F8A9C925113BDB00D5834C /* DDSplashVC.xib */; };
+		33FC121D248C291700D9D95B /* country_phones.json in Resources */ = {isa = PBXBuildFile; fileRef = 33FC121C248C291700D9D95B /* country_phones.json */; };
+		4B16DEB50F7DFAB62FA931C2 /* libPods-DynamicDelivery.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4622310230BA4DD2F9D6E2 /* libPods-DynamicDelivery.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		333CD97424A12DB20026E30E /* save_location.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = save_location.json; sourceTree = "<group>"; };
+		333CD97624A12FD60026E30E /* modules.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = modules.rb; sourceTree = SOURCE_ROOT; };
+		3360B9C224B1F83D001D8394 /* merchant_detail.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = merchant_detail.json; sourceTree = "<group>"; };
+		3360B9C424B2518C001D8394 /* search_results.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = search_results.json; sourceTree = "<group>"; };
+		33AB468F248BCD2F00EEB840 /* Dynamic Delivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dynamic Delivery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33AB46AD248BCE0500EEB840 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33AB46AF248BCE0500EEB840 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		33AB46B2248BCE0500EEB840 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		33AB46B4248BCE0500EEB840 /* rules.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rules.json; sourceTree = "<group>"; };
+		33AB46B5248BCE0500EEB840 /* currencies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = currencies.json; sourceTree = "<group>"; };
+		33AB46E8248BCE0500EEB840 /* DDThirdPartySDKConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDThirdPartySDKConfig.m; sourceTree = "<group>"; };
+		33AB46E9248BCE0500EEB840 /* DDThirdPartySDKConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDThirdPartySDKConfig.h; sourceTree = "<group>"; };
+		33AB46EB248BCE0500EEB840 /* DDApiRouteConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDApiRouteConfig.m; sourceTree = "<group>"; };
+		33AB46EC248BCE0500EEB840 /* DDApiRouteConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDApiRouteConfig.h; sourceTree = "<group>"; };
+		33AB46EE248BCE0500EEB840 /* DDThemeConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDThemeConfiguration.m; sourceTree = "<group>"; };
+		33AB46EF248BCE0500EEB840 /* DDThemeConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDThemeConfiguration.h; sourceTree = "<group>"; };
+		33AB46F1248BCE0500EEB840 /* DDAppConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAppConfiguration.m; sourceTree = "<group>"; };
+		33AB46F2248BCE0500EEB840 /* DDAppConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAppConfiguration.h; sourceTree = "<group>"; };
+		33AB46F4248BCE0500EEB840 /* DDDeeplinkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDeeplinkConfig.h; sourceTree = "<group>"; };
+		33AB46F5248BCE0500EEB840 /* DDDeepLinkUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDeepLinkUtils.h; sourceTree = "<group>"; };
+		33AB46F6248BCE0500EEB840 /* DDDeeplinkConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDeeplinkConfig.m; sourceTree = "<group>"; };
+		33AB46F7248BCE0500EEB840 /* DDDeepLinkUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDeepLinkUtils.m; sourceTree = "<group>"; };
+		33AB46F9248BCE0500EEB840 /* DDNavigationConfigurations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDNavigationConfigurations.m; sourceTree = "<group>"; };
+		33AB46FA248BCE0500EEB840 /* DDNavigationConfigurations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDNavigationConfigurations.h; sourceTree = "<group>"; };
+		33AB46FC248BCE0500EEB840 /* DDAnalyticsConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAnalyticsConfiguration.h; sourceTree = "<group>"; };
+		33AB46FD248BCE0500EEB840 /* DDAnalyticsConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAnalyticsConfiguration.m; sourceTree = "<group>"; };
+		33AB46FF248BCE0500EEB840 /* icInactiveTravel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icInactiveTravel@2x.png"; sourceTree = "<group>"; };
+		33AB4700248BCE0500EEB840 /* icInactiveTravel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icInactiveTravel@3x.png"; sourceTree = "<group>"; };
+		33AB4701248BCE0500EEB840 /* icInactiveNotifications.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icInactiveNotifications.png; sourceTree = "<group>"; };
+		33AB4702248BCE0500EEB840 /* icInactiveNotifications@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icInactiveNotifications@3x.png"; sourceTree = "<group>"; };
+		33AB4703248BCE0500EEB840 /* icInactiveNotifications@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icInactiveNotifications@2x.png"; sourceTree = "<group>"; };
+		33AB4704248BCE0500EEB840 /* icInactiveTravel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icInactiveTravel.png; sourceTree = "<group>"; };
+		33AB4707248BCE0500EEB840 /* DDRedemptionsUI_dark.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DDRedemptionsUI_dark.json; sourceTree = "<group>"; };
+		33AB4708248BCE0500EEB840 /* DDRedemptionsUI_light.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DDRedemptionsUI_light.json; sourceTree = "<group>"; };
+		33AB470A248BCE0500EEB840 /* DDOutletsUI_dark.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DDOutletsUI_dark.json; sourceTree = "<group>"; };
+		33AB470B248BCE0500EEB840 /* DDOutletsUI_light.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DDOutletsUI_light.json; sourceTree = "<group>"; };
+		33AB470D248BCE0500EEB840 /* DDPingsUI_dark.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DDPingsUI_dark.json; sourceTree = "<group>"; };
+		33AB470E248BCE0500EEB840 /* DDPingsUI_light.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DDPingsUI_light.json; sourceTree = "<group>"; };
+		33AB4710248BCE0500EEB840 /* DDSearchUI_dark.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DDSearchUI_dark.json; sourceTree = "<group>"; };
+		33AB4711248BCE0500EEB840 /* DDSearchUI_light.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DDSearchUI_light.json; sourceTree = "<group>"; };
+		33AB4716248BCE0500EEB840 /* DDLocationsUI_light.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DDLocationsUI_light.json; sourceTree = "<group>"; };
+		33AB4717248BCE0500EEB840 /* DDLocationsUI_dark.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DDLocationsUI_dark.json; sourceTree = "<group>"; };
+		33AB4719248BCE0500EEB840 /* DDFavouritesUI_dark.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DDFavouritesUI_dark.json; sourceTree = "<group>"; };
+		33AB471A248BCE0500EEB840 /* DDFavouritesUI_light.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DDFavouritesUI_light.json; sourceTree = "<group>"; };
+		33AB471B248BCE0500EEB840 /* countries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = countries.json; sourceTree = "<group>"; };
+		33AB471C248BCE0500EEB840 /* light.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = light.json; sourceTree = "<group>"; };
+		33AB471E248BCE0500EEB840 /* DDMapsUI_light.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DDMapsUI_light.json; sourceTree = "<group>"; };
+		33AB471F248BCE0500EEB840 /* DDMapsUI_dark.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DDMapsUI_dark.json; sourceTree = "<group>"; };
+		33AB4721248BCE0500EEB840 /* DDAuthUI_dark.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DDAuthUI_dark.json; sourceTree = "<group>"; };
+		33AB4722248BCE0500EEB840 /* DDAuthUI_light.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DDAuthUI_light.json; sourceTree = "<group>"; };
+		33AB4724248BCE0500EEB840 /* DDHomeUI_dark.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DDHomeUI_dark.json; sourceTree = "<group>"; };
+		33AB4725248BCE0500EEB840 /* DDHomeUI_light.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DDHomeUI_light.json; sourceTree = "<group>"; };
+		33AB4727248BCE0500EEB840 /* DDFiltersUI_dark.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DDFiltersUI_dark.json; sourceTree = "<group>"; };
+		33AB4728248BCE0500EEB840 /* DDFiltersUI_light.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DDFiltersUI_light.json; sourceTree = "<group>"; };
+		33AB472A248BCE0500EEB840 /* DDFamilyUI_light.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DDFamilyUI_light.json; sourceTree = "<group>"; };
+		33AB472B248BCE0500EEB840 /* DDFamilyUI_dark.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DDFamilyUI_dark.json; sourceTree = "<group>"; };
+		33AB472C248BCE0500EEB840 /* dark.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dark.json; sourceTree = "<group>"; };
+		33AB472E248BCE0500EEB840 /* DDAccountsUI_light.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DDAccountsUI_light.json; sourceTree = "<group>"; };
+		33AB472F248BCE0500EEB840 /* DDAccountsUI_dark.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DDAccountsUI_dark.json; sourceTree = "<group>"; };
+		33AB4731248BCE0500EEB840 /* DDCashlessUI_dark.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DDCashlessUI_dark.json; sourceTree = "<group>"; };
+		33AB4732248BCE0500EEB840 /* DDCashlessUI_light.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DDCashlessUI_light.json; sourceTree = "<group>"; };
+		33AB4734248BCE0500EEB840 /* loader_api.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loader_api.json; sourceTree = "<group>"; };
+		33AB4735248BCE0500EEB840 /* refresh_control.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = refresh_control.json; sourceTree = "<group>"; };
+		33AB4736248BCE0500EEB840 /* smile_animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = smile_animation.json; sourceTree = "<group>"; };
+		33AB4737248BCE0500EEB840 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		33AB4738248BCE0500EEB840 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33AB473A248BCE0500EEB840 /* MuseoSans_500.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MuseoSans_500.otf; sourceTree = "<group>"; };
+		33AB473B248BCE0500EEB840 /* MuseoSans_700.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MuseoSans_700.otf; sourceTree = "<group>"; };
+		33AB473C248BCE0500EEB840 /* MuseoSans_300.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MuseoSans_300.otf; sourceTree = "<group>"; };
+		33AB473D248BCE0500EEB840 /* Museo 900.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Museo 900.otf"; sourceTree = "<group>"; };
+		33AB473E248BCE0500EEB840 /* MuseoSans_100.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MuseoSans_100.otf; sourceTree = "<group>"; };
+		33AB4740248BCE0500EEB840 /* DDTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTabbarController.m; sourceTree = "<group>"; };
+		33AB4741248BCE0500EEB840 /* DDTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTabbarController.h; sourceTree = "<group>"; };
+		33AB475A248BCE0500EEB840 /* DynamicDelivery-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DynamicDelivery-Prefix.pch"; sourceTree = "<group>"; };
+		33AB475B248BCE0500EEB840 /* DDAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAppDelegate.m; sourceTree = "<group>"; };
+		33AB475C248BCE0600EEB840 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33AB476F248BCE0600EEB840 /* DDAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAppDelegate.h; sourceTree = "<group>"; };
+		33AB4771248BCE0600EEB840 /* Lahore, PAK.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Lahore, PAK.gpx"; sourceTree = "<group>"; };
+		33AB4772248BCE0600EEB840 /* Dubai, UAE.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Dubai, UAE.gpx"; sourceTree = "<group>"; };
+		33AB4774248BCE0600EEB840 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		33AB4775248BCE0600EEB840 /* Settings_DD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings_DD.bundle; sourceTree = "<group>"; };
+		33AB4776248BCE0600EEB840 /* Settings_release.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings_release.bundle; sourceTree = "<group>"; };
+		33AE2BCB24F7026C00A0B922 /* DynamicDelivery.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DynamicDelivery.entitlements; sourceTree = "<group>"; };
+		33F8A8DF2506D74100D5834C /* favourites.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = favourites.json; sourceTree = "<group>"; };
+		33F8A8E02506D74100D5834C /* delivery_locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = delivery_locations.json; sourceTree = "<group>"; };
+		33F8A8E12506D74100D5834C /* cashless_merchant_detail.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cashless_merchant_detail.json; sourceTree = "<group>"; };
+		33F8A8E22506D74100D5834C /* arabic.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = arabic.json; sourceTree = "<group>"; };
+		33F8A8E32506D74100D5834C /* family_info.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = family_info.json; sourceTree = "<group>"; };
+		33F8A8E42506D74100D5834C /* outlets_cashless.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = outlets_cashless.json; sourceTree = "<group>"; };
+		33F8A8E52506D74100D5834C /* configs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = configs.json; sourceTree = "<group>"; };
+		33F8A8E62506D74100D5834C /* english.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = english.json; sourceTree = "<group>"; };
+		33F8A8E72506D74100D5834C /* pending_order_status.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pending_order_status.json; sourceTree = "<group>"; };
+		33F8A8E82506D74100D5834C /* auto-suggestion.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "auto-suggestion.json"; sourceTree = "<group>"; };
+		33F8A8E92506D74100D5834C /* places_search.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = places_search.json; sourceTree = "<group>"; };
+		33F8A8EA2506D74100D5834C /* delivery_filters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = delivery_filters.json; sourceTree = "<group>"; };
+		33F8A8EB2506D74100D5834C /* reorder.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = reorder.json; sourceTree = "<group>"; };
+		33F8A8EC2506D74100D5834C /* home.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = home.json; sourceTree = "<group>"; };
+		33F8A8ED2506D74100D5834C /* order_currDD_status.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = order_currDD_status.json; sourceTree = "<group>"; };
+		33F8A8EE2506D74100D5834C /* order_details.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = order_details.json; sourceTree = "<group>"; };
+		33F8A8EF2506D74100D5834C /* filters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = filters.json; sourceTree = "<group>"; };
+		33F8A9C725113BDB00D5834C /* DDSplashVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDSplashVC.h; sourceTree = "<group>"; };
+		33F8A9C825113BDB00D5834C /* DDSplashVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDSplashVC.m; sourceTree = "<group>"; };
+		33F8A9C925113BDB00D5834C /* DDSplashVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DDSplashVC.xib; sourceTree = "<group>"; };
+		33FC121C248C291700D9D95B /* country_phones.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = country_phones.json; sourceTree = "<group>"; };
+		6389FD006C2D30A376EB0F7B /* Pods-DynamicDelivery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicDelivery.debug.xcconfig"; path = "Target Support Files/Pods-DynamicDelivery/Pods-DynamicDelivery.debug.xcconfig"; sourceTree = "<group>"; };
+		A513E0AF3E39C9CDE210A530 /* Pods-DynamicDelivery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicDelivery.release.xcconfig"; path = "Target Support Files/Pods-DynamicDelivery/Pods-DynamicDelivery.release.xcconfig"; sourceTree = "<group>"; };
+		EC4622310230BA4DD2F9D6E2 /* libPods-DynamicDelivery.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DynamicDelivery.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33AB468C248BCD2F00EEB840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B16DEB50F7DFAB62FA931C2 /* libPods-DynamicDelivery.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		196FE86E45CAD119C8DFCABD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC4622310230BA4DD2F9D6E2 /* libPods-DynamicDelivery.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33AB4686248BCD2F00EEB840 = {
+			isa = PBXGroup;
+			children = (
+				33AB4691248BCD2F00EEB840 /* DynamicDelivery */,
+				33AB4690248BCD2F00EEB840 /* Products */,
+				DFB215A35EC2AF9E75C46ED6 /* Pods */,
+				196FE86E45CAD119C8DFCABD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		33AB4690248BCD2F00EEB840 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33AB468F248BCD2F00EEB840 /* Dynamic Delivery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33AB4691248BCD2F00EEB840 /* DynamicDelivery */ = {
+			isa = PBXGroup;
+			children = (
+				33AE2BCB24F7026C00A0B922 /* DynamicDelivery.entitlements */,
+				333CD97624A12FD60026E30E /* modules.rb */,
+				33AB475D248BCE0600EEB840 /* Api_JSON */,
+				33AB46AB248BCE0500EEB840 /* Base.lproj */,
+				33AB46B3248BCE0500EEB840 /* CompulsaryJSONs */,
+				33AB46E6248BCE0500EEB840 /* Configurations */,
+				33AB46B6248BCE0500EEB840 /* DBModel */,
+				33AB473F248BCE0500EEB840 /* DynamicDelivery */,
+				33AB475A248BCE0500EEB840 /* DynamicDelivery-Prefix.pch */,
+				33AB46B0248BCE0500EEB840 /* en.lproj */,
+				33AB476F248BCE0600EEB840 /* DDAppDelegate.h */,
+				33AB475B248BCE0500EEB840 /* DDAppDelegate.m */,
+				33AB4739248BCE0500EEB840 /* Fonts */,
+				33AB46FE248BCE0500EEB840 /* Images */,
+				33AB4737248BCE0500EEB840 /* Images.xcassets */,
+				33AB475C248BCE0600EEB840 /* Info.plist */,
+				33AB4738248BCE0500EEB840 /* main.m */,
+				33AB4770248BCE0600EEB840 /* Other */,
+				33AB4773248BCE0600EEB840 /* Settings */,
+				33AB4705248BCE0500EEB840 /* ThemeJSONS */,
+			);
+			path = DynamicDelivery;
+			sourceTree = "<group>";
+		};
+		33AB46AB248BCE0500EEB840 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				33AB46AC248BCE0500EEB840 /* LaunchScreen.storyboard */,
+				33AB46AE248BCE0500EEB840 /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		33AB46B0248BCE0500EEB840 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				33AB46B1248BCE0500EEB840 /* InfoPlist.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		33AB46B3248BCE0500EEB840 /* CompulsaryJSONs */ = {
+			isa = PBXGroup;
+			children = (
+				33AB46B4248BCE0500EEB840 /* rules.json */,
+				33AB46B5248BCE0500EEB840 /* currencies.json */,
+				33FC121C248C291700D9D95B /* country_phones.json */,
+				333CD97424A12DB20026E30E /* save_location.json */,
+				3360B9C224B1F83D001D8394 /* merchant_detail.json */,
+				3360B9C424B2518C001D8394 /* search_results.json */,
+			);
+			path = CompulsaryJSONs;
+			sourceTree = "<group>";
+		};
+		33AB46B6248BCE0500EEB840 /* DBModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DBModel;
+			sourceTree = "<group>";
+		};
+		33AB46E6248BCE0500EEB840 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				33AB46E7248BCE0500EEB840 /* ThirdPartySDKConfiguration */,
+				33AB46EA248BCE0500EEB840 /* ApiRouterConfiguration */,
+				33AB46ED248BCE0500EEB840 /* ThemeConfiguration */,
+				33AB46F0248BCE0500EEB840 /* AppConfigurations */,
+				33AB46F3248BCE0500EEB840 /* Deeplinks */,
+				33AB46F8248BCE0500EEB840 /* NavigationConfiguration */,
+				33AB46FB248BCE0500EEB840 /* AnalyticsConfiguration */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		33AB46E7248BCE0500EEB840 /* ThirdPartySDKConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				33AB46E8248BCE0500EEB840 /* DDThirdPartySDKConfig.m */,
+				33AB46E9248BCE0500EEB840 /* DDThirdPartySDKConfig.h */,
+			);
+			path = ThirdPartySDKConfiguration;
+			sourceTree = "<group>";
+		};
+		33AB46EA248BCE0500EEB840 /* ApiRouterConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				33AB46EB248BCE0500EEB840 /* DDApiRouteConfig.m */,
+				33AB46EC248BCE0500EEB840 /* DDApiRouteConfig.h */,
+			);
+			path = ApiRouterConfiguration;
+			sourceTree = "<group>";
+		};
+		33AB46ED248BCE0500EEB840 /* ThemeConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				33AB46EE248BCE0500EEB840 /* DDThemeConfiguration.m */,
+				33AB46EF248BCE0500EEB840 /* DDThemeConfiguration.h */,
+			);
+			path = ThemeConfiguration;
+			sourceTree = "<group>";
+		};
+		33AB46F0248BCE0500EEB840 /* AppConfigurations */ = {
+			isa = PBXGroup;
+			children = (
+				33AB46F1248BCE0500EEB840 /* DDAppConfiguration.m */,
+				33AB46F2248BCE0500EEB840 /* DDAppConfiguration.h */,
+			);
+			path = AppConfigurations;
+			sourceTree = "<group>";
+		};
+		33AB46F3248BCE0500EEB840 /* Deeplinks */ = {
+			isa = PBXGroup;
+			children = (
+				33AB46F4248BCE0500EEB840 /* DDDeeplinkConfig.h */,
+				33AB46F5248BCE0500EEB840 /* DDDeepLinkUtils.h */,
+				33AB46F6248BCE0500EEB840 /* DDDeeplinkConfig.m */,
+				33AB46F7248BCE0500EEB840 /* DDDeepLinkUtils.m */,
+			);
+			path = Deeplinks;
+			sourceTree = "<group>";
+		};
+		33AB46F8248BCE0500EEB840 /* NavigationConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				33AB46F9248BCE0500EEB840 /* DDNavigationConfigurations.m */,
+				33AB46FA248BCE0500EEB840 /* DDNavigationConfigurations.h */,
+			);
+			path = NavigationConfiguration;
+			sourceTree = "<group>";
+		};
+		33AB46FB248BCE0500EEB840 /* AnalyticsConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				33AB46FC248BCE0500EEB840 /* DDAnalyticsConfiguration.h */,
+				33AB46FD248BCE0500EEB840 /* DDAnalyticsConfiguration.m */,
+			);
+			path = AnalyticsConfiguration;
+			sourceTree = "<group>";
+		};
+		33AB46FE248BCE0500EEB840 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				33AB46FF248BCE0500EEB840 /* icInactiveTravel@2x.png */,
+				33AB4700248BCE0500EEB840 /* icInactiveTravel@3x.png */,
+				33AB4701248BCE0500EEB840 /* icInactiveNotifications.png */,
+				33AB4702248BCE0500EEB840 /* icInactiveNotifications@3x.png */,
+				33AB4703248BCE0500EEB840 /* icInactiveNotifications@2x.png */,
+				33AB4704248BCE0500EEB840 /* icInactiveTravel.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		33AB4705248BCE0500EEB840 /* ThemeJSONS */ = {
+			isa = PBXGroup;
+			children = (
+				33AB4706248BCE0500EEB840 /* RedemptionsTheme */,
+				33AB4709248BCE0500EEB840 /* OutletsTheme */,
+				33AB470C248BCE0500EEB840 /* PingsTheme */,
+				33AB470F248BCE0500EEB840 /* SearchTheme */,
+				33AB4715248BCE0500EEB840 /* LocationsTheme */,
+				33AB4718248BCE0500EEB840 /* Favourites */,
+				33AB471B248BCE0500EEB840 /* countries.json */,
+				33AB471C248BCE0500EEB840 /* light.json */,
+				33AB471D248BCE0500EEB840 /* MapsTheme */,
+				33AB4720248BCE0500EEB840 /* AuthTheme */,
+				33AB4723248BCE0500EEB840 /* HomeTheme */,
+				33AB4726248BCE0500EEB840 /* FiltersTheme */,
+				33AB4729248BCE0500EEB840 /* FamilyTheme */,
+				33AB472C248BCE0500EEB840 /* dark.json */,
+				33AB472D248BCE0500EEB840 /* AccountTheme */,
+				33AB4730248BCE0500EEB840 /* CashlessTheme */,
+				33AB4733248BCE0500EEB840 /* Animations */,
+			);
+			path = ThemeJSONS;
+			sourceTree = "<group>";
+		};
+		33AB4706248BCE0500EEB840 /* RedemptionsTheme */ = {
+			isa = PBXGroup;
+			children = (
+				33AB4707248BCE0500EEB840 /* DDRedemptionsUI_dark.json */,
+				33AB4708248BCE0500EEB840 /* DDRedemptionsUI_light.json */,
+			);
+			path = RedemptionsTheme;
+			sourceTree = "<group>";
+		};
+		33AB4709248BCE0500EEB840 /* OutletsTheme */ = {
+			isa = PBXGroup;
+			children = (
+				33AB470A248BCE0500EEB840 /* DDOutletsUI_dark.json */,
+				33AB470B248BCE0500EEB840 /* DDOutletsUI_light.json */,
+			);
+			path = OutletsTheme;
+			sourceTree = "<group>";
+		};
+		33AB470C248BCE0500EEB840 /* PingsTheme */ = {
+			isa = PBXGroup;
+			children = (
+				33AB470D248BCE0500EEB840 /* DDPingsUI_dark.json */,
+				33AB470E248BCE0500EEB840 /* DDPingsUI_light.json */,
+			);
+			path = PingsTheme;
+			sourceTree = "<group>";
+		};
+		33AB470F248BCE0500EEB840 /* SearchTheme */ = {
+			isa = PBXGroup;
+			children = (
+				33AB4710248BCE0500EEB840 /* DDSearchUI_dark.json */,
+				33AB4711248BCE0500EEB840 /* DDSearchUI_light.json */,
+			);
+			path = SearchTheme;
+			sourceTree = "<group>";
+		};
+		33AB4715248BCE0500EEB840 /* LocationsTheme */ = {
+			isa = PBXGroup;
+			children = (
+				33AB4716248BCE0500EEB840 /* DDLocationsUI_light.json */,
+				33AB4717248BCE0500EEB840 /* DDLocationsUI_dark.json */,
+			);
+			path = LocationsTheme;
+			sourceTree = "<group>";
+		};
+		33AB4718248BCE0500EEB840 /* Favourites */ = {
+			isa = PBXGroup;
+			children = (
+				33AB4719248BCE0500EEB840 /* DDFavouritesUI_dark.json */,
+				33AB471A248BCE0500EEB840 /* DDFavouritesUI_light.json */,
+			);
+			path = Favourites;
+			sourceTree = "<group>";
+		};
+		33AB471D248BCE0500EEB840 /* MapsTheme */ = {
+			isa = PBXGroup;
+			children = (
+				33AB471E248BCE0500EEB840 /* DDMapsUI_light.json */,
+				33AB471F248BCE0500EEB840 /* DDMapsUI_dark.json */,
+			);
+			path = MapsTheme;
+			sourceTree = "<group>";
+		};
+		33AB4720248BCE0500EEB840 /* AuthTheme */ = {
+			isa = PBXGroup;
+			children = (
+				33AB4721248BCE0500EEB840 /* DDAuthUI_dark.json */,
+				33AB4722248BCE0500EEB840 /* DDAuthUI_light.json */,
+			);
+			path = AuthTheme;
+			sourceTree = "<group>";
+		};
+		33AB4723248BCE0500EEB840 /* HomeTheme */ = {
+			isa = PBXGroup;
+			children = (
+				33AB4724248BCE0500EEB840 /* DDHomeUI_dark.json */,
+				33AB4725248BCE0500EEB840 /* DDHomeUI_light.json */,
+			);
+			path = HomeTheme;
+			sourceTree = "<group>";
+		};
+		33AB4726248BCE0500EEB840 /* FiltersTheme */ = {
+			isa = PBXGroup;
+			children = (
+				33AB4727248BCE0500EEB840 /* DDFiltersUI_dark.json */,
+				33AB4728248BCE0500EEB840 /* DDFiltersUI_light.json */,
+			);
+			path = FiltersTheme;
+			sourceTree = "<group>";
+		};
+		33AB4729248BCE0500EEB840 /* FamilyTheme */ = {
+			isa = PBXGroup;
+			children = (
+				33AB472A248BCE0500EEB840 /* DDFamilyUI_light.json */,
+				33AB472B248BCE0500EEB840 /* DDFamilyUI_dark.json */,
+			);
+			path = FamilyTheme;
+			sourceTree = "<group>";
+		};
+		33AB472D248BCE0500EEB840 /* AccountTheme */ = {
+			isa = PBXGroup;
+			children = (
+				33AB472E248BCE0500EEB840 /* DDAccountsUI_light.json */,
+				33AB472F248BCE0500EEB840 /* DDAccountsUI_dark.json */,
+			);
+			path = AccountTheme;
+			sourceTree = "<group>";
+		};
+		33AB4730248BCE0500EEB840 /* CashlessTheme */ = {
+			isa = PBXGroup;
+			children = (
+				33AB4731248BCE0500EEB840 /* DDCashlessUI_dark.json */,
+				33AB4732248BCE0500EEB840 /* DDCashlessUI_light.json */,
+			);
+			path = CashlessTheme;
+			sourceTree = "<group>";
+		};
+		33AB4733248BCE0500EEB840 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				33AB4734248BCE0500EEB840 /* loader_api.json */,
+				33AB4735248BCE0500EEB840 /* refresh_control.json */,
+				33AB4736248BCE0500EEB840 /* smile_animation.json */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		33AB4739248BCE0500EEB840 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				33AB473A248BCE0500EEB840 /* MuseoSans_500.otf */,
+				33AB473B248BCE0500EEB840 /* MuseoSans_700.otf */,
+				33AB473C248BCE0500EEB840 /* MuseoSans_300.otf */,
+				33AB473D248BCE0500EEB840 /* Museo 900.otf */,
+				33AB473E248BCE0500EEB840 /* MuseoSans_100.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		33AB473F248BCE0500EEB840 /* DynamicDelivery */ = {
+			isa = PBXGroup;
+			children = (
+				33F8A9C625113BBF00D5834C /* Splash */,
+				33AB4740248BCE0500EEB840 /* DDTabbarController.m */,
+				33AB4741248BCE0500EEB840 /* DDTabbarController.h */,
+			);
+			path = DynamicDelivery;
+			sourceTree = "<group>";
+		};
+		33AB475D248BCE0600EEB840 /* Api_JSON */ = {
+			isa = PBXGroup;
+			children = (
+				33F8A8E82506D74100D5834C /* auto-suggestion.json */,
+				33F8A8E12506D74100D5834C /* cashless_merchant_detail.json */,
+				33F8A8E52506D74100D5834C /* configs.json */,
+				33F8A8EA2506D74100D5834C /* delivery_filters.json */,
+				33F8A8E02506D74100D5834C /* delivery_locations.json */,
+				33F8A8E32506D74100D5834C /* family_info.json */,
+				33F8A8DF2506D74100D5834C /* favourites.json */,
+				33F8A8EF2506D74100D5834C /* filters.json */,
+				33F8A8EC2506D74100D5834C /* home.json */,
+				33F8A8ED2506D74100D5834C /* order_currDD_status.json */,
+				33F8A8EE2506D74100D5834C /* order_details.json */,
+				33F8A8E42506D74100D5834C /* outlets_cashless.json */,
+				33F8A8E72506D74100D5834C /* pending_order_status.json */,
+				33F8A8E92506D74100D5834C /* places_search.json */,
+				33F8A8EB2506D74100D5834C /* reorder.json */,
+				33F8A8E22506D74100D5834C /* arabic.json */,
+				33F8A8E62506D74100D5834C /* english.json */,
+			);
+			path = Api_JSON;
+			sourceTree = "<group>";
+		};
+		33AB4770248BCE0600EEB840 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				33AB4771248BCE0600EEB840 /* Lahore, PAK.gpx */,
+				33AB4772248BCE0600EEB840 /* Dubai, UAE.gpx */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		33AB4773248BCE0600EEB840 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				33AB4774248BCE0600EEB840 /* Settings.bundle */,
+				33AB4775248BCE0600EEB840 /* Settings_DD.bundle */,
+				33AB4776248BCE0600EEB840 /* Settings_release.bundle */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		33F8A9C625113BBF00D5834C /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				33F8A9C725113BDB00D5834C /* DDSplashVC.h */,
+				33F8A9C825113BDB00D5834C /* DDSplashVC.m */,
+				33F8A9C925113BDB00D5834C /* DDSplashVC.xib */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		DFB215A35EC2AF9E75C46ED6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6389FD006C2D30A376EB0F7B /* Pods-DynamicDelivery.debug.xcconfig */,
+				A513E0AF3E39C9CDE210A530 /* Pods-DynamicDelivery.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33AB468E248BCD2F00EEB840 /* Dynamic Delivery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33AB46A8248BCD3200EEB840 /* Build configuration list for PBXNativeTarget "Dynamic Delivery" */;
+			buildPhases = (
+				6D2F3483C88EEEEE29108857 /* [CP] Check Pods Manifest.lock */,
+				33AB468B248BCD2F00EEB840 /* Sources */,
+				33AB468C248BCD2F00EEB840 /* Frameworks */,
+				33AB468D248BCD2F00EEB840 /* Resources */,
+				A40E6ED0A1ADFCE5C1D7FC53 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dynamic Delivery";
+			productName = DynamicDelivery;
+			productReference = 33AB468F248BCD2F00EEB840 /* Dynamic Delivery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33AB4687248BCD2F00EEB840 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Syed Qamar Abbas";
+				TargetAttributes = {
+					33AB468E248BCD2F00EEB840 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 33AB468A248BCD2F00EEB840 /* Build configuration list for PBXProject "DynamicDelivery" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33AB4686248BCD2F00EEB840;
+			productRefGroup = 33AB4690248BCD2F00EEB840 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33AB468E248BCD2F00EEB840 /* Dynamic Delivery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33AB468D248BCD2F00EEB840 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33AB47DB248BCE0600EEB840 /* Settings_release.bundle in Resources */,
+				33AB478B248BCE0600EEB840 /* icInactiveNotifications@2x.png in Resources */,
+				33F8A8F52506D74100D5834C /* outlets_cashless.json in Resources */,
+				33F8A9002506D74100D5834C /* filters.json in Resources */,
+				33AB47AF248BCE0600EEB840 /* Images.xcassets in Resources */,
+				33AB478C248BCE0600EEB840 /* icInactiveTravel.png in Resources */,
+				33AB4778248BCE0600EEB840 /* LaunchScreen.storyboard in Resources */,
+				33F8A8F42506D74100D5834C /* family_info.json in Resources */,
+				33AB4792248BCE0600EEB840 /* DDPingsUI_light.json in Resources */,
+				33AB4791248BCE0600EEB840 /* DDPingsUI_dark.json in Resources */,
+				33AB479D248BCE0600EEB840 /* DDMapsUI_light.json in Resources */,
+				33F8A8FD2506D74100D5834C /* home.json in Resources */,
+				33AB4788248BCE0600EEB840 /* icInactiveTravel@3x.png in Resources */,
+				33AB47AD248BCE0600EEB840 /* refresh_control.json in Resources */,
+				33AB47A7248BCE0600EEB840 /* dark.json in Resources */,
+				33AB47AB248BCE0600EEB840 /* DDCashlessUI_light.json in Resources */,
+				3360B9C324B1F83D001D8394 /* merchant_detail.json in Resources */,
+				33AB47AE248BCE0600EEB840 /* smile_animation.json in Resources */,
+				33F8A8F22506D74100D5834C /* cashless_merchant_detail.json in Resources */,
+				33AB47B2248BCE0600EEB840 /* MuseoSans_700.otf in Resources */,
+				33F8A8F92506D74100D5834C /* auto-suggestion.json in Resources */,
+				33AB479F248BCE0600EEB840 /* DDAuthUI_dark.json in Resources */,
+				33AB47B4248BCE0600EEB840 /* Museo 900.otf in Resources */,
+				33F8A8F72506D74100D5834C /* english.json in Resources */,
+				33AB478F248BCE0600EEB840 /* DDOutletsUI_dark.json in Resources */,
+				33F8A8FB2506D74100D5834C /* delivery_filters.json in Resources */,
+				33AB47A1248BCE0600EEB840 /* DDHomeUI_dark.json in Resources */,
+				33AB47D9248BCE0600EEB840 /* Settings.bundle in Resources */,
+				33AB477B248BCE0600EEB840 /* rules.json in Resources */,
+				33AB4797248BCE0600EEB840 /* DDLocationsUI_light.json in Resources */,
+				33AB479C248BCE0600EEB840 /* light.json in Resources */,
+				33F8A8FE2506D74100D5834C /* order_currDD_status.json in Resources */,
+				33AB47A8248BCE0600EEB840 /* DDAccountsUI_light.json in Resources */,
+				33AB4798248BCE0600EEB840 /* DDLocationsUI_dark.json in Resources */,
+				33AB47D8248BCE0600EEB840 /* Dubai, UAE.gpx in Resources */,
+				33AB477C248BCE0600EEB840 /* currencies.json in Resources */,
+				33AB47A2248BCE0600EEB840 /* DDHomeUI_light.json in Resources */,
+				33AB47AC248BCE0600EEB840 /* loader_api.json in Resources */,
+				33AB47B5248BCE0600EEB840 /* MuseoSans_100.otf in Resources */,
+				33AB478A248BCE0600EEB840 /* icInactiveNotifications@3x.png in Resources */,
+				33AB4779248BCE0600EEB840 /* Main.storyboard in Resources */,
+				33AB47A5248BCE0600EEB840 /* DDFamilyUI_light.json in Resources */,
+				333CD97724A12FD60026E30E /* modules.rb in Resources */,
+				33F8A8F82506D74100D5834C /* pending_order_status.json in Resources */,
+				33AB4787248BCE0600EEB840 /* icInactiveTravel@2x.png in Resources */,
+				33AB47A3248BCE0600EEB840 /* DDFiltersUI_dark.json in Resources */,
+				33F8A8F62506D74100D5834C /* configs.json in Resources */,
+				33AB4790248BCE0600EEB840 /* DDOutletsUI_light.json in Resources */,
+				33AB47D7248BCE0600EEB840 /* Lahore, PAK.gpx in Resources */,
+				33AB478D248BCE0600EEB840 /* DDRedemptionsUI_dark.json in Resources */,
+				33F8A8F32506D74100D5834C /* arabic.json in Resources */,
+				33AB4794248BCE0600EEB840 /* DDSearchUI_light.json in Resources */,
+				33AB4789248BCE0600EEB840 /* icInactiveNotifications.png in Resources */,
+				33AB47A9248BCE0600EEB840 /* DDAccountsUI_dark.json in Resources */,
+				33AB478E248BCE0600EEB840 /* DDRedemptionsUI_light.json in Resources */,
+				333CD97524A12DB30026E30E /* save_location.json in Resources */,
+				33F8A8F02506D74100D5834C /* favourites.json in Resources */,
+				33AB47AA248BCE0600EEB840 /* DDCashlessUI_dark.json in Resources */,
+				33AB4793248BCE0600EEB840 /* DDSearchUI_dark.json in Resources */,
+				3360B9C524B2518C001D8394 /* search_results.json in Resources */,
+				33AB479B248BCE0600EEB840 /* countries.json in Resources */,
+				33F8A8FC2506D74100D5834C /* reorder.json in Resources */,
+				33FC121D248C291700D9D95B /* country_phones.json in Resources */,
+				33AB47B3248BCE0600EEB840 /* MuseoSans_300.otf in Resources */,
+				33AB47A4248BCE0600EEB840 /* DDFiltersUI_light.json in Resources */,
+				33AB479E248BCE0600EEB840 /* DDMapsUI_dark.json in Resources */,
+				33AB47A6248BCE0600EEB840 /* DDFamilyUI_dark.json in Resources */,
+				33AB47A0248BCE0600EEB840 /* DDAuthUI_light.json in Resources */,
+				33AB47B1248BCE0600EEB840 /* MuseoSans_500.otf in Resources */,
+				33F8A8FA2506D74100D5834C /* places_search.json in Resources */,
+				33F8A8FF2506D74100D5834C /* order_details.json in Resources */,
+				33AB47DA248BCE0600EEB840 /* Settings_DD.bundle in Resources */,
+				33AB4799248BCE0600EEB840 /* DDFavouritesUI_dark.json in Resources */,
+				33F8A8F12506D74100D5834C /* delivery_locations.json in Resources */,
+				33AB479A248BCE0600EEB840 /* DDFavouritesUI_light.json in Resources */,
+				33F8A9CB25113BDB00D5834C /* DDSplashVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D2F3483C88EEEEE29108857 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DynamicDelivery-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A40E6ED0A1ADFCE5C1D7FC53 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DynamicDelivery/Pods-DynamicDelivery-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DynamicDelivery/Pods-DynamicDelivery-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DynamicDelivery/Pods-DynamicDelivery-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33AB468B248BCD2F00EEB840 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33AB4785248BCE0600EEB840 /* DDNavigationConfigurations.m in Sources */,
+				33AB4783248BCE0600EEB840 /* DDDeeplinkConfig.m in Sources */,
+				33AB4784248BCE0600EEB840 /* DDDeepLinkUtils.m in Sources */,
+				33AB4782248BCE0600EEB840 /* DDAppConfiguration.m in Sources */,
+				33AB4781248BCE0600EEB840 /* DDThemeConfiguration.m in Sources */,
+				33AB4786248BCE0600EEB840 /* DDAnalyticsConfiguration.m in Sources */,
+				33AB47C4248BCE0600EEB840 /* DDAppDelegate.m in Sources */,
+				33AB4780248BCE0600EEB840 /* DDApiRouteConfig.m in Sources */,
+				33AB47B6248BCE0600EEB840 /* DDTabbarController.m in Sources */,
+				33AB477F248BCE0600EEB840 /* DDThirdPartySDKConfig.m in Sources */,
+				33AB47B0248BCE0600EEB840 /* main.m in Sources */,
+				33F8A9CA25113BDB00D5834C /* DDSplashVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		33AB46AC248BCE0500EEB840 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33AB46AD248BCE0500EEB840 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		33AB46AE248BCE0500EEB840 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33AB46AF248BCE0500EEB840 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33AB46B1248BCE0500EEB840 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33AB46B2248BCE0500EEB840 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33AB46A6248BCD3200EEB840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMDDATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMDDATION_COMMDDS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMDD_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		33AB46A7248BCD3200EEB840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMDDATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMDDATION_COMMDDS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMDD_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33AB46A9248BCD3200EEB840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6389FD006C2D30A376EB0F7B /* Pods-DynamicDelivery.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_DDITLEMDDS = DynamicDelivery/DynamicDelivery.entitlements;
+				CODE_SIGN_ENTITLEMENTS = DynamicDelivery/DynamicDelivery.entitlements;
+				CODE_SIGN_IDDDITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRDD_PROJECT_VERSION = 12;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMDD_TEAM = HR4AG4L2HC;
+				DEVELOPMENT_TEAM = HR4AG4L2HC;
+				INFOPLIST_FILE = DynamicDelivery/Info.plist;
+				IPHONEOS_DEPLOYMDD_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDDDIFIER = com.dynamicdelivery.ent;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dynamicdelivery.ent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Adhoc_DynamicDelivery_1.1;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		33AB46AA248BCD3200EEB840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A513E0AF3E39C9CDE210A530 /* Pods-DynamicDelivery.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_DDITLEMDDS = DynamicDelivery/DynamicDelivery.entitlements;
+				CODE_SIGN_ENTITLEMENTS = DynamicDelivery/DynamicDelivery.entitlements;
+				CODE_SIGN_IDDDITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRDD_PROJECT_VERSION = 12;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMDD_TEAM = HR4AG4L2HC;
+				DEVELOPMENT_TEAM = HR4AG4L2HC;
+				INFOPLIST_FILE = DynamicDelivery/Info.plist;
+				IPHONEOS_DEPLOYMDD_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDDDIFIER = com.dynamicdelivery.ent;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dynamicdelivery.ent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = ENTERTAPRISE_Dynamic_1.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33AB468A248BCD2F00EEB840 /* Build configuration list for PBXProject "DynamicDelivery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33AB46A6248BCD3200EEB840 /* Debug */,
+				33AB46A7248BCD3200EEB840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33AB46A8248BCD3200EEB840 /* Build configuration list for PBXNativeTarget "Dynamic Delivery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33AB46A9248BCD3200EEB840 /* Debug */,
+				33AB46AA248BCD3200EEB840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33AB4687248BCD2F00EEB840 /* Project object */;
+}

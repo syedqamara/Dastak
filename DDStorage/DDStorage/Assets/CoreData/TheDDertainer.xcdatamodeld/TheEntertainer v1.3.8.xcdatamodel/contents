@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15A284" minimumToolsVersion="Xcode 4.3">
+    <entity name="DDAppAnalytics" syncable="YES">
+        <attribute name="attributes" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <relationship name="session" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DDSession" inverseName="analytics" inverseEntity="DDSession" syncable="YES"/>
+    </entity>
+    <entity name="DDCategory" representedClassName="DDCategory" syncable="YES">
+        <attribute name="categoryId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shortName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="merchants" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DDMerchant" inverseName="category" inverseEntity="DDMerchant" syncable="YES"/>
+        <relationship name="products" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DDProduct" inverseName="categories" inverseEntity="DDProduct" syncable="YES"/>
+        <relationship name="sharedProduct" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DDSharedOffers" inverseName="category" inverseEntity="DDSharedOffers" syncable="YES"/>
+    </entity>
+    <entity name="DDConfig" representedClassName="DDConfig" syncable="YES">
+        <relationship name="customer" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DDUser" inverseName="config" inverseEntity="DDUser" syncable="YES"/>
+        <relationship name="offer_pinging_pending" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DDReceivedOffers" inverseName="config" inverseEntity="DDReceivedOffers" syncable="YES"/>
+    </entity>
+    <entity name="DDCountry" representedClassName="DDCountry" syncable="YES">
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="user" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="DDUser" inverseName="country" inverseEntity="DDUser" syncable="YES"/>
+    </entity>
+    <entity name="DDCountryOffer" representedClassName="DDCountryOffer" syncable="YES">
+        <attribute name="countryOfferid" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shortname" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DDCuisineType" representedClassName="DDCuisineType" parentEntity="DDSearchItem" syncable="YES"/>
+    <entity name="DDCurrency" syncable="YES">
+        <attribute name="currencyId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="users" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DDUser" inverseName="currency" inverseEntity="DDUser" syncable="YES"/>
+    </entity>
+    <entity name="DDFilterCategories" representedClassName="DDFilterCategories" syncable="YES">
+        <attribute name="category_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="category_name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="filter_sections" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="DDFiltersSection" inverseName="catagory" inverseEntity="DDFiltersSection" syncable="YES"/>
+    </entity>
+    <entity name="DDFilters" representedClassName="DDFilters" syncable="YES">
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="key" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selected" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="uid" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="filterSection" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DDFiltersSection" inverseName="options" inverseEntity="DDFiltersSection" syncable="YES"/>
+    </entity>
+    <entity name="DDFiltersSection" representedClassName="DDFiltersSection" syncable="YES">
+        <attribute name="category_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="collapsible" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="has_icons" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isCollapsed" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="section_order_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="sectionType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="selectionType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="catagory" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="DDFilterCategories" inverseName="filter_sections" inverseEntity="DDFilterCategories" syncable="YES"/>
+        <relationship name="options" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="DDFilters" inverseName="filterSection" inverseEntity="DDFilters" syncable="YES"/>
+    </entity>
+    <entity name="DDGFLevelInfo" syncable="YES">
+        <attribute name="active" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="definition_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mission_position" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="progression" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DDGFLevelProgression" inverseName="levelInfo" inverseEntity="DDGFLevelProgression" syncable="YES"/>
+    </entity>
+    <entity name="DDGFLevelProgression" representedClassName="DDGFLevelProgression" syncable="YES">
+        <attribute name="definition_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="earned" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="percent" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="possible" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="levelInfo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DDGFLevelInfo" inverseName="progression" inverseEntity="DDGFLevelInfo" syncable="YES"/>
+    </entity>
+    <entity name="DDGFPlayer" representedClassName="DDGFPlayer" syncable="YES">
+        <attribute name="display_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="first_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="last_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="player_id" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DDUser" inverseName="player" inverseEntity="DDUser" syncable="YES"/>
+    </entity>
+    <entity name="DDHotel" representedClassName="DDHotel" parentEntity="DDSearchItem" syncable="YES"/>
+    <entity name="DDLocation" representedClassName="DDLocation" syncable="YES">
+        <attribute name="active" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="background" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="currencyId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="flag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="is_show_category" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="language" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="locationId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="reload_background" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="merchants" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DDMerchant" inverseName="location" inverseEntity="DDMerchant" syncable="YES"/>
+        <relationship name="products" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DDProduct" inverseName="location" inverseEntity="DDProduct" syncable="YES"/>
+        <relationship name="users" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DDUser" inverseName="location" inverseEntity="DDUser" syncable="YES"/>
+    </entity>
+    <entity name="DDMall" representedClassName="DDMall" parentEntity="DDSearchItem" syncable="YES"/>
+    <entity name="DDMerchant" representedClassName="DDMerchant" syncable="YES">
+        <attribute name="booking_link" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="booking_request" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="categoryName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cuisineType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="digitalSection" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imagesURL" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="imageURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="is_tutorial" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="logoURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="merchant_attributes" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="merchant_pin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="merchantId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="num_reviews" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="opening_hours" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pdfURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rating_image_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sectionIdentifier" optional="YES" transient="YES" attributeType="String" syncable="YES"/>
+        <attribute name="summary" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="website" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="category" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="DDCategory" inverseName="merchants" inverseEntity="DDCategory" syncable="YES"/>
+        <relationship name="customer" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DDUser" inverseName="merchant" inverseEntity="DDUser" syncable="YES"/>
+        <relationship name="location" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="DDLocation" inverseName="merchants" inverseEntity="DDLocation" syncable="YES"/>
+        <relationship name="offers" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DDOffer" inverseName="merchant" inverseEntity="DDOffer" syncable="YES"/>
+        <relationship name="outlets" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DDOutlet" inverseName="merchant" inverseEntity="DDOutlet" syncable="YES"/>
+        <relationship name="pingedUsers" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DDUser" inverseName="pingedMerchants" inverseEntity="DDUser" syncable="YES"/>
+        <relationship name="users" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DDUser" inverseName="favouriteMerchants" inverseEntity="DDUser" syncable="YES"/>
+    </entity>
+    <entity name="DDNeighbourhood" representedClassName="DDNeighbourhood" parentEntity="DDSearchItem" syncable="YES"/>
+    <entity name="DDOffer" representedClassName="DDOffer" syncable="YES">
+        <attribute name="details" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="expirationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="is_average_product_value_exceeded" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isPurchased" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isShared" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isValid" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="offerId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="offerType_t" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="outletIds" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="product_id" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="productIds" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="productsNames" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="quantity" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="redeemabilityType" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="redemptionCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="savingsEstimate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="savingsEstimateAed" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="shared_receive_count" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="shared_redemptions_count" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="shared_send_count" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="times_redeemed" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="validFrom" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="voucherRestrictions" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="merchant" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DDMerchant" inverseName="offers" inverseEntity="DDMerchant" syncable="YES"/>
+        <relationship name="outlets" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DDOutlet" inverseName="offers" inverseEntity="DDOutlet" syncable="YES"/>
+        <relationship name="products" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DDProduct" inverseName="offers" inverseEntity="DDProduct" syncable="YES"/>
+        <relationship name="redemptions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DDRedemption" inverseName="offer" inverseEntity="DDRedemption" syncable="YES"/>
+    </entity>
+    <entity name="DDOutlet" representedClassName="DDOutlet" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="billingcountry" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hotel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="is_more_sa" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="is_shared" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isPurchased" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="loadedDistance" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="mall" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="neighbourhood" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="outletId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="telephone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="topOfferType" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="topRedeemabilityType" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="tripadvisor_id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="merchant" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="DDMerchant" inverseName="outlets" inverseEntity="DDMerchant" syncable="YES"/>
+        <relationship name="offers" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DDOffer" inverseName="outlets" inverseEntity="DDOffer" syncable="YES"/>
+        <relationship name="redemptions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DDRedemption" inverseName="outlet" inverseEntity="DDRedemption" syncable="YES"/>
+    </entity>
+    <entity name="DDPingReceived" syncable="YES">
+        <attribute name="acceptedDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="logoSmallUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="logoUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="merchantName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="offerName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pingID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="recipientEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="senderId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="senderName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="Boolean" syncable="YES"/>
+    </entity>
+    <entity name="DDPingSent" syncable="YES">
+        <attribute name="acceptedDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="logoSmallUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="logoUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="merchantName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="offerName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pingID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="recipienName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="recipientEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="recipientId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="Boolean" syncable="YES"/>
+    </entity>
+    <entity name="DDProduct" representedClassName="DDProduct" syncable="YES">
+        <attribute name="alsoInfo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="categoryIds" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="details" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="imageURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="language" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="locationIdentifier" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="magentoId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="priceMatrix" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="purchaseURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sku" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="summary" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="categories" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DDCategory" inverseName="products" inverseEntity="DDCategory" syncable="YES"/>
+        <relationship name="location" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DDLocation" inverseName="products" inverseEntity="DDLocation" syncable="YES"/>
+        <relationship name="offers" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DDOffer" inverseName="products" inverseEntity="DDOffer" syncable="YES"/>
+    </entity>
+    <entity name="DDPurchase" representedClassName="DDPurchase" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="purchaseId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="DDQuestion" representedClassName="DDQuestion" syncable="YES">
+        <attribute name="info" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="locale" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="q_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="questionId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="answers" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DDQuestionAnswer" inverseName="question" inverseEntity="DDQuestionAnswer" syncable="YES"/>
+    </entity>
+    <entity name="DDQuestionAnswer" representedClassName="DDQuestionAnswer" syncable="YES">
+        <attribute name="a_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="answerId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="locale" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="questionId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="question" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="DDQuestion" inverseName="answers" inverseEntity="DDQuestion" syncable="YES"/>
+    </entity>
+    <entity name="DDReceivedOffers" syncable="YES">
+        <attribute name="entryId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="config" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DDConfig" inverseName="offer_pinging_pending" inverseEntity="DDConfig" syncable="YES"/>
+        <relationship name="offers" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DDSharedOffers" inverseName="shared" inverseEntity="DDSharedOffers" syncable="YES"/>
+    </entity>
+    <entity name="DDRedemption" representedClassName="DDRedemption" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="redemptionId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="referenceNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sectionIdentifier" optional="YES" transient="YES" attributeType="String" syncable="YES"/>
+        <relationship name="offer" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="DDOffer" inverseName="redemptions" inverseEntity="DDOffer" syncable="YES"/>
+        <relationship name="outlet" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="DDOutlet" inverseName="redemptions" inverseEntity="DDOutlet" syncable="YES"/>
+    </entity>
+    <entity name="DDSearchItem" representedClassName="DDSearchItem" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DDSearchResults" representedClassName="DDSearchResults" syncable="YES">
+        <attribute name="icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DDSession" syncable="YES">
+        <attribute name="customer_id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="member_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="session" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="analytics" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DDAppAnalytics" inverseName="session" inverseEntity="DDAppAnalytics" syncable="YES"/>
+    </entity>
+    <entity name="DDSharedOffers" syncable="YES">
+        <attribute name="categoryName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="logoSmallUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="logoUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="merchant_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="offer_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="offer_valid_to" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="offerId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DDCategory" inverseName="sharedProduct" inverseEntity="DDCategory" syncable="YES"/>
+        <relationship name="shared" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DDReceivedOffers" inverseName="offers" inverseEntity="DDReceivedOffers" syncable="YES"/>
+    </entity>
+    <entity name="DDUser" representedClassName="DDUser" syncable="YES">
+        <attribute name="about_me" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="badgevillePlayerId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="countryCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="currencyId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="currentYear" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="doNotEmail" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="max_number_allowed_shares" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="member_since" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="membershipExpirationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="memberType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="message" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mobile" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="noboarding_redemptions_count" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="pin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="player_creation_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="products" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="profile_image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="redemptionsCount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="registrationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="savings" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="savings_lifetime_int" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="savings_monthly_avg_int" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="savings_yearly_avg_int" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="sessionToken" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thirdPartyDoNotEmail" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="total_savings" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="total_shares" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="trialStartDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="usedTrial" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="user_creation_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="usingTrial" optional="YES" attributeType="Boolean" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="yearlySavings" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="config" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DDConfig" inverseName="customer" inverseEntity="DDConfig" syncable="YES"/>
+        <relationship name="country" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DDCountry" inverseName="user" inverseEntity="DDCountry" syncable="YES"/>
+        <relationship name="currency" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DDCurrency" inverseName="users" inverseEntity="DDCurrency" syncable="YES"/>
+        <relationship name="favouriteMerchants" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DDMerchant" inverseName="users" inverseEntity="DDMerchant" syncable="YES"/>
+        <relationship name="location" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DDLocation" inverseName="users" inverseEntity="DDLocation" syncable="YES"/>
+        <relationship name="merchant" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DDMerchant" inverseName="customer" inverseEntity="DDMerchant" syncable="YES"/>
+        <relationship name="pingedMerchants" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DDMerchant" inverseName="pingedUsers" inverseEntity="DDMerchant" syncable="YES"/>
+        <relationship name="player" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DDGFPlayer" inverseName="user" inverseEntity="DDGFPlayer" syncable="YES"/>
+    </entity>
+    <entity name="DDUserFilter" representedClassName="DDUserFilter" syncable="YES">
+        <attribute name="catagory_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="key" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sectionType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="selected" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="uid" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DDUserRedemptions" representedClassName="DDUserRedemptions" syncable="YES">
+        <attribute name="currency" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="is_sync" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isshared" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="language" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lat" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="lng" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="merchant_id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="offer_id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="outlet_id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="product_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="quantity" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="redemption_code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="redemption_date_timezone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="redemption_datetime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="transaction_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="DDAppAnalytics" positionX="-1262" positionY="114" width="128" height="75"/>
+        <element name="DDCategory" positionX="-1143" positionY="-243" width="128" height="133"/>
+        <element name="DDConfig" positionX="-1415" positionY="-459" width="128" height="73"/>
+        <element name="DDCountry" positionX="520" positionY="423" width="128" height="105"/>
+        <element name="DDCountryOffer" positionX="-774" positionY="-135" width="128" height="88"/>
+        <element name="DDCuisineType" positionX="754" positionY="81" width="128" height="45"/>
+        <element name="DDCurrency" positionX="531" positionY="612" width="128" height="90"/>
+        <element name="DDFilterCategories" positionX="-1253" positionY="-342" width="128" height="88"/>
+        <element name="DDFilters" positionX="-1647" positionY="-336" width="128" height="135"/>
+        <element name="DDFiltersSection" positionX="-1458" positionY="-366" width="128" height="195"/>
+        <element name="DDGFLevelInfo" positionX="-1260" positionY="-135" width="128" height="150"/>
+        <element name="DDGFLevelProgression" positionX="-1260" positionY="-135" width="128" height="120"/>
+        <element name="DDGFPlayer" positionX="-1305" positionY="-261" width="128" height="135"/>
+        <element name="DDHotel" positionX="745" positionY="9" width="128" height="45"/>
+        <element name="DDLocation" positionX="-668" positionY="-270" width="128" height="255"/>
+        <element name="DDMall" positionX="754" positionY="-126" width="128" height="45"/>
+        <element name="DDMerchant" positionX="-981" positionY="8" width="128" height="448"/>
+        <element name="DDNeighbourhood" positionX="745" positionY="-54" width="128" height="45"/>
+        <element name="DDOffer" positionX="-227" positionY="9" width="128" height="465"/>
+        <element name="DDOutlet" positionX="-702" positionY="285" width="128" height="360"/>
+        <element name="DDPingReceived" positionX="-729" positionY="-90" width="128" height="225"/>
+        <element name="DDPingSent" positionX="-738" positionY="-99" width="128" height="225"/>
+        <element name="DDProduct" positionX="-443" positionY="-267" width="128" height="285"/>
+        <element name="DDPurchase" positionX="115" positionY="-288" width="128" height="105"/>
+        <element name="DDQuestion" positionX="-1260" positionY="-225" width="128" height="135"/>
+        <element name="DDQuestionAnswer" positionX="-1251" positionY="-216" width="128" height="120"/>
+        <element name="DDReceivedOffers" positionX="-855" positionY="-207" width="128" height="120"/>
+        <element name="DDRedemption" positionX="-45" positionY="450" width="128" height="135"/>
+        <element name="DDSearchItem" positionX="513" positionY="3" width="128" height="75"/>
+        <element name="DDSearchResults" positionX="-1440" positionY="-558" width="128" height="105"/>
+        <element name="DDSession" positionX="-1467" positionY="84" width="128" height="103"/>
+        <element name="DDSharedOffers" positionX="-1296" positionY="-180" width="128" height="178"/>
+        <element name="DDUser" positionX="189" positionY="-243" width="128" height="735"/>
+        <element name="DDUserFilter" positionX="160" positionY="192" width="128" height="135"/>
+        <element name="DDUserRedemptions" positionX="-1629" positionY="-549" width="128" height="285"/>
+    </elements>
+</model>

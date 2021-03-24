@@ -1,0 +1,27 @@
+PODS:
+  - DDOutletsUI (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - DDOutletsUI (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  DDOutletsUI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DDOutletsUI: 16941b42219904f8dfeaf73e19655b951241f49d
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: e9567c70aa8d0833625984d4642411e3f8fb8c3d
+
+COCOAPODS: 1.8.4

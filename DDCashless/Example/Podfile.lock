@@ -1,0 +1,16 @@
+PODS:
+  - DDCashless (0.1.0)
+
+DEPENDENCIES:
+  - DDCashless (from `../`)
+
+EXTERNAL SOURCES:
+  DDCashless:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DDCashless: bc5b812daca9644a24d6f162bba10ad0c654597e
+
+PODFILE CHECKSUM: 10ed0a94134e7c65269459cd10cfe549513bed7c
+
+COCOAPODS: 1.8.4

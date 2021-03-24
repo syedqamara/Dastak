@@ -1,0 +1,79 @@
+{
+  "data": {
+    "sections": [
+      {
+        "title": "Estimated Arrival",
+        "sub_title": "3:20 PM - 4:00 PM",
+        "status_title": "Order Recieved",
+        "status_title_color": "06d6a0",
+        "identifier": "order_status",
+        "image_url": "https://i.ibb.co/Tmt6YG4/noun-tick-134088-3x.png",
+        "statuses": [
+          {
+            "state": true,
+            "color": "1aaad6"
+          },
+          {
+            "state": true,
+            "color": "1aaad6"
+          },
+          {
+            "state": false,
+            "color": "4ec0e9"
+          },
+          {
+            "state": false,
+            "color": "4ec0e9"
+          },
+          {
+            "state": false,
+            "color": "4ec0e9"
+          }
+        ]
+      },
+      {
+        "title": "",
+        "sub_title": "Questions or concerns about your order? Call <B>261 Restaurant<B>",
+        "identifier": "merchant_info",
+        "image_url": "https://i.ibb.co/93vmgYm/ic-phone-3x.png",
+        "phone_number": "+97145678976567"
+      },
+      {
+        "title": "",
+        "sub_title": "1783 High Street Thusdays, Vendt VMN 4780,\nDubai Marina\n+968 90126789",
+        "identifier": "delivery_info",
+        "image_url": "https://i.ibb.co/m0g9SJb/ic-loc-3x.png"
+      },
+      {
+        "title": "Order Detail",
+        "identifier": "order_detail",
+        "order_detail": {
+          "sub_total": "$44.00",
+          "delivery": "$2.00",
+          "total": "$45.00",
+          "discount": "$1.0",
+          "items": [
+            {
+              "name": "Pizza",
+              "price": "$29.00",
+              "options": [
+                {
+                  "name": "Olives",
+                  "price": "$5.00"
+                },
+                {
+                  "name": "Olives",
+                  "price": "$5.00"
+                },
+                {
+                  "name": "Olives",
+                  "price": "$5.00"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

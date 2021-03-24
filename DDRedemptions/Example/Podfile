@@ -1,0 +1,6 @@
+use_frameworks!
+target 'DDRedemptions_Tests' do
+  pod 'DDRedemptions', :path => '../'
+  
+  
+end

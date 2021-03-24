@@ -1,0 +1,36 @@
+{
+    "data": {
+        "outlets": [
+            {
+                "id": 93478,
+                "name": "The Pizza Factory",
+                "logo": "https://i.ibb.co/kHJtXQN/45-stick-around-logo-636940602751268817.png",
+                "opening_time": "12:00AM - 11:59PM",
+                "api_params": {
+                  "merchant_id": 287,
+                  "outlet_id": 738
+                }
+                "outlet_attribute": [{
+                        "type": "image",
+                        "value": "https://i.ibb.co/y0cyDmn/ic-rating.png"
+                    },
+                    {
+                        "type": "text",
+                        "value": "4.5",
+                        "title_color": "1cb5e0"
+                    },
+                    {
+                        "type": "text",
+                        "value": " •  Pizza, Pasta",
+                        "title_color": "c7c7c7"
+                    },
+                    {
+                        "type": "text",
+                        "value": " •  $$$",
+                        "title_color": "c7c7c7"
+                    }
+                ]
+            }
+        ]
+    }
+}

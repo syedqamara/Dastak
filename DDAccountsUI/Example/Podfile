@@ -1,0 +1,6 @@
+use_frameworks!
+target 'DDAccountsUI_Tests' do
+  pod 'DDAccountsUI', :path => '../'
+  
+  
+end

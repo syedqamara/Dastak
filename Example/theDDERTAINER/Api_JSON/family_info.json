@@ -1,0 +1,97 @@
+{
+    "cmd": "/et_rs_prd/web/v614/family/familyinfo?",
+    "http_response": 200,
+    "success": true,
+    "message": "success",
+    "data": {
+        "member_info": {
+            "is_grace_period_running": false,
+            "button_color": "c93a20",
+            "primary_member_name": "M Aamir",
+            "is_primary_member": true,
+            "is_member": true,
+            "is_expired": false,
+            "button_title": "CLOSE FAMILY ACCOUNT",
+            "family_delete_message": "Are you sure you want to close your DDERTAINER family account?"
+        },
+        "family_list_section": {
+            "total_members": 3,
+            "family_created_date": "12/1/2020",
+            "family_created_by": "Family Created by You",
+            "max_member_limit": 4,
+            "header_section": {
+                "title": "Family Tree",
+                "limit_text": "3/4"
+            },
+            "members": [
+                {
+                    "identifier": "917c7bfc-971e-4c35-b54c-0d5a3f5af3c2",
+                    "profile_img": "",
+                    "name": "fnfjfk",
+                    "status_img": "https://s3.amazonaws.com/entertainer-app-assets/icons/family/Pending.png",
+                    "member_status": 2,
+                    "remove_img": "https://s3.amazonaws.com/entertainer-app-assets/icons/family/delete_icon.png",
+                    "sub_title": "Pending",
+                    "color": "e5a138"
+                },
+                {
+                    "identifier": "b87dd938-8cf9-4ea9-a46b-450cc9c2e548",
+                    "profile_img": "",
+                    "name": "jkknjk",
+                    "status_img": "https://s3.amazonaws.com/entertainer-app-assets/icons/family/Pending.png",
+                    "member_status": 2,
+                    "remove_img": "https://s3.amazonaws.com/entertainer-app-assets/icons/family/delete_icon.png",
+                    "sub_title": "Pending",
+                    "color": "e5a138"
+                },
+                {
+                    "identifier": "2ba26dde-b211-4ae6-9aed-8cb338b5d361",
+                    "profile_img": "",
+                    "name": "vkbhjj",
+                    "status_img": "https://s3.amazonaws.com/entertainer-app-assets/icons/family/Active.png",
+                    "member_status": 1,
+                    "remove_img": "https://s3.amazonaws.com/entertainer-app-assets/icons/family/delete_icon.png",
+                    "sub_title": "Active",
+                    "color": "95d241"
+                }
+            ]
+        },
+        "pending_invites_section": {
+            "pending_invites": [
+                {
+                    "restriction_message": "I confirm I am of legal drinking age in Dubai & N. Emirates & non-Muslim",
+                    "name": "M",
+                    "email": "aamir.dev22@gmail.com",
+                    "is_alcohal": true,
+                    "restriction_message_no_cheers_message": "I do not want Cheers, but thanks anyway. Please note that you will not receive the Cheers product.",
+                    "family_id": 269027,
+                    "decline_family_button_color": "ffffff",
+                    "join_family_button_color": "5d96cb",
+                    "decline_family_button_border_color": "989898",
+                    "decline_family_text": "DECLINE INVITE",
+                    "identifier": "2ba26dde-b211-4ae6-9aed-8cb338b5d361",
+                    "profile_img": "https://entertainer-profile-images.s3.amazonaws.com/3833108_6dKHp50lqAkwz9kdcKHZiHOaVPLOfPpc.jpg",
+                    "time_stamp": "1 month ago",
+                    "time_seconds": 86114,
+                    "message": "M (aamir.dev22@gmail.com) has invited you to join their DDERTAINER family.",
+                    "join_family_text": "JOIN FAMILY"
+                },
+                {
+                    "name": "Testing 2",
+                    "is_alcohal": false,
+                    "family_id": 269038,
+                    "decline_family_button_color": "ffffff",
+                    "join_family_button_color": "5d96cb",
+                    "decline_family_button_border_color": "989898",
+                    "decline_family_text": "DECLINE INVITE",
+                    "identifier": "091b2d3d-f102-4335-9a64-41145bc304c7",
+                    "profile_img": "https://app-home-tiles.s3.amazonaws.com/popular/2020-popular.png",
+                    "time_stamp": "4 minutes ago",
+                    "time_seconds": 86137,
+                    "message": "Ent (ent@yopmail.com) has invited you to join their DDERTAINER family.",
+                    "join_family_text": "JOIN FAMILY"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,93 @@
+{
+  "data": {
+    "order": {
+      "is_order_cancelled": false,
+      "estimated_delivery_time": "3:22pm",
+      "estimated_delivery_time_color": "282828",
+      "estimated_delivery_title": "Estimated Delivery time",
+      "estimated_delivery_title_color": "c7c7c7",
+      "is_show_cancel_button": false,
+      "is_last_mile_enabled": true,
+      "order_status": "completed",
+      "order_status_color": "3BB143",
+      "is_order_rejected": false,
+      "order_arc_gradient_color": "FFFFFF",
+      "order_section_title": "Order Status"
+    },
+    "order_statuses": [
+      {
+        "order_status": 0,
+        "is_selected": true,
+        "order_status_fab_image": "https://s3.amazonaws.com/entertainer-app-assets/delivery_icon_white.png",
+        "order_status_text_color": "282828",
+        "order_status_text": "Your Order have been Received",
+        "order_status_line_color": "88cb22",
+        "progress_percentage": 10,
+        "order_status_image_url": ""
+      },
+      {
+        "order_status": 1,
+        "is_selected": true,
+        "order_status_fab_image": "https://s3.amazonaws.com/entertainer-app-assets/delivery_icon_white.png",
+        "order_status_text_color": "282828",
+        "order_status_text": "Your Order have been Confirmed",
+        "order_status_line_color": "88cb22",
+        "progress_percentage": 10,
+        "order_status_image_url": "https://entertainer-app-assets.s3.amazonaws.com/v7/like.png"
+      },
+      {
+        "order_status": 2,
+        "is_selected": true,
+        "order_status_fab_image": "https://s3.amazonaws.com/entertainer-app-assets/delivery_icon_white.png",
+        "order_status_text_color": "282828",
+        "order_status_text": "Your food is Under Preparation",
+        "order_status_line_color": "88cb22",
+        "progress_percentage": 30,
+        "order_status_image_url": "https://entertainer-app-assets.s3.amazonaws.com/v7/cooking.png"
+      },
+      {
+        "order_status": 3,
+        "is_selected": true,
+        "order_status_fab_image": "https://s3.amazonaws.com/entertainer-app-assets/delivery_icon_white.png",
+        "order_status_text_color": "282828",
+        "order_status_text": "Your food is En Route",
+        "order_status_line_color": "88cb22",
+        "progress_percentage": 45,
+        "order_status_image_url": "https://entertainer-app-assets.s3.amazonaws.com/v7/delivery_v7_new.png"
+      },
+      {
+        "order_status": 4,
+        "order_number": "Order Number: 280283-296434",
+        "is_selected": false,
+        "order_status_fab_image": "https://s3.amazonaws.com/entertainer-app-assets/delivery_icon_white.png",
+        "order_status_text_color": "282828",
+        "order_status_image_url": "https://entertainer-app-assets.s3.amazonaws.com/v7/driver_v7.png",
+        "order_status_line_color": "e3e3e3",
+        "progress_percentage": 5,
+        "order_status_text": "Order has arrived!"
+      }
+    ],
+    "last_mile_info": {
+      "driver_number": "",
+      "driver_photo_url": "",
+      "delivery_time_text": "Delivery at",
+      "driver_name": "Muhammad",
+      "tracking_url": "",
+      "delivery_time_value": "3:20 PM (15mins)",
+      "delivery_message": "Your Wingstop order is on its way!",
+      "driver_text": "Your driver",
+      "phone_icon": "https://s3.amazonaws.com/entertainer-app-assets/new_icon_phone.png"
+    },
+    "section_takeaway_picked_up": {
+        "title": "Order Picked-up?",
+        "details": "A short description on why\nthey need to confirm.",
+        "picked_up_btn_txt": "Order Picked-Up",
+        "show_picked_up_btn": true,
+    }
+  },
+  "http_response": 200,
+  "success": true,
+  "code": 200,
+  "message": "success",
+  "cmd": "/et_rs_prd/web/v615/cashless/order_current_status?"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - DDConstants (0.1.0)
+
+DEPENDENCIES:
+  - DDConstants (from `../`)
+
+EXTERNAL SOURCES:
+  DDConstants:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DDConstants: 33611eb707ce8bf708182f97777b554e2af06e29
+
+PODFILE CHECKSUM: a00ffb9fb68b236d65f2dff18a5837262f65ff65
+
+COCOAPODS: 1.7.4

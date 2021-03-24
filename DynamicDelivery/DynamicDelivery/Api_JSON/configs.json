@@ -1,0 +1,38 @@
+{
+    "status": true,
+    "message": "",
+    "http_code": 200,
+    "data": {
+        "default_location": {
+            "longitude": "55.154118",
+            "flat": "123-A",
+            "building": "Nagina Tower",
+            "street": "Main Boulevard",
+            "area": "Dubai Downtown",
+            "title": "Home",
+            "tag": {
+                "tag_id": 1,
+                "tag_name": "Home",
+                "allow_custom_name": false
+            },
+            "latitude": "25.095394",
+            "getCompleteAddress": "abc, arjaan business tower - دبي - United Arab Emirates",
+            "special_instructions": "xyz"
+        },
+        "supported_countries": [{
+                "country_short_name": "UAE",
+                "country_name": "UAE",
+                "flag": "",
+                "lat": "25.2048",
+                "lng": "55.2708"
+            },
+            {
+                "country_short_name": "OM",
+                "country_name": "Oman",
+                "flag": "",
+                "lat": "21.4735",
+                "lng": "55.9754"
+            }
+        ]
+    }
+}

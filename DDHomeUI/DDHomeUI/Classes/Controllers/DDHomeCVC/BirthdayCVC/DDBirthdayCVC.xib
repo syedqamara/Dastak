@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="gTV-IL-0wX" customClass="DDBirthdayCVC">
+            <rect key="frame" x="0.0" y="0.0" width="422" height="170"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="422" height="170"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6ZO-0W-CWP">
+                        <rect key="frame" x="0.0" y="0.0" width="422" height="170"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="birthdayGift" translatesAutoresizingMaskIntoConstraints="NO" id="mg5-yv-9o9">
+                                <rect key="frame" x="0.0" y="0.0" width="422" height="170"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kSy-31-nA4">
+                                <rect key="frame" x="16" y="131.5" width="42" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="mg5-yv-9o9" firstAttribute="leading" secondItem="6ZO-0W-CWP" secondAttribute="leading" id="5pt-s5-eXA"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="kSy-31-nA4" secondAttribute="trailing" constant="180" id="7FG-1m-HBj"/>
+                            <constraint firstItem="mg5-yv-9o9" firstAttribute="top" secondItem="6ZO-0W-CWP" secondAttribute="top" id="Re5-hR-Go3"/>
+                            <constraint firstAttribute="bottom" secondItem="mg5-yv-9o9" secondAttribute="bottom" id="W0i-Gb-a3v"/>
+                            <constraint firstAttribute="bottom" secondItem="kSy-31-nA4" secondAttribute="bottom" constant="18" id="YZp-0G-rMc"/>
+                            <constraint firstItem="kSy-31-nA4" firstAttribute="leading" secondItem="6ZO-0W-CWP" secondAttribute="leading" constant="16" id="k5h-fi-Wu6"/>
+                            <constraint firstAttribute="trailing" secondItem="mg5-yv-9o9" secondAttribute="trailing" id="pXd-jL-KGY"/>
+                            <constraint firstItem="kSy-31-nA4" firstAttribute="top" relation="greaterThanOrEqual" secondItem="6ZO-0W-CWP" secondAttribute="top" constant="16" id="vx1-H4-GwO"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="6ZO-0W-CWP" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="0Lf-ez-lDn"/>
+                <constraint firstAttribute="trailing" secondItem="6ZO-0W-CWP" secondAttribute="trailing" id="GoK-lx-CFA"/>
+                <constraint firstAttribute="bottom" secondItem="6ZO-0W-CWP" secondAttribute="bottom" id="XQO-xT-Xel"/>
+                <constraint firstItem="6ZO-0W-CWP" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="YtY-kQ-NPW"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <size key="customSize" width="422" height="170"/>
+            <connections>
+                <outlet property="imageVu" destination="mg5-yv-9o9" id="DHw-oA-xt6"/>
+                <outlet property="titleLabel" destination="kSy-31-nA4" id="qVl-tM-2a7"/>
+            </connections>
+            <point key="canvasLocation" x="218.84057971014494" y="187.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="birthdayGift" width="535" height="221"/>
+    </resources>
+</document>

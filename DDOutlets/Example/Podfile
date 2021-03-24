@@ -1,0 +1,6 @@
+use_frameworks!
+target 'DDOutlets_Tests' do
+  pod 'DDOutlets', :path => '../'
+  
+  
+end

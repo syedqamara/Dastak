@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MuseoSans_700.otf">
+            <string>MuseoSans-700</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DDOutletsListingVC">
+            <connections>
+                <outlet property="filtersBottomConstraint" destination="xD5-ZT-gzB" id="f8f-IT-tJQ"/>
+                <outlet property="filtersImageView" destination="XqU-Hs-j8X" id="xjN-aG-6ju"/>
+                <outlet property="filtersLabel" destination="p7K-PV-pc7" id="U0N-zO-0mr"/>
+                <outlet property="filtersView" destination="srp-SX-u2c" id="Un1-Zn-mtA"/>
+                <outlet property="navSearchBarConatiner" destination="Gn1-Va-dul" id="AFR-r2-HGE"/>
+                <outlet property="tableView" destination="vVl-jG-Keh" id="9ay-zU-R6D"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gn1-Va-dul">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="110"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="110" identifier="searchBarH" id="bcN-hI-1ta"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="vVl-jG-Keh">
+                    <rect key="frame" x="0.0" y="110" width="414" height="752"/>
+                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="srp-SX-u2c">
+                    <rect key="frame" x="133" y="824" width="148" height="48"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Lgk-kP-mBT">
+                            <rect key="frame" x="37" y="14" width="74" height="20"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icFilter.png" translatesAutoresizingMaskIntoConstraints="NO" id="XqU-Hs-j8X">
+                                    <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="20" id="d77-Re-u5y"/>
+                                        <constraint firstAttribute="width" constant="20" id="pg3-VV-cNg"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Filters" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p7K-PV-pc7">
+                                    <rect key="frame" x="28" y="0.0" width="46" height="20"/>
+                                    <fontDescription key="fontDescription" name="MuseoSans-700" family="Museo Sans" pointSize="17"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9zS-iM-rbq">
+                            <rect key="frame" x="0.0" y="0.0" width="148" height="48"/>
+                            <connections>
+                                <action selector="filtersAction:" destination="-1" eventType="touchUpInside" id="Z9X-FK-OWm"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.1843137255" green="0.52156862749999999" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="9zS-iM-rbq" secondAttribute="trailing" id="1xI-fT-7M9"/>
+                        <constraint firstItem="Lgk-kP-mBT" firstAttribute="centerX" secondItem="srp-SX-u2c" secondAttribute="centerX" id="Bmt-v2-ZDf"/>
+                        <constraint firstItem="Lgk-kP-mBT" firstAttribute="centerY" secondItem="srp-SX-u2c" secondAttribute="centerY" id="GJE-v9-T3r"/>
+                        <constraint firstItem="9zS-iM-rbq" firstAttribute="leading" secondItem="srp-SX-u2c" secondAttribute="leading" id="Knd-L5-jrS"/>
+                        <constraint firstAttribute="width" constant="148" id="Ld3-fs-TUD"/>
+                        <constraint firstAttribute="bottom" secondItem="9zS-iM-rbq" secondAttribute="bottom" id="RVt-p4-obG"/>
+                        <constraint firstItem="9zS-iM-rbq" firstAttribute="top" secondItem="srp-SX-u2c" secondAttribute="top" id="s6n-xH-rTh"/>
+                        <constraint firstAttribute="height" constant="48" id="zWO-qc-LD0"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Gn1-Va-dul" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="4WU-El-ve3"/>
+                <constraint firstItem="srp-SX-u2c" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="4sG-cG-5Wa"/>
+                <constraint firstItem="vVl-jG-Keh" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="IXx-Sb-bEK"/>
+                <constraint firstItem="Gn1-Va-dul" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="pPD-PB-WlA"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="Gn1-Va-dul" secondAttribute="trailing" id="qMb-tj-KFR"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="vVl-jG-Keh" secondAttribute="trailing" id="uxv-mA-rbf"/>
+                <constraint firstItem="vVl-jG-Keh" firstAttribute="top" secondItem="Gn1-Va-dul" secondAttribute="bottom" id="v1W-7g-yJH"/>
+                <constraint firstAttribute="bottom" secondItem="srp-SX-u2c" secondAttribute="bottom" constant="24" id="xD5-ZT-gzB"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="vVl-jG-Keh" secondAttribute="bottom" id="z5e-KP-q6H"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="139" y="98"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icFilter.png" width="20" height="19"/>
+    </resources>
+</document>

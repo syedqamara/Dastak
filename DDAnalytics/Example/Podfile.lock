@@ -1,0 +1,16 @@
+PODS:
+  - DDAnalytics (0.1.0)
+
+DEPENDENCIES:
+  - DDAnalytics (from `../`)
+
+EXTERNAL SOURCES:
+  DDAnalytics:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DDAnalytics: 8b58236c0b5a6190bc12bc03a2874cd1b6d72b77
+
+PODFILE CHECKSUM: 6dd0488f9c061aa765ad1caab1a68f337df58538
+
+COCOAPODS: 1.8.4

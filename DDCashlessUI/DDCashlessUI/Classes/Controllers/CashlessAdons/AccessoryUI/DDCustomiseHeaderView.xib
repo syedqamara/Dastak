@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MuseoSans_700.otf">
+            <string>MuseoSans-700</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DDCustomiseHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0hF-n1-Da8">
+                    <rect key="frame" x="15" y="17.5" width="0.0" height="15"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="tintColor" red="0.95686274510000002" green="0.4549019608" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" id="2EB-FO-bYn"/>
+                        <constraint firstAttribute="height" constant="15" id="QCt-ge-6hM"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rfv-pg-76C">
+                    <rect key="frame" x="15" y="14" width="45.5" height="22"/>
+                    <fontDescription key="fontDescription" name="MuseoSans-700" family="Museo Sans" pointSize="18"/>
+                    <color key="textColor" red="0.15686274509803921" green="0.15686274509803921" blue="0.15686274509803921" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HoN-AH-zz0">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <action selector="btnSelectionAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="y80-l4-n7u"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="0hF-n1-Da8" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="4i4-q6-uOG"/>
+                <constraint firstItem="HoN-AH-zz0" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="8pf-Hw-oCI"/>
+                <constraint firstItem="Rfv-pg-76C" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="HPa-bT-0Fw"/>
+                <constraint firstItem="HoN-AH-zz0" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="O1s-l1-iMc"/>
+                <constraint firstItem="Rfv-pg-76C" firstAttribute="leading" secondItem="0hF-n1-Da8" secondAttribute="trailing" id="RwR-iq-2yk"/>
+                <constraint firstItem="0hF-n1-Da8" firstAttribute="centerY" secondItem="Rfv-pg-76C" secondAttribute="centerY" id="r76-jy-sHI"/>
+                <constraint firstItem="HoN-AH-zz0" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="s2O-g8-Drw"/>
+                <constraint firstItem="HoN-AH-zz0" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="zQh-KY-9MY"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="btnSelection" destination="HoN-AH-zz0" id="rON-EQ-agS"/>
+                <outlet property="checkMarkView" destination="0hF-n1-Da8" id="676-EC-4o0"/>
+                <outlet property="nameLabel" destination="Rfv-pg-76C" id="STu-pS-5Tq"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="-97"/>
+        </view>
+    </objects>
+</document>

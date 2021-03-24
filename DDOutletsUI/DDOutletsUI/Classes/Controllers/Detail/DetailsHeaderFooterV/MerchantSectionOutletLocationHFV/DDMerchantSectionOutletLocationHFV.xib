@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DDMerchantSectionOutletLocationHFV">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="55"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fl6-oc-asR" userLabel="containerView">
+                    <rect key="frame" x="16" y="0.0" width="382" height="55"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="6Dk-S0-9Qi">
+                            <rect key="frame" x="0.0" y="0.0" width="382" height="50"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ex2-UU-ISV">
+                                    <rect key="frame" x="0.0" y="0.0" width="344" height="50"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="252" horizontalCompressionResistancePriority="752" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sfs-a9-cLI">
+                                    <rect key="frame" x="352" y="0.0" width="30" height="50"/>
+                                    <connections>
+                                        <action selector="areYouHereAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="RgD-0x-MQe"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="lS6-OL-V11"/>
+                            </constraints>
+                        </stackView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AWb-zK-zgW" userLabel="separator">
+                            <rect key="frame" x="0.0" y="53" width="382" height="1"/>
+                            <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="aOb-0a-8if"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="AWb-zK-zgW" secondAttribute="trailing" id="83H-px-n4N"/>
+                        <constraint firstItem="6Dk-S0-9Qi" firstAttribute="leading" secondItem="Fl6-oc-asR" secondAttribute="leading" id="DxS-QS-yyj"/>
+                        <constraint firstItem="AWb-zK-zgW" firstAttribute="leading" secondItem="Fl6-oc-asR" secondAttribute="leading" id="PBr-gx-y6K"/>
+                        <constraint firstItem="AWb-zK-zgW" firstAttribute="top" secondItem="6Dk-S0-9Qi" secondAttribute="bottom" constant="3" id="Vht-KW-I08"/>
+                        <constraint firstAttribute="trailing" secondItem="6Dk-S0-9Qi" secondAttribute="trailing" id="fce-kr-dtj"/>
+                        <constraint firstAttribute="bottom" secondItem="AWb-zK-zgW" secondAttribute="bottom" constant="1" id="hvS-B2-J6K"/>
+                        <constraint firstItem="6Dk-S0-9Qi" firstAttribute="top" secondItem="Fl6-oc-asR" secondAttribute="top" id="uiF-f3-qm7"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Fl6-oc-asR" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="2nK-p8-5Fm"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Fl6-oc-asR" secondAttribute="trailing" constant="16" id="45P-Q2-65s"/>
+                <constraint firstItem="Fl6-oc-asR" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="UVr-JR-3Mr"/>
+                <constraint firstItem="Fl6-oc-asR" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="tfI-cv-pA5"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="btnAreYouHere" destination="Sfs-a9-cLI" id="aU7-St-t95"/>
+                <outlet property="lblOutletLocation" destination="ex2-UU-ISV" id="xnd-lP-8wR"/>
+                <outlet property="separator" destination="AWb-zK-zgW" id="zik-4P-xcf"/>
+            </connections>
+            <point key="canvasLocation" x="82.608695652173921" y="221.98660714285714"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'DDSocial_Example' do
+  pod 'DDSocial', :path => '../'
+
+  target 'DDSocial_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

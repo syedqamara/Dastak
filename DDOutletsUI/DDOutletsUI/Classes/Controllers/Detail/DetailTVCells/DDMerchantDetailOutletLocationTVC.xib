@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MuseoSans_300.otf">
+            <string>MuseoSans-300</string>
+        </array>
+        <array key="MuseoSans_700.otf">
+            <string>MuseoSans-700</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="DDMerchantDetailOutletLocationTVC">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="zPf-HN-avZ">
+                        <rect key="frame" x="16" y="11" width="43" height="41"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4C2-aQ-ALN">
+                                <rect key="frame" x="0.0" y="0.0" width="43" height="21.5"/>
+                                <fontDescription key="fontDescription" name="MuseoSans-700" family="Museo Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U1G-fx-lmp">
+                                <rect key="frame" x="0.0" y="22.5" width="43" height="18.5"/>
+                                <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fnA-qD-bfO">
+                        <rect key="frame" x="69" y="24" width="235" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="Pxz-ev-LtW"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hvl-nO-ije">
+                        <rect key="frame" x="16" y="62" width="288" height="1"/>
+                        <color key="backgroundColor" red="0.78039215689999997" green="0.78039215689999997" blue="0.78039215689999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="HCm-PG-Clr"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="fnA-qD-bfO" firstAttribute="leading" secondItem="zPf-HN-avZ" secondAttribute="trailing" constant="10" id="0AN-rd-car"/>
+                    <constraint firstItem="hvl-nO-ije" firstAttribute="top" secondItem="zPf-HN-avZ" secondAttribute="bottom" constant="10" id="9Ti-rP-LkI"/>
+                    <constraint firstItem="hvl-nO-ije" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="BNw-Uc-Sne"/>
+                    <constraint firstAttribute="trailing" secondItem="hvl-nO-ije" secondAttribute="trailing" constant="16" id="XwJ-L3-3yL"/>
+                    <constraint firstAttribute="bottom" secondItem="hvl-nO-ije" secondAttribute="bottom" constant="1" id="bYP-jN-fe8"/>
+                    <constraint firstItem="fnA-qD-bfO" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="c5h-uD-ZrS"/>
+                    <constraint firstAttribute="trailing" secondItem="fnA-qD-bfO" secondAttribute="trailing" constant="16" id="jIz-mY-JIc"/>
+                    <constraint firstItem="zPf-HN-avZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="kgV-aY-l1e"/>
+                    <constraint firstItem="zPf-HN-avZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="y02-Ss-4Ks"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="distance_label" destination="fnA-qD-bfO" id="Ycb-2p-sUe"/>
+                <outlet property="locationDescription_label" destination="U1G-fx-lmp" id="ZuY-QX-WX4"/>
+                <outlet property="locationTitle_label" destination="4C2-aQ-ALN" id="ivL-tV-mfp"/>
+                <outlet property="sepratorView" destination="hvl-nO-ije" id="T12-HS-WDK"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="149"/>
+        </tableViewCell>
+    </objects>
+</document>

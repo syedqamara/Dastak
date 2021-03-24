@@ -1,0 +1,6 @@
+use_frameworks!
+target 'DDFamily_Tests' do
+  pod 'DDFamily', :path => '../'
+  
+  
+end

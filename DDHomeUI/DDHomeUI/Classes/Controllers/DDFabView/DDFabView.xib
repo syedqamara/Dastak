@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DDFabView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="68"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="IXz-om-QJf">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="68"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="TUO-o3-0Wd">
+                        <size key="itemSize" width="320" height="68"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="X96-sc-doO">
+                    <rect key="frame" x="187.5" y="31" width="39" height="37"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </pageControl>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="IXz-om-QJf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="7b5-BD-sms"/>
+                <constraint firstAttribute="bottom" secondItem="X96-sc-doO" secondAttribute="bottom" id="Juj-Ac-cIo"/>
+                <constraint firstAttribute="trailing" secondItem="IXz-om-QJf" secondAttribute="trailing" id="N33-P5-fgF"/>
+                <constraint firstItem="IXz-om-QJf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="NLV-Rw-zV9"/>
+                <constraint firstAttribute="bottom" secondItem="IXz-om-QJf" secondAttribute="bottom" id="cHS-Av-pxB"/>
+                <constraint firstItem="X96-sc-doO" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="zCO-SM-Vxf"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="collectionView" destination="IXz-om-QJf" id="n1w-rA-nHl"/>
+                <outlet property="pageControl" destination="X96-sc-doO" id="k7E-QD-m6r"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="100"/>
+        </view>
+    </objects>
+</document>

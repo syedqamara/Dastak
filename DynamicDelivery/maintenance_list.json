@@ -1,0 +1,12 @@
+{
+	"data": {
+		"services": [
+		{
+			"title": "Cleaning",
+			"title_color": "333333",
+			"image_url": "https://i.ibb.co/Tmt6YG4/noun-tick-134088-3x.png",
+			"api_params": {}
+		}
+		]
+	}
+}

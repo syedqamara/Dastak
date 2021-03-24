@@ -1,0 +1,27 @@
+PODS:
+  - DDLocations (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - DDLocations (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  DDLocations:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DDLocations: c2ec0f50c6c51bf09fa2ddbb75dc44125e2d3421
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: e325e05ca3446c5ba9bdfbf45c6a6d67e90081a6
+
+COCOAPODS: 1.8.4

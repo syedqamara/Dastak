@@ -1,0 +1,26 @@
+
+
+@font-face
+{
+    font-family: 'MuseoSans-300';
+    src: local('MuseoSans-300'),url('MuseoSans_300.otf') format('opentype');
+}
+
+
+.class1
+{
+    font-family: 'MuseoSans-300';
+    font-size: 21px;
+    font-weight: normal;
+}
+
+.class2
+{
+    font-family: 'MuseoSans-300';
+    font-size: 14px;
+    font-weight: normal;
+}
+
+
+
+

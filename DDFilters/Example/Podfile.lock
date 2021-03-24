@@ -1,0 +1,16 @@
+PODS:
+  - DDFilters (0.1.0)
+
+DEPENDENCIES:
+  - DDFilters (from `../`)
+
+EXTERNAL SOURCES:
+  DDFilters:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DDFilters: 07d19efd017d3962169ca11df2253abdc89570c4
+
+PODFILE CHECKSUM: 8afc82751ad493429bbd300aed2e21a177bf30e0
+
+COCOAPODS: 1.8.4

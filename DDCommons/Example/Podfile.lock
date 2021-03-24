@@ -1,0 +1,16 @@
+PODS:
+  - DDCommons (0.1.0)
+
+DEPENDENCIES:
+  - DDCommons (from `../`)
+
+EXTERNAL SOURCES:
+  DDCommons:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DDCommons: 0de7cfee42b06ffc6ef1f5f94140f8277ec61e30
+
+PODFILE CHECKSUM: cd8c8c138a17dfd0670d0eb00977b9ad8f2244cd
+
+COCOAPODS: 1.7.4

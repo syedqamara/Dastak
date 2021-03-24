@@ -1,0 +1,16 @@
+PODS:
+  - DDEncryption (0.1.0)
+
+DEPENDENCIES:
+  - DDEncryption (from `../`)
+
+EXTERNAL SOURCES:
+  DDEncryption:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DDEncryption: a31f923e1054b7ad673d027c55e8e2ff6acdae98
+
+PODFILE CHECKSUM: f4c2ed0e259b5946bb7ff9024dcd0bde4d0aab81
+
+COCOAPODS: 1.8.4

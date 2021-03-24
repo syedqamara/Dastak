@@ -1,0 +1,6 @@
+use_frameworks!
+target 'DDCommons_Tests' do
+  pod 'DDCommons', :path => '../'
+  
+  
+end

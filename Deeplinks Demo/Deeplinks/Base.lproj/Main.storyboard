@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Deeplinks" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Cp3-eh-6eL">
+                                <rect key="frame" x="0.0" y="183" width="414" height="679"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Deeplink Scheme i.e scheme://" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zYU-ms-e9d">
+                                <rect key="frame" x="10" y="95" width="394" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="8bD-xH-44G"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search Deeplink" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YoA-Wc-TAS">
+                                <rect key="frame" x="10" y="139" width="394" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="NpB-X8-BYW">
+                                <rect key="frame" x="20" y="54" width="374" height="32"/>
+                                <segments>
+                                    <segment title="Deeplink"/>
+                                    <segment title="Branch Link"/>
+                                </segments>
+                                <connections>
+                                    <action selector="didChangeSegmentControl:" destination="BYZ-38-t0r" eventType="valueChanged" id="9oP-ap-M60"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="zYU-ms-e9d" firstAttribute="top" secondItem="NpB-X8-BYW" secondAttribute="bottom" constant="10" id="22G-Jp-r0Y"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Cp3-eh-6eL" secondAttribute="trailing" id="7RI-Pq-NrK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zYU-ms-e9d" secondAttribute="trailing" constant="10" id="H8o-jD-D6Y"/>
+                            <constraint firstItem="YoA-Wc-TAS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="Qhx-bd-wz1"/>
+                            <constraint firstItem="Cp3-eh-6eL" firstAttribute="top" secondItem="YoA-Wc-TAS" secondAttribute="bottom" constant="10" id="VKc-mg-DYh"/>
+                            <constraint firstItem="Cp3-eh-6eL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="WVs-WR-fXp"/>
+                            <constraint firstItem="NpB-X8-BYW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="adB-bL-RTl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YoA-Wc-TAS" secondAttribute="trailing" constant="10" id="dTA-9n-oFm"/>
+                            <constraint firstItem="NpB-X8-BYW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="gRv-fi-yTY"/>
+                            <constraint firstItem="YoA-Wc-TAS" firstAttribute="top" secondItem="zYU-ms-e9d" secondAttribute="bottom" constant="10" id="k9E-UD-QMn"/>
+                            <constraint firstItem="zYU-ms-e9d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="rWQ-I7-QS9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NpB-X8-BYW" secondAttribute="trailing" constant="20" id="raG-BY-P7k"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Cp3-eh-6eL" secondAttribute="bottom" id="uIL-PD-yST"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="deeplinkSchemeTFHeight" destination="8bD-xH-44G" id="RV4-y7-MZU"/>
+                        <outlet property="searchTextField" destination="YoA-Wc-TAS" id="Fr2-EG-0yW"/>
+                        <outlet property="segmentControl" destination="NpB-X8-BYW" id="0e0-KQ-gbg"/>
+                        <outlet property="tableView" destination="Cp3-eh-6eL" id="355-n4-3HX"/>
+                        <outlet property="textField" destination="zYU-ms-e9d" id="DuL-NB-YUp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+</document>

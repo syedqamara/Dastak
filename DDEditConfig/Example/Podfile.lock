@@ -1,0 +1,16 @@
+PODS:
+  - DDEditConfig (0.1.0)
+
+DEPENDENCIES:
+  - DDEditConfig (from `../`)
+
+EXTERNAL SOURCES:
+  DDEditConfig:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DDEditConfig: a6b14cb7ba36847fcf9d2733279129dac7d49345
+
+PODFILE CHECKSUM: 64864585bc3a2600068ed646e61ca968be279c72
+
+COCOAPODS: 1.8.4

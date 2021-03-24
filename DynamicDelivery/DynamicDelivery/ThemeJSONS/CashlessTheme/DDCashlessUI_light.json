@@ -1,0 +1,40 @@
+{
+    "app_theme" : "1bb1dc",
+    "app_theme_dark": "000349",
+    
+    "bg_black" : "000000",
+    "bg_white" : "fffff",
+    "bg_red_39" : "cc2727",
+    "bg_grey_199" : "c7c7c7",
+    "bg_grey_220" : "dcdcdc",
+    "bg_grey_227" : "e3e3e3",
+    "bg_grey_240" : "f0f0f0",
+    "bg_grey_244" : "f4f4f4",
+    
+    "border_white" : "ffffff",
+    "border_black" : "000000",
+    "border_theme" : "1bb1dc",
+    "border_grey_199" : "c7c7c7",
+    "border_grey_227" : "e3e3e3",
+    
+    "separator_white" : "ffffff",
+    "separator_black" : "000000",
+    "separator_theme" : "1bb1dc",
+    "separator_grey_199" : "c7c7c7",
+    "separator_grey_227" : "e3e3e3",
+    
+    "text_theme" : "1bb1dc",
+    "text_theme_dark" : "000349",
+    "text_white" : "ffffff",
+    "text_black" : "000000",
+    "text_black_40" : "282828",
+    "text_grey_111" : "6f6f6f",
+    "text_grey_199" : "c7c7c7",
+    "text_grey_238" : "eeeeee",
+    "text_red_39" : "cc2727",
+    "text_red_217" : "d92703",
+    "text_yellow_255" : "d7c000",
+    
+    "outlet_online_dot" : "7ed316",
+    "outlet_offline_dot" : "cc2727"
+}

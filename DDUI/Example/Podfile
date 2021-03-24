@@ -1,0 +1,6 @@
+use_frameworks!
+target 'DDUI_Tests' do
+  pod 'DDUI', :path => '../'
+  
+  
+end

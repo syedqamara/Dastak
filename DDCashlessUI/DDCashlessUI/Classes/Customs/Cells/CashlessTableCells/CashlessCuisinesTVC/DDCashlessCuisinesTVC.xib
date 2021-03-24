@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="114" id="KGk-i7-Jjw" customClass="DDCashlessCuisinesTVC">
+            <rect key="frame" x="0.0" y="0.0" width="332" height="114"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="332" height="114"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7ml-eL-0pE">
+                        <rect key="frame" x="0.0" y="0.0" width="332" height="0.0"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" id="II7-3W-dT3"/>
+                        </constraints>
+                    </view>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="N3b-fx-IxX">
+                        <rect key="frame" x="0.0" y="0.0" width="332" height="75"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="75" id="Mhv-JV-T2K"/>
+                        </constraints>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="CfG-zQ-STx">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mbs-G6-iTX">
+                        <rect key="frame" x="16" y="99" width="300" height="0.5"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.40000000000000002" id="FWO-dY-5K7"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="N3b-fx-IxX" firstAttribute="top" secondItem="7ml-eL-0pE" secondAttribute="bottom" id="52z-zE-JbL"/>
+                    <constraint firstAttribute="trailing" secondItem="N3b-fx-IxX" secondAttribute="trailing" id="7Cp-hf-dPb"/>
+                    <constraint firstAttribute="trailing" secondItem="7ml-eL-0pE" secondAttribute="trailing" id="9PN-ae-J9E"/>
+                    <constraint firstItem="N3b-fx-IxX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="a5f-SL-Njd"/>
+                    <constraint firstItem="Mbs-G6-iTX" firstAttribute="top" secondItem="N3b-fx-IxX" secondAttribute="bottom" constant="24" id="c9g-BG-VOf"/>
+                    <constraint firstAttribute="bottom" secondItem="Mbs-G6-iTX" secondAttribute="bottom" id="haK-rN-bmj"/>
+                    <constraint firstItem="Mbs-G6-iTX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="iED-d4-d0G"/>
+                    <constraint firstItem="7ml-eL-0pE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="lv6-21-eOR"/>
+                    <constraint firstAttribute="trailing" secondItem="Mbs-G6-iTX" secondAttribute="trailing" constant="16" id="qho-Nc-EFk"/>
+                    <constraint firstItem="7ml-eL-0pE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="tNN-02-SzW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <inset key="separatorInset" minX="16" minY="0.0" maxX="16" maxY="0.0"/>
+            <connections>
+                <outlet property="collectionView" destination="N3b-fx-IxX" id="3bf-gZ-icc"/>
+                <outlet property="collectionViewH" destination="Mhv-JV-T2K" id="Zo2-ix-aDW"/>
+                <outlet property="selectedFiltersContainer" destination="7ml-eL-0pE" id="CFa-2q-z3u"/>
+                <outlet property="selectedFiltersContainerH" destination="II7-3W-dT3" id="VkI-Aw-JjQ"/>
+                <outlet property="topSpace" destination="lv6-21-eOR" id="VPc-fr-5s0"/>
+            </connections>
+            <point key="canvasLocation" x="146.37681159420291" y="176.78571428571428"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MuseoSans_300.otf">
+            <string>MuseoSans-300</string>
+        </array>
+        <array key="MuseoSans_700.otf">
+            <string>MuseoSans-700</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DDRedemptionHistoryVC">
+            <connections>
+                <outlet property="mainTableView" destination="ngO-Is-UaR" id="v0c-NF-hrE"/>
+                <outlet property="monthCollectionView" destination="ugq-Rf-pRn" id="GQc-q8-zdU"/>
+                <outlet property="seprator_view" destination="3bt-Pn-C3i" id="C3b-5t-NT7"/>
+                <outlet property="summaryConatiner" destination="sGW-ld-IvB" id="Eab-1q-ihz"/>
+                <outlet property="totalDescription_label" destination="gSY-LH-o3u" id="X62-fY-9xD"/>
+                <outlet property="totalNumber_label" destination="ltn-Uc-FdN" id="jkR-L1-lBN"/>
+                <outlet property="view" destination="L69-LD-hrl" id="B3C-Hk-DNH"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="L69-LD-hrl">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="ugq-Rf-pRn">
+                    <rect key="frame" x="0.0" y="44" width="414" height="56"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="56" id="nJH-2C-Kow"/>
+                    </constraints>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="lJX-vG-2K9">
+                        <size key="itemSize" width="56" height="56"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sGW-ld-IvB">
+                    <rect key="frame" x="0.0" y="100" width="414" height="73"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="H95-Mb-Ym8">
+                            <rect key="frame" x="16" y="16" width="382" height="40"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Online orders in 2019" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gSY-LH-o3u">
+                                    <rect key="frame" x="0.0" y="0.0" width="382" height="15.5"/>
+                                    <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="13"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ltn-Uc-FdN">
+                                    <rect key="frame" x="0.0" y="16.5" width="382" height="23.5"/>
+                                    <fontDescription key="fontDescription" name="MuseoSans-700" family="Museo Sans" pointSize="20"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3bt-Pn-C3i">
+                            <rect key="frame" x="16" y="72" width="382" height="1"/>
+                            <color key="backgroundColor" red="0.78039215689999997" green="0.78039215689999997" blue="0.78039215689999997" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="7IP-eX-ZJR"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstItem="H95-Mb-Ym8" firstAttribute="leading" secondItem="sGW-ld-IvB" secondAttribute="leading" constant="16" id="9iH-0M-cf1"/>
+                        <constraint firstItem="3bt-Pn-C3i" firstAttribute="leading" secondItem="sGW-ld-IvB" secondAttribute="leading" constant="16" id="CEF-OB-GUW"/>
+                        <constraint firstItem="H95-Mb-Ym8" firstAttribute="top" secondItem="sGW-ld-IvB" secondAttribute="top" constant="16" id="HCl-NT-lj7"/>
+                        <constraint firstAttribute="trailing" secondItem="H95-Mb-Ym8" secondAttribute="trailing" constant="16" id="IkK-ho-txA"/>
+                        <constraint firstItem="3bt-Pn-C3i" firstAttribute="top" secondItem="H95-Mb-Ym8" secondAttribute="bottom" constant="16" id="K7b-Bf-NjZ"/>
+                        <constraint firstAttribute="bottom" secondItem="3bt-Pn-C3i" secondAttribute="bottom" id="apl-X2-Yk8"/>
+                        <constraint firstAttribute="trailing" secondItem="3bt-Pn-C3i" secondAttribute="trailing" constant="16" id="gWI-ku-S5J"/>
+                        <constraint firstItem="H95-Mb-Ym8" firstAttribute="centerX" secondItem="sGW-ld-IvB" secondAttribute="centerX" id="wGr-tQ-o0b"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ngO-Is-UaR">
+                    <rect key="frame" x="0.0" y="173" width="414" height="723"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ngO-Is-UaR" firstAttribute="trailing" secondItem="Was-YM-qUQ" secondAttribute="trailing" id="0ob-ey-GbD"/>
+                <constraint firstItem="ngO-Is-UaR" firstAttribute="leading" secondItem="Was-YM-qUQ" secondAttribute="leading" id="292-OZ-7ZN"/>
+                <constraint firstItem="ugq-Rf-pRn" firstAttribute="leading" secondItem="Was-YM-qUQ" secondAttribute="leading" id="2ob-PR-hri"/>
+                <constraint firstItem="ngO-Is-UaR" firstAttribute="top" secondItem="sGW-ld-IvB" secondAttribute="bottom" id="9Oj-5d-OCX"/>
+                <constraint firstItem="ugq-Rf-pRn" firstAttribute="top" secondItem="Was-YM-qUQ" secondAttribute="top" id="G4a-0f-UNB"/>
+                <constraint firstAttribute="bottom" secondItem="ngO-Is-UaR" secondAttribute="bottom" id="HBE-Q2-cXn"/>
+                <constraint firstItem="Was-YM-qUQ" firstAttribute="trailing" secondItem="sGW-ld-IvB" secondAttribute="trailing" id="cC3-Uc-Jkl"/>
+                <constraint firstItem="sGW-ld-IvB" firstAttribute="leading" secondItem="Was-YM-qUQ" secondAttribute="leading" id="jIJ-bB-hMu"/>
+                <constraint firstItem="ugq-Rf-pRn" firstAttribute="trailing" secondItem="Was-YM-qUQ" secondAttribute="trailing" id="zDd-B7-fA4"/>
+                <constraint firstItem="sGW-ld-IvB" firstAttribute="top" secondItem="ugq-Rf-pRn" secondAttribute="bottom" id="zsL-9w-MGt"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Was-YM-qUQ"/>
+            <point key="canvasLocation" x="139" y="149"/>
+        </view>
+    </objects>
+</document>

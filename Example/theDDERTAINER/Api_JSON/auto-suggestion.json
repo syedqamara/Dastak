@@ -1,0 +1,305 @@
+{
+    "http_response": 200,
+    "cmd": "/pysearch/v1/auto-suggestions/?",
+    "status": true,
+    "data": {
+        "results": [
+        {
+            "section_title": "First Section",
+            "param_names": [
+                "sub_categories"
+            ],
+            "value_attribute_names": [
+                "identifier"
+            ],
+            "details": [
+                {
+                    "image_url": "https://s3.amazonaws.com/entertainer-app-assets/images/merchant_sub_categories/unselected/informal_dining_takeaway.png",
+                    "title": "Informal Dining & Takeaway",
+                    "identifier": "Informal Dining & Takeaway"
+                }
+            ],
+            "section_identifier": "sub_categories"
+        },
+        {
+            "section_title": "",
+            "param_names": [
+                "hotels"
+            ],
+            "value_attribute_names": [
+                "identifier"
+            ],
+            "details": [
+                {
+                    "image_url": "https://s3-us-west-2.amazonaws.com/ent-search-results/hotel.png",
+                    "title": "Arjaan by Rotana Dubai Media City",
+                    "identifier": "Arjaan by Rotana Dubai Media City"
+                },
+                {
+                    "image_url": "https://s3-us-west-2.amazonaws.com/ent-search-results/hotel.png",
+                    "title": "Radisson Blu Hotel, Dubai Media City",
+                    "identifier": "Radisson Blu Hotel, Dubai Media City"
+                },
+                {
+                    "image_url": "https://s3-us-west-2.amazonaws.com/ent-search-results/hotel.png",
+                    "title": "Holiday Inn Express Dubai - Media City",
+                    "identifier": "Holiday Inn Express Dubai - Media City"
+                }
+            ],
+            "section_identifier": "hotel"
+        },
+        {
+            "section_title": "",
+            "param_names": [
+                "cuisines"
+            ],
+            "value_attribute_names": [
+                "identifier"
+            ],
+            "details": [
+                {
+                    "image_url": "https://s3.amazonaws.com/entertainer-app-assets/icons/cuisines/unselected/pizza.png",
+                    "title": "Pizza",
+                    "identifier": "Pizza"
+                }
+            ],
+            "section_identifier": "cuisines"
+        },
+        {
+            "section_title": "",
+            "param_names": [
+                "neighbourhoods"
+            ],
+            "value_attribute_names": [
+                "identifier"
+            ],
+            "details": [
+                {
+                    "image_url": "https://s3.amazonaws.com/entertainer-app-assets/icons/cuisines/unselected/pizza.png",
+                    "title": "Pizza",
+                    "identifier": "Pizza"
+                }
+            ],
+            "section_identifier": "neighbourhood"
+        },
+        {
+            "section_title": "",
+            "param_names": [
+                "merchant_id",
+                "outlet_id"
+            ],
+            "value_attribute_names": [
+                "merchant_id",
+                "outlet_id"
+            ],
+            "details": [
+                {
+                    "coordinates": {
+                        "lon": 55.317818,
+                        "lat": 25.266705
+                    },
+                    "title": "Papa John's - Dubai",
+                    "outlet_id": 12080,
+                    "merchant_id": 6905,
+                    "image_url": "https://offerengine.theentertainerme.com/papa-johns---dubai-x21657705/merchant_primary_logo_%28retina%29_-_merchant.png",
+                    "distance": "8404 m"
+                },
+                {
+                    "coordinates": {
+                        "lon": 55.322468,
+                        "lat": 25.269987
+                    },
+                    "title": "The Pizza Company - Dubai",
+                    "outlet_id": 69882,
+                    "merchant_id": 875,
+                    "image_url": "https://offerengine.theentertainerme.com/pizza-company%2C-the---dubai-x036003/merchant_primary_logo_%28retina%29_-_merchant.png",
+                    "distance": "8404 m"
+                },
+                {
+                    "coordinates": {
+                        "lon": 55.302639,
+                        "lat": 25.251272
+                    },
+                    "title": "Domino's Pizza - Dubai",
+                    "outlet_id": 58780,
+                    "merchant_id": 1301,
+                    "image_url": "https://offerengine.theentertainerme.com/dominos-pizza---dubai-x036265/merchant_primary_logo_%28retina%29_-_merchant.jpg",
+                    "distance": "8404 m"
+                },
+                {
+                    "coordinates": {
+                        "lon": 55.324585,
+                        "lat": 25.257895
+                    },
+                    "title": "Papa Murphy's",
+                    "outlet_id": 19610,
+                    "merchant_id": 8470,
+                    "image_url": "https://offerengine.theentertainerme.com/papa-murphys-x21112391/merchant_primary_logo_%28retina%29_-_merchant.jpg",
+                    "distance": "8404 m"
+                },
+                {
+                    "coordinates": {
+                        "lon": 55.274979,
+                        "lat": 25.241577
+                    },
+                    "title": "The Pizza Pie Factory - Dubai",
+                    "outlet_id": 69654,
+                    "merchant_id": 39987,
+                    "image_url": "https://offerengine.theentertainerme.com/the-pizza-pie-factory---dubai-x23877318/merchant_primary_logo_%28retina%29_-_merchant.jpg",
+                    "distance": "8404 m"
+                },
+                {
+                    "coordinates": {
+                        "lon": 55.318089,
+                        "lat": 25.233955
+                    },
+                    "title": "Mambo Gourmet Pizza",
+                    "outlet_id": 42157,
+                    "merchant_id": 25111,
+                    "image_url": "https://offerengine.theentertainerme.com/mambo-gourmet-pizza-x23415260/merchant_primary_logo_%28retina%29_-_merchant.png",
+                    "distance": "8404 m"
+                },
+                {
+                    "coordinates": {
+                        "lon": 55.285301,
+                        "lat": 25.224472
+                    },
+                    "title": "PizzaExpress Dubai",
+                    "outlet_id": 2104,
+                    "merchant_id": 1336,
+                    "image_url": "https://offerengine.theentertainerme.com/pizzaexpress-x036526/merchant_primary_logo_%28retina%29_-_merchant.png",
+                    "distance": "8404 m"
+                },
+                {
+                    "coordinates": {
+                        "lon": 55.262817,
+                        "lat": 25.231527
+                    },
+                    "title": "Broccoli Pizza & Pasta",
+                    "outlet_id": 61153,
+                    "merchant_id": 22116,
+                    "image_url": "https://offerengine.theentertainerme.com/broccoli-pizza--pasta-x22036248/merchant_primary_logo_%28retina%29_-_merchant.png",
+                    "distance": "8404 m"
+                },
+                {
+                    "coordinates": {
+                        "lon": 55.252998,
+                        "lat": 25.216499
+                    },
+                    "title": "ECCO Pizza&Pasta",
+                    "outlet_id": 77453,
+                    "merchant_id": 40118,
+                    "image_url": "https://offerengine.theentertainerme.com/ecco-pizzapasta-x23877175/merchant_primary_logo_%28retina%29_-_merchant.jpg",
+                    "distance": "8404 m"
+                },
+                {
+                    "coordinates": {
+                        "lon": 55.376366,
+                        "lat": 25.298544
+                    },
+                    "title": "Portofino Patisserie & Cafe",
+                    "outlet_id": 19719,
+                    "merchant_id": 11744,
+                    "image_url": "https://offerengine.theentertainerme.com/portofino-patisserie--cafe-x21945914/merchant_primary_logo_%28retina%29_-_merchant.jpg",
+                    "distance": "8404 m"
+                }
+            ],
+            "section_identifier": "merchants"
+        },
+        {
+            "section_title": "",
+            "param_names": [
+                "malls"
+            ],
+            "value_attribute_names": [
+                "identifier"
+            ],
+            "details": [
+                {
+                    "image_url": "https://s3-us-west-2.amazonaws.com/ent-search-results/mall.png",
+                    "title": "Capitol Piazza",
+                    "type": "mall",
+                    "identifier": "Capitol Piazza"
+                },
+                {
+                    "image_url": "https://s3-us-west-2.amazonaws.com/ent-search-results/mall.png",
+                    "title": "The Piazza Melrose Arch",
+                    "type": "mall",
+                    "identifier": "The Piazza Melrose Arch"
+                }
+            ],
+            "section_identifier": "mall"
+        },
+        {
+            "section_title": "",
+            "param_names": [
+                "offer_names"
+            ],
+            "value_attribute_names": [
+                "identifier"
+            ],
+            "details": [
+                {
+                    "image_url": "https://s3.amazonaws.com/entertainer-app-assets/icons/voucher_types/voucher_type_food_1.png",
+                    "title": "Draught Beer"
+                },
+                {
+                    "image_url": "https://s3.amazonaws.com/entertainer-app-assets/icons/voucher_types/voucher_type_food_1.png",
+                    "title": "Jug of Sangria"
+                },
+                {
+                    "image_url": "https://s3.amazonaws.com/entertainer-app-assets/icons/voucher_types/voucher_type_food_1.png",
+                    "title": "Bottle of Wine"
+                },
+                {
+                    "image_url": "https://s3.amazonaws.com/entertainer-app-assets/icons/voucher_types/voucher_type_food_1.png",
+                    "title": "Small Pan Pizza"
+                },
+                {
+                    "image_url": "https://s3.amazonaws.com/entertainer-app-assets/icons/voucher_types/voucher_type_food_1.png",
+                    "title": "Large Salad"
+                },
+                {
+                    "image_url": "https://s3.amazonaws.com/entertainer-app-assets/icons/voucher_types/voucher_type_food_1.png",
+                    "title": "Burger & Chips"
+                },
+                {
+                    "image_url": "https://s3.amazonaws.com/entertainer-app-assets/icons/voucher_types/voucher_type_food_1.png",
+                    "title": "Large Pizza"
+                },
+                {
+                    "image_url": "https://s3.amazonaws.com/entertainer-app-assets/icons/voucher_types/voucher_type_food_1.png",
+                    "title": "Shawarma Wrap & Chips"
+                },
+                {
+                    "image_url": "https://s3.amazonaws.com/entertainer-app-assets/icons/voucher_types/voucher_type_food_1.png",
+                    "title": "Large Pan Pizza"
+                },
+                {
+                    "image_url": "https://s3.amazonaws.com/entertainer-app-assets/icons/voucher_types/voucher_type_food_1.png",
+                    "title": "Medium Pizza"
+                }
+            ],
+            "section_identifier": "offer_names"
+        },
+        {
+            "section_title": "",
+            "param_names": [
+                "recent_searches"
+            ],
+            "value_attribute_names": [
+                "identifier"
+            ],
+            "details": [
+                {
+                    "image_url": "https://s3.amazonaws.com/entertainer-app-assets/icons/cuisines/unselected/pizza.png",
+                    "title": "Pizza",
+                    "identifier": "Pizza"
+                }
+            ],
+            "section_identifier": "recent_searches"
+        }
+    ]
+    },
+    "code": 0
+}

@@ -1,0 +1,27 @@
+PODS:
+  - DDMapsUI (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - DDMapsUI (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  DDMapsUI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DDMapsUI: fcdb71cad3a38ae2e7f8328601f0092c9ce87988
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 7b7f9cae72772cd96cb3f274f2cfc64ae319b088
+
+COCOAPODS: 1.8.4

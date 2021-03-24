@@ -1,0 +1,16 @@
+PODS:
+  - DDModels (0.1.0)
+
+DEPENDENCIES:
+  - DDModels (from `../`)
+
+EXTERNAL SOURCES:
+  DDModels:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DDModels: e4f8e59b77618a996626cbb3e459de9daf2b38db
+
+PODFILE CHECKSUM: 88fb76e7f3c7532f1287d7ca53c909ef72dcdbc5
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MuseoSans_700.otf">
+            <string>MuseoSans-700</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DDMerchantSectionOffersHFV">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="64"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="253" verticalCompressionResistancePriority="752" text="My Offers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bs8-uv-K5s">
+                    <rect key="frame" x="16" y="16" width="342" height="32"/>
+                    <fontDescription key="fontDescription" name="MuseoSans-700" family="Museo Sans" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F3l-Hc-NrJ">
+                    <rect key="frame" x="368" y="16" width="30" height="32"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ch-po-S89">
+                            <rect key="frame" x="17" y="12" width="13" height="8"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="13" id="MQg-Vg-jCl"/>
+                                <constraint firstAttribute="height" constant="8" id="eDO-sU-HkE"/>
+                            </constraints>
+                            <state key="normal" image="arrowUp.png"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x4l-kf-rVQ">
+                            <rect key="frame" x="0.0" y="0.0" width="30" height="32"/>
+                            <connections>
+                                <action selector="arrowAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="Y4n-CF-EXT"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstItem="x4l-kf-rVQ" firstAttribute="top" secondItem="F3l-Hc-NrJ" secondAttribute="top" id="7Iu-6S-LNE"/>
+                        <constraint firstItem="x4l-kf-rVQ" firstAttribute="leading" secondItem="F3l-Hc-NrJ" secondAttribute="leading" id="7aR-AL-3W0"/>
+                        <constraint firstAttribute="width" constant="30" id="BU4-Wt-Usd"/>
+                        <constraint firstAttribute="trailing" secondItem="x4l-kf-rVQ" secondAttribute="trailing" id="FGz-Zo-jiI"/>
+                        <constraint firstAttribute="trailing" secondItem="8Ch-po-S89" secondAttribute="trailing" id="cpr-pX-ZcW"/>
+                        <constraint firstItem="8Ch-po-S89" firstAttribute="centerY" secondItem="F3l-Hc-NrJ" secondAttribute="centerY" id="mpj-fX-gPf"/>
+                        <constraint firstAttribute="bottom" secondItem="x4l-kf-rVQ" secondAttribute="bottom" id="x6a-O5-w8Q"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Bs8-uv-K5s" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="Grd-G7-Q7A"/>
+                <constraint firstItem="F3l-Hc-NrJ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="I6E-Rs-oeT"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="F3l-Hc-NrJ" secondAttribute="bottom" constant="16" id="Lck-1g-6TX"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Bs8-uv-K5s" secondAttribute="bottom" constant="16" id="SzP-2O-sBn"/>
+                <constraint firstItem="Bs8-uv-K5s" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="WZv-sR-KgJ"/>
+                <constraint firstItem="F3l-Hc-NrJ" firstAttribute="leading" secondItem="Bs8-uv-K5s" secondAttribute="trailing" constant="10" id="cm0-Wt-nAn"/>
+                <constraint firstAttribute="trailing" secondItem="F3l-Hc-NrJ" secondAttribute="trailing" constant="16" id="dL2-Ji-3S9"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="btnExpandCollaps" destination="x4l-kf-rVQ" id="WPi-es-gKU"/>
+                <outlet property="imgVArrow" destination="8Ch-po-S89" id="sdE-kN-IFp"/>
+                <outlet property="lblSectionTitle" destination="Bs8-uv-K5s" id="Pvl-cE-fFl"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="234.375"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="arrowUp.png" width="14" height="8"/>
+    </resources>
+</document>

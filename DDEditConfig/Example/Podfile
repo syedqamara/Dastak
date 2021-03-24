@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'DDEditConfig_Example' do
+  pod 'DDEditConfig', :path => '../'
+
+  target 'DDEditConfig_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB" customClass="DDProfileSectionView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="252" horizontalCompressionResistancePriority="752" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XrV-fG-26Q">
+                    <rect key="frame" x="352" y="13" width="46" height="30"/>
+                    <state key="normal" title="Button"/>
+                    <connections>
+                        <action selector="seeAllButtonTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="kip-pa-f5s"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="95F-oc-WxS">
+                    <rect key="frame" x="16" y="18" width="326" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="95F-oc-WxS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="P79-Ec-zYQ"/>
+                <constraint firstItem="XrV-fG-26Q" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="YfO-0C-kTn"/>
+                <constraint firstItem="XrV-fG-26Q" firstAttribute="leading" secondItem="95F-oc-WxS" secondAttribute="trailing" constant="10" id="ajz-hX-pLj"/>
+                <constraint firstAttribute="trailing" secondItem="XrV-fG-26Q" secondAttribute="trailing" constant="16" id="hFV-pt-ffh"/>
+                <constraint firstItem="95F-oc-WxS" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="n05-5l-VcL"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="seeAllButton" destination="XrV-fG-26Q" id="909-bG-awC"/>
+                <outlet property="titleLabel" destination="95F-oc-WxS" id="zOo-Wf-Fk6"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="-128.57142857142856"/>
+        </view>
+    </objects>
+</document>

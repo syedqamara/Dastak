@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="museosans_500-webfont.ttf">
+            <string>MuseoSans-500</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DDDeliveryMenuCell" id="gTV-IL-0wX" customClass="DDDeliveryMenuCell">
+            <rect key="frame" x="0.0" y="0.0" width="50" height="55"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="50" height="55"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VIG-4a-9gj">
+                        <rect key="frame" x="0.0" y="0.0" width="50" height="55"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="akE-a0-phR">
+                                <rect key="frame" x="3" y="19" width="44" height="17"/>
+                                <fontDescription key="fontDescription" name="MuseoSans-500" family="Museo Sans" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z52-dk-Ejp">
+                                <rect key="frame" x="0.0" y="52" width="50" height="3"/>
+                                <color key="backgroundColor" red="0.95686274510000002" green="0.4549019608" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="3" id="99A-tW-Imq"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="z52-dk-Ejp" secondAttribute="trailing" id="9Vq-Xc-eib"/>
+                            <constraint firstItem="akE-a0-phR" firstAttribute="centerY" secondItem="VIG-4a-9gj" secondAttribute="centerY" id="HZT-Dq-e6f"/>
+                            <constraint firstAttribute="bottom" secondItem="z52-dk-Ejp" secondAttribute="bottom" id="RQL-YJ-YmX"/>
+                            <constraint firstAttribute="trailing" secondItem="akE-a0-phR" secondAttribute="trailing" constant="3" id="f84-JY-eSy"/>
+                            <constraint firstItem="z52-dk-Ejp" firstAttribute="leading" secondItem="VIG-4a-9gj" secondAttribute="leading" id="rax-uu-edv"/>
+                            <constraint firstItem="akE-a0-phR" firstAttribute="leading" secondItem="VIG-4a-9gj" secondAttribute="leading" constant="3" id="tDw-V2-0uI"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="VIG-4a-9gj" secondAttribute="trailing" id="1Fb-Fc-Vhe"/>
+                <constraint firstItem="VIG-4a-9gj" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="anl-lU-kY5"/>
+                <constraint firstItem="VIG-4a-9gj" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="s5E-RL-bBi"/>
+                <constraint firstAttribute="bottom" secondItem="VIG-4a-9gj" secondAttribute="bottom" id="w6r-dB-K7f"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <connections>
+                <outlet property="bottomView" destination="z52-dk-Ejp" id="tcL-Ou-t3O"/>
+                <outlet property="titleLabel" destination="akE-a0-phR" id="Wxa-w9-LVk"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="153"/>
+        </collectionViewCell>
+    </objects>
+</document>

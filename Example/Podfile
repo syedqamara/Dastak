@@ -1,0 +1,47 @@
+#use_frameworks!
+
+platform :ios, '10.0'
+
+load 'modules.rb'
+
+target 'theDDERTAINER_Example' do
+  
+  module_pods
+  
+  #Third Party Libraries
+  pod 'Reachability'
+  pod 'JSONModel'
+  pod 'SVProgressHUD', '2.2.5'
+  pod 'DeepLinkKit'
+  pod 'SDWebImage', '~> 5.1.0'
+  pod 'LSAnimator', '2.1.4'
+  pod 'IQKeyboardManager'
+  pod 'Appboy-iOS-SDK'
+  pod 'MRCircularProgressView'
+  pod 'Branch', '~> 0.30.0'
+  pod 'FBSDKCoreKit', '5.8.0'
+  pod 'FBSDKLoginKit', '5.8.0'
+  pod 'FBSDKShareKit', '5.8.0'
+  pod 'lottie-ios', '2.5.3'
+  #  pod 'NewRelicAgent'
+  
+  #Private Pods
+  pod 'DDERTAINERGetaways', :git => 'https://github.com/theentertainerme/Entertainer-Travel-iOS-SDK.git', :tag => '2.2.4'
+  pod 'DDSlideToUnlock', :git => 'https://github.com/theentertainerme/DDERTAINER-Private-Pods-iOS.git', :tag => 'DDSlideToUnlock-0.0.11'
+  pod 'DDRecaptchaSDK', :git => 'https://github.com/theentertainerme/DDERTAINER-Private-Pods-iOS.git', :tag => 'DDRecaptchaSDK-v0.0.2'
+  pod 'DDPodGamification', :git => 'https://github.com/theentertainerme/DDERTAINER-Private-Pods-iOS.git', :tag => 'DDPodGamification-v0.0.91'
+
+  target 'theDDERTAINER_Tests' do
+    inherit! :search_paths
+  end
+  
+end
+
+target 'NotificationContentExtension' do
+    platform :ios, '10.0'
+    pod 'Appboy-Push-Story','~> 3.13.0'
+end
+
+target 'Categories' do
+    pod 'SDWebImage','5.1.0'
+end

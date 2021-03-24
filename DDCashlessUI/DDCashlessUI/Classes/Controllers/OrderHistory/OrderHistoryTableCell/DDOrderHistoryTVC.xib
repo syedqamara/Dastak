@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MuseoSans_300.otf">
+            <string>MuseoSans-300</string>
+        </array>
+        <array key="MuseoSans_500.otf">
+            <string>MuseoSans-500</string>
+        </array>
+        <array key="MuseoSans_700.otf">
+            <string>MuseoSans-700</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DDOrderHistoryTVC" id="KGk-i7-Jjw" customClass="DDOrderHistoryTVC">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="E6j-JY-Jh4">
+                        <rect key="frame" x="16" y="16" width="58" height="58"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="58" id="5me-Mb-cAn"/>
+                            <constraint firstAttribute="width" constant="58" id="HMM-kR-P9C"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bkc-qE-1i6">
+                        <rect key="frame" x="8" y="58" width="24" height="24"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="udW-Tc-oLN">
+                                <rect key="frame" x="2" y="2" width="20" height="20"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="udW-Tc-oLN" secondAttribute="trailing" constant="2" id="4YW-to-wzd"/>
+                            <constraint firstAttribute="width" constant="24" id="6qa-ic-H1u"/>
+                            <constraint firstItem="udW-Tc-oLN" firstAttribute="leading" secondItem="Bkc-qE-1i6" secondAttribute="leading" constant="2" id="DTM-Vr-NCg"/>
+                            <constraint firstItem="udW-Tc-oLN" firstAttribute="top" secondItem="Bkc-qE-1i6" secondAttribute="top" constant="2" id="Ggf-Jm-qTt"/>
+                            <constraint firstAttribute="bottom" secondItem="udW-Tc-oLN" secondAttribute="bottom" constant="2" id="M1d-RD-DSC"/>
+                            <constraint firstAttribute="height" constant="24" id="Tuf-hW-fZX"/>
+                        </constraints>
+                    </view>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="S6g-jn-d6z">
+                        <rect key="frame" x="82" y="16" width="222" height="71"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VXn-1q-oCB">
+                                <rect key="frame" x="0.0" y="0.0" width="222" height="20.5"/>
+                                <fontDescription key="fontDescription" name="MuseoSans-700" family="Museo Sans" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qad-hp-Fgt">
+                                <rect key="frame" x="0.0" y="22.5" width="222" height="18"/>
+                                <fontDescription key="fontDescription" name="MuseoSans-500" family="Museo Sans" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="ZjB-ls-A9r">
+                                <rect key="frame" x="0.0" y="42.5" width="222" height="18"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ph1-9l-ssb">
+                                        <rect key="frame" x="0.0" y="0.0" width="103" height="18"/>
+                                        <fontDescription key="fontDescription" name="MuseoSans-500" family="Museo Sans" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Mq-xE-xcN">
+                                        <rect key="frame" x="119" y="0.0" width="103" height="18"/>
+                                        <fontDescription key="fontDescription" name="MuseoSans-500" family="Museo Sans" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pH4-Z1-ql7">
+                                <rect key="frame" x="0.0" y="62.5" width="222" height="8.5"/>
+                                <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="11"/>
+                                <color key="textColor" red="0.78039215689999997" green="0.78039215689999997" blue="0.78039215689999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="Od6-Bd-L4t">
+                        <rect key="frame" x="16" y="103" width="288" height="30"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hm4-hJ-1Tv">
+                                <rect key="frame" x="0.0" y="0.0" width="124" height="30"/>
+                                <color key="backgroundColor" red="0.18823529410000001" green="0.51764705879999995" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="MuseoSans-500" family="Museo Sans" pointSize="15"/>
+                                <state key="normal" title="Share"/>
+                                <connections>
+                                    <action selector="btnReOrderAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="QOB-O6-8ht"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nmW-nE-8Lf">
+                                <rect key="frame" x="164" y="0.0" width="124" height="30"/>
+                                <color key="backgroundColor" red="0.18823529410000001" green="0.51764705879999995" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="MuseoSans-500" family="Museo Sans" pointSize="15"/>
+                                <state key="normal" title="Share"/>
+                                <connections>
+                                    <action selector="btnViewOrderAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="aP2-Pr-ppG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="ln8-bn-ogt"/>
+                        </constraints>
+                    </stackView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dat-Za-Hch">
+                        <rect key="frame" x="16" y="149" width="288" height="1"/>
+                        <color key="backgroundColor" red="0.78039215689999997" green="0.78039215689999997" blue="0.78039215689999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="efZ-Rw-Xg0"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Od6-Bd-L4t" firstAttribute="top" secondItem="S6g-jn-d6z" secondAttribute="bottom" constant="16" id="3tc-2u-DQr"/>
+                    <constraint firstItem="E6j-JY-Jh4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="6jV-8h-YLS"/>
+                    <constraint firstAttribute="trailing" secondItem="Od6-Bd-L4t" secondAttribute="trailing" constant="16" id="D5j-1q-Fns"/>
+                    <constraint firstAttribute="trailing" secondItem="S6g-jn-d6z" secondAttribute="trailing" constant="16" id="RoL-V4-yAp"/>
+                    <constraint firstItem="Bkc-qE-1i6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="UH3-ct-Cn6"/>
+                    <constraint firstItem="S6g-jn-d6z" firstAttribute="leading" secondItem="E6j-JY-Jh4" secondAttribute="trailing" constant="8" id="Xzy-ca-5n3"/>
+                    <constraint firstItem="S6g-jn-d6z" firstAttribute="leading" secondItem="E6j-JY-Jh4" secondAttribute="trailing" constant="8" id="boN-jG-Glm"/>
+                    <constraint firstItem="E6j-JY-Jh4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="cxf-mF-VSX"/>
+                    <constraint firstAttribute="trailing" secondItem="dat-Za-Hch" secondAttribute="trailing" constant="16" id="e7t-jD-FMu"/>
+                    <constraint firstItem="S6g-jn-d6z" firstAttribute="leading" secondItem="E6j-JY-Jh4" secondAttribute="trailing" constant="8" id="iFm-QM-pfR"/>
+                    <constraint firstItem="S6g-jn-d6z" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="ige-zA-1gB"/>
+                    <constraint firstItem="Bkc-qE-1i6" firstAttribute="bottom" secondItem="E6j-JY-Jh4" secondAttribute="bottom" constant="8" id="kQz-HN-80x"/>
+                    <constraint firstAttribute="bottom" secondItem="dat-Za-Hch" secondAttribute="bottom" id="nP4-Lx-ASs"/>
+                    <constraint firstItem="dat-Za-Hch" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="nvG-GZ-mT2"/>
+                    <constraint firstItem="Od6-Bd-L4t" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="tvw-PH-Bd3"/>
+                    <constraint firstItem="dat-Za-Hch" firstAttribute="top" secondItem="Od6-Bd-L4t" secondAttribute="bottom" constant="16" id="vZb-o4-byR"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="btnReorder" destination="hm4-hJ-1Tv" id="Qeq-x1-CYr"/>
+                <outlet property="btnViewOrder" destination="nmW-nE-8Lf" id="8bI-DE-xHT"/>
+                <outlet property="dateTime_label" destination="pH4-Z1-ql7" id="kTA-az-awe"/>
+                <outlet property="iconImageContainerView" destination="Bkc-qE-1i6" id="61p-OT-lgf"/>
+                <outlet property="icon_imgView" destination="udW-Tc-oLN" id="5YO-GJ-RSC"/>
+                <outlet property="logo_imgView" destination="E6j-JY-Jh4" id="Pjt-fV-DgO"/>
+                <outlet property="saving_label" destination="5Mq-xE-xcN" id="bfi-Hg-wuj"/>
+                <outlet property="status_label" destination="Qad-hp-Fgt" id="GF1-II-LPA"/>
+                <outlet property="title_label" destination="VXn-1q-oCB" id="25H-yU-529"/>
+                <outlet property="total_label" destination="Ph1-9l-ssb" id="UXs-nC-RPd"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="148.66071428571428"/>
+        </tableViewCell>
+    </objects>
+</document>

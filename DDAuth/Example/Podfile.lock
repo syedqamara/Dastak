@@ -1,0 +1,16 @@
+PODS:
+  - DDAuth (0.1.0)
+
+DEPENDENCIES:
+  - DDAuth (from `../`)
+
+EXTERNAL SOURCES:
+  DDAuth:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DDAuth: e0b26c67cbfb2bab4b0727d30cd70d4b7ed36780
+
+PODFILE CHECKSUM: 3f2d3f171657379a4b8fc40dfb0b2f7461ea44e9
+
+COCOAPODS: 1.7.4

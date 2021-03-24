@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DDAddCustomisationVC">
+            <connections>
+                <outlet property="tableView" destination="X5a-bM-efC" id="wCs-hW-yaL"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6kB-26-2TB">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <subviews>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="X5a-bM-efC">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="776"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        </tableView>
+                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3cd-Ns-Bvb" customClass="DDGradientButton">
+                            <rect key="frame" x="20" y="796" width="374" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="4rz-0N-5bI"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                            <state key="normal" title="Add">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerR">
+                                    <real key="value" value="12"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="didTapAddButton:" destination="-1" eventType="touchUpInside" id="ne7-IR-ILP"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="3cd-Ns-Bvb" secondAttribute="trailing" constant="20" id="8h1-Xp-u84"/>
+                        <constraint firstItem="3cd-Ns-Bvb" firstAttribute="leading" secondItem="6kB-26-2TB" secondAttribute="leading" constant="20" id="9kc-6q-iqX"/>
+                        <constraint firstItem="X5a-bM-efC" firstAttribute="top" secondItem="6kB-26-2TB" secondAttribute="top" id="AJ8-Ru-I3v"/>
+                        <constraint firstAttribute="trailing" secondItem="X5a-bM-efC" secondAttribute="trailing" id="Agw-eI-3lP"/>
+                        <constraint firstAttribute="bottom" secondItem="X5a-bM-efC" secondAttribute="bottom" constant="120" id="P1n-LD-aIw"/>
+                        <constraint firstItem="3cd-Ns-Bvb" firstAttribute="top" secondItem="X5a-bM-efC" secondAttribute="bottom" constant="20" id="ngZ-3H-o8y"/>
+                        <constraint firstItem="X5a-bM-efC" firstAttribute="leading" secondItem="6kB-26-2TB" secondAttribute="leading" id="xGa-pB-Jdc"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="6kB-26-2TB" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="K74-sJ-gkV"/>
+                <constraint firstItem="6kB-26-2TB" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="MsC-gF-sJH"/>
+                <constraint firstItem="6kB-26-2TB" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="SVd-6x-Xki"/>
+                <constraint firstAttribute="bottom" secondItem="6kB-26-2TB" secondAttribute="bottom" id="tHB-hr-eKB"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="137.68115942028987" y="147.99107142857142"/>
+        </view>
+    </objects>
+</document>

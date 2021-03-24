@@ -1,0 +1,96 @@
+{
+    "cmd":"",
+    "success":true,
+    "message":"success",
+    "http_response":200,
+    "code":0,
+    "data":{
+        "currencies":[
+                      {
+                      "id":"AED",
+                      "name":"UAE Dirham",
+                      "translated_currency":"AED"
+                      },
+                      {
+                      "id":"BHD",
+                      "name":"Bahraini Dinar",
+                      "translated_currency":"BHD"
+                      },
+                      {
+                      "id":"EGP",
+                      "name":"Egyptian Pound",
+                      "translated_currency":"EGP"
+                      },
+                      {
+                      "id":"EUR",
+                      "name":"Euro",
+                      "translated_currency":"EUR"
+                      },
+                      {
+                      "id":"GBP",
+                      "name":"British Pound",
+                      "translated_currency":"GBP"
+                      },
+                      {
+                      "id":"HKD",
+                      "name":"Hong Kong Dollar",
+                      "translated_currency":"HKD"
+                      },
+                      {
+                      "id":"JOD",
+                      "name":"Jordanian Dinar",
+                      "translated_currency":"JOD"
+                      },
+                      {
+                      "id":"KWD",
+                      "name":"Kuwaiti Dinar",
+                      "translated_currency":"KWD"
+                      },
+                      {
+                      "id":"LBP",
+                      "name":"Lebanese Pound",
+                      "translated_currency":"LBP"
+                      },
+                      {
+                      "id":"MYR",
+                      "name":"Malaysian Ringgit",
+                      "translated_currency":"MYR"
+                      },
+                      {
+                      "id":"OMR",
+                      "name":"Omani Rial",
+                      "translated_currency":"OMR"
+                      },
+                      {
+                      "id":"QAR",
+                      "name":"Qatar Rial",
+                      "translated_currency":"QAR"
+                      },
+                      {  
+                      "id":"SAR",
+                      "name":"Saudi Arabian Riyal",
+                      "translated_currency":"SAR"
+                      },
+                      {  
+                      "id":"SGD",
+                      "name":"Singapore Dollar",
+                      "translated_currency":"SGD"
+                      },
+                      {  
+                      "id":"USD",
+                      "name":"U.S Dollar",
+                      "translated_currency":"USD"
+                      },
+                      {
+                      "id":"ZAR",
+                      "name":"South African Rand",
+                      "translated_currency":"R"
+                      },
+                      {
+                      "id":"R",
+                      "name":"South African Rand",
+                      "translated_currency":"R"
+                      }
+                      ]
+    }
+}

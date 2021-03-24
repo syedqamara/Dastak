@@ -1,0 +1,16 @@
+PODS:
+  - DDSocial (0.1.0)
+
+DEPENDENCIES:
+  - DDSocial (from `../`)
+
+EXTERNAL SOURCES:
+  DDSocial:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DDSocial: 1823cbccef5804476f2d59a662de9aaf5ef69806
+
+PODFILE CHECKSUM: 23d10b043e8b799d7757171bf8e8cd90cb05b2bd
+
+COCOAPODS: 1.8.4

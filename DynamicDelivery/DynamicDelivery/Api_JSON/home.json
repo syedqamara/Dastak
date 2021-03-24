@@ -1,0 +1,259 @@
+{
+    "status": true,
+    "message": "",
+    "data": {
+        "sections": [{
+                "section_title": "Explore categories",
+                "section_identifier": "explore",
+                "section_list": [{
+                        "title": "Grocery",
+                        "background_color": "fdc517",
+                        "image_url": "https://i.ibb.co/Vw222Ff/ic-grocery.png"
+                    },
+                    {
+                        "title": "Food",
+                        "background_color": "ef7b45",
+                        "image_url": "https://i.ibb.co/RjTFRS8/ic-food.png"
+                    }
+                ]
+            },
+            {
+                "section_title": "Nearest you",
+                "section_identifier": "featured",
+                "section_list": [{
+                        "title": "261 Restaurant",
+                        "image_url": "https://i.ibb.co/XWFP8M0/pizza-image.png",
+                        "delivery_time": "30 - 40\nmins",
+                        "delivery_time_unit": "mins",
+                        "merchant_id": 123,
+                        "outlet_id": 123,
+                        "tile_attribute": [{
+                                "type": "image",
+                                "value": "https://i.ibb.co/y0cyDmn/ic-rating.png"
+                            },
+                            {
+                                "type": "text",
+                                "value": "4.5",
+                                "title_color": "1cb5e0"
+                            },
+                            {
+                                "type": "text",
+                                "value": " •  Pizza, Pasta",
+                                "title_color": "c7c7c7"
+                            },
+                            {
+                                "type": "text",
+                                "value": " •  $$$",
+                                "title_color": "c7c7c7"
+                            }
+                        ],
+                        "attributes": [{
+                                "title": "Free Delivery",
+                                "title_color": "6f6f6f"
+                            },
+                            {
+                                "title": "Free Delivery",
+                                "title_color": "6f6f6f"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Burger Singh Club",
+                        "image_url": "https://i.ibb.co/XWFP8M0/pizza-image.png",
+                        "delivery_time": "30 - 40\nmins",
+                        "delivery_time_unit": "mins",
+                        "merchant_id": 123,
+                        "outlet_id": 123,
+                        "tile_attribute": [{
+                                "type": "image",
+                                "value": "https://i.ibb.co/y0cyDmn/ic-rating.png"
+                            },
+                            {
+                                "type": "text",
+                                "value": "4.5",
+                                "title_color": "1cb5e0"
+                            },
+                            {
+                                "type": "text",
+                                "value": " •  Pizza, Pasta",
+                                "title_color": "c7c7c7"
+                            },
+                            {
+                                "type": "text",
+                                "value": " •  $$$",
+                                "title_color": "c7c7c7"
+                            }
+                        ],
+                        "attributes": [{
+                                "title": "Free Delivery",
+                                "title_color": "6f6f6f"
+                            },
+                            {
+                                "title": "Free Delivery",
+                                "title_color": "6f6f6f"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "section_title": "Grocery and more",
+                "section_identifier": "featured",
+                "section_list": [{
+                        "title": "Fresh Veggies",
+                        "image_url": "https://i.ibb.co/XWFP8M0/pizza-image.png",
+                        "delivery_time": "30 - 40\nmins",
+                        "delivery_time_unit": "mins",
+                        "merchant_id": 123,
+                        "outlet_id": 123,
+                        "tile_attribute": [{
+                                "type": "image",
+                                "value": "https://i.ibb.co/y0cyDmn/ic-rating.png"
+                            },
+                            {
+                                "type": "text",
+                                "value": "4.5",
+                                "title_color": "1cb5e0"
+                            },
+                            {
+                                "type": "text",
+                                "value": " •  Pizza, Pasta",
+                                "title_color": "c7c7c7"
+                            },
+                            {
+                                "type": "text",
+                                "value": " •  $$$",
+                                "title_color": "c7c7c7"
+                            }
+                        ],
+                        "attributes": [{
+                                "title": "Free Delivery",
+                                "title_color": "6f6f6f"
+                            },
+                            {
+                                "title": "Free Delivery",
+                                "title_color": "6f6f6f"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Super Store",
+                        "image_url": "https://i.ibb.co/XWFP8M0/pizza-image.png",
+                        "delivery_time": "30 - 40 mins",
+                        "delivery_time_unit": "mins",
+                        "merchant_id": 123,
+                        "outlet_id": 123,
+                        "tile_attribute": [{
+                                "type": "image",
+                                "value": "https://i.ibb.co/y0cyDmn/ic-rating.png"
+                            },
+                            {
+                                "type": "text",
+                                "value": "4.5",
+                                "title_color": "1cb5e0"
+                            },
+                            {
+                                "type": "text",
+                                "value": " •  Pizza, Pasta",
+                                "title_color": "c7c7c7"
+                            },
+                            {
+                                "type": "text",
+                                "value": " •  $$$",
+                                "title_color": "c7c7c7"
+                            }
+                        ],
+                        "attributes": [{
+                                "title": "Free Delivery",
+                                "title_color": "6f6f6f"
+                            },
+                            {
+                                "title": "Free Delivery",
+                                "title_color": "6f6f6f"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "section_title": "Stay healthy",
+                "section_identifier": "featured",
+                "section_list": [{
+                        "title": "Best Pharmacy",
+                        "image_url": "https://i.ibb.co/XWFP8M0/pizza-image.png",
+                        "delivery_time": "30 - 40\nmins",
+                        "delivery_time_unit": "mins",
+                        "merchant_id": 123,
+                        "outlet_id": 123,
+                        "tile_attribute": [{
+                                "type": "image",
+                                "value": "https://i.ibb.co/y0cyDmn/ic-rating.png"
+                            },
+                            {
+                                "type": "text",
+                                "value": "4.5",
+                                "title_color": "1cb5e0"
+                            },
+                            {
+                                "type": "text",
+                                "value": " •  Pizza, Pasta",
+                                "title_color": "c7c7c7"
+                            },
+                            {
+                                "type": "text",
+                                "value": " •  $$$",
+                                "title_color": "c7c7c7"
+                            }
+                        ],
+                        "attributes": [{
+                                "title": "Free Delivery",
+                                "title_color": "6f6f6f"
+                            },
+                            {
+                                "title": "Free Delivery",
+                                "title_color": "6f6f6f"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Super Store",
+                        "image_url": "https://i.ibb.co/XWFP8M0/pizza-image.png",
+                        "delivery_time": "30 - 40",
+                        "delivery_time_unit": "mins",
+                        "merchant_id": 123,
+                        "outlet_id": 123,
+                        "tile_attribute": [{
+                                "type": "image",
+                                "value": "https://i.ibb.co/y0cyDmn/ic-rating.png"
+                            },
+                            {
+                                "type": "text",
+                                "value": "4.5",
+                                "title_color": "1cb5e0"
+                            },
+                            {
+                                "type": "text",
+                                "value": " •  Pizza, Pasta",
+                                "title_color": "c7c7c7"
+                            },
+                            {
+                                "type": "text",
+                                "value": " •  $$$",
+                                "title_color": "c7c7c7"
+                            }
+                        ],
+                        "attributes": [{
+                                "title": "Free Delivery",
+                                "title_color": "6f6f6f"
+                            },
+                            {
+                                "title": "Free Delivery",
+                                "title_color": "6f6f6f"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

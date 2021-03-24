@@ -1,0 +1,57 @@
+{
+  "data": {
+    "trial": {
+      "title": "14-Days Free Trial",
+      "sub_title": "Now you can use any offer 1 time in food and drink category for a period of forteen (14) days,from the moment you activated it.",
+      "top_image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb",
+      "is_expired": false,
+      "button_title": "Upgrade Now",
+      "deeplink": "",
+      "header_bg_color": "192f85fe",
+      "section_list": [
+        {
+          "image": "https://i.ibb.co/LJ02ZHN/ic-trial-categories.png",
+          "title": "Categories",
+          "sub_title": "Food & Drink",
+          "identifier": "categories",
+          "deeplink": ""
+        },
+        {
+          "image": "https://i.ibb.co/gvVmsFw/ic-location.png",
+          "title": "Product Locations",
+          "sub_title": "All locations including + Cheers",
+          "identifier": "locations",
+          "deeplink": ""
+        },
+        {
+          "image": "https://i.ibb.co/4NX7m07/ic-trial-redemptions.png",
+          "title": "Redemptions",
+          "sub_title": "1 Redemptions",
+          "identifier": "redemption",
+          "deeplink": ""
+        },
+        {
+          "image": "https://i.ibb.co/Qj2yVYM/ic-trial-daysof-use.png",
+          "title": "Days of use",
+          "sub_title": "14 days",
+          "identifier": "day_of_use",
+          "deeplink": ""
+        },
+        {
+          "image": "https://i.ibb.co/BzhSMdV/ic-trial-estimed-savings.png",
+          "title": "Estimated Saving value",
+          "sub_title": "AED 140",
+          "identifier": "saving",
+          "deeplink": ""
+        },
+        {
+          "image": "https://i.ibb.co/VC56k1G/ic-trial-exclusions.png",
+          "title": "Exclusions",
+          "sub_title": "Travel, Hotels Worldwide, Getaways, Member discounts, Delivery Cashless, Monthly and others",
+          "identifier": "exclusions",
+          "deeplink": ""
+        }
+      ]
+    }
+  }
+}

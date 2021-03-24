@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MuseoSans_500.otf">
+            <string>MuseoSans-500</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DDCashlessMerchantSectionOfflineAlertHFV">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dDd-V0-MF1">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="40"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="253" verticalCompressionResistancePriority="752" text="My Offers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bs8-uv-K5s">
+                            <rect key="frame" x="16" y="13.5" width="382" height="13.5"/>
+                            <fontDescription key="fontDescription" name="MuseoSans-500" family="Museo Sans" pointSize="11"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="Bs8-uv-K5s" firstAttribute="leading" secondItem="dDd-V0-MF1" secondAttribute="leading" constant="16" id="a6r-Bm-0ej"/>
+                        <constraint firstAttribute="height" constant="40" id="h9x-kA-JR1"/>
+                        <constraint firstItem="Bs8-uv-K5s" firstAttribute="centerY" secondItem="dDd-V0-MF1" secondAttribute="centerY" id="vLc-Rq-S3Y"/>
+                        <constraint firstAttribute="trailing" secondItem="Bs8-uv-K5s" secondAttribute="trailing" constant="16" id="vgR-Uj-ESe"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="dDd-V0-MF1" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="3jz-p9-Gut"/>
+                <constraint firstAttribute="bottom" secondItem="dDd-V0-MF1" secondAttribute="bottom" id="CUu-Fz-VHj"/>
+                <constraint firstItem="dDd-V0-MF1" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="FvD-PM-JUC"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="dDd-V0-MF1" secondAttribute="trailing" id="dRS-Yt-N0y"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="innerView" destination="dDd-V0-MF1" id="ysH-df-Z0C"/>
+                <outlet property="lblSectionTitle" destination="Bs8-uv-K5s" id="Pvl-cE-fFl"/>
+                <outlet property="outerViewHeightConstraint" destination="h9x-kA-JR1" id="hhn-rS-zn3"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="226.33928571428569"/>
+        </view>
+    </objects>
+</document>

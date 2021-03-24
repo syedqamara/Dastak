@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'DDEncryption_Example' do
+  pod 'DDEncryption', :path => '../'
+
+  target 'DDEncryption_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

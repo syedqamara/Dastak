@@ -1,0 +1,184 @@
+{
+    "data": {
+        "sections": [{
+                "section_title": "Delivering to:",
+                "section_subtitle": "",
+                "section_identifier": "customer_details",
+                "section_exandable": false,
+                "customer_details": {
+                    "address_icon": "https://s3.amazonaws.com/entertainer-app-assets/new_icon_communication_business.png",
+                    "customer_address": "Ground Level,  The Springs Souk, Emirates Hills",
+                    "customer_email": "syedqamar.a1@gmail.com",
+                    "customer_name": "Syed Qamar Abbas",
+                    "outlet_address": "Ground Level,  The Springs Souk, Emirates Hills",
+                    "phone_number": "123123123123"
+                }
+            },
+            {
+                "section_title": "How to collect your order?",
+                "section_subtitle": "This is easy, just reach the place after you received a notification as your order gets ready.",
+                "section_identifier": "take_away_collect",
+                "section_exandable": false,
+                "section_image_url": "https://entertainer-app-assets.s3.amazonaws.com/v7/alert%403x.png"
+            },
+            {
+                "section_title": "",
+                "section_subtitle": "Qestions or concerns about your order call [Merchant Name]",
+                "section_identifier": "question",
+                "section_image_url": "https://entertainer-app-assets.s3.amazonaws.com/v7/icCall%403x.png",
+                "section_exandable": false,
+                "merchant_phone": "123345678"
+            },
+            {
+                "section_title": "Pickup address",
+                "section_subtitle": "Jones The Grocer, Mirdif 35, Dubai, Khawaneej Road, opposite Arabian Center, Mirdif 35, Dubai",
+                "section_identifier": "take_away_pickup_address",
+                "section_takeaway_map": {
+                    "map_image": "https://entertainer-app-assets.s3.amazonaws.com/v7/map.png",
+                    "icon": "https://entertainer-app-assets.s3.amazonaws.com/v7/icLocation%403x.png",
+                    "outlet_lat": "25.066339",
+                    "outlet_lng": "55.192131",
+                    "outlet_name": "Crave Shack - The Springs Souk",
+                    "title": "View Map"
+                }
+            },
+            {
+                "section_title": "View Order Details",
+                "section_subtitle": "Hide Order Details",
+                "section_exandable": true,
+                "section_identifier": "order_detail",
+                "order": {
+                    "is_order_rejected" : 0,
+                    "is_show_cancel_button" : 0,
+                    "merchant_id" : 33666,
+                    "order_percentage_sub_title" : "78 Smiles Earned",
+                    "order_percentage_sub_title_color" : "FFC000",
+                    "order_percentage_sub_title_img" : "https://s3.amazonaws.com/entertainer-app-assets/smiles+image.png",
+                    "order_percentage_title" : "SAVINGS",
+                    "order_percentage_value" : "AED -78.00",
+                    "order_percentage_value_color" : "D92703",
+                    "order_status_refresh_interval" : 10,
+                    "order_sub_total_value" : "AED 195.00",
+                    "order_sub_total_value_after_discount" : "AED 117.00",
+                    "order_total" : "AED 117.00",
+                    "order_total_sub_title" : "Inclusive of VAT",
+                    "order_value_title" : "Order Value",
+                    "view_detail_icon" : "https://s3.amazonaws.com/entertainer-app-assets/new_icon_1.png",
+                    "view_detail_text" : "View Order Details",
+                    "view_less_icon" : "https://s3.amazonaws.com/entertainer-app-assets/new_icon_1.png",
+                    "view_less_text" : "View Less",
+                    "order_items": [{
+                        "description": "<null>",
+                        "discount_applied": 0,
+                        "discount_currency": "AED",
+                        "discount_title": "",
+                        "discount_value": "-AED 0.00",
+                        "imageURL": "",
+                        "item_id": 180127,
+                        "item_savings": "AED 0.00",
+                        "name": "Shrimp Loaded fries",
+                        "selectedOptions": [
+                        {
+                            "options": [{
+                                "title": "Topping Shrimp Loaded fries",
+                                "sub_title": "AED 11.00"
+                            },
+                            {
+                                "title": "Topping Shrimp Loaded fries",
+                                "sub_title": "Free"
+                            },
+                            {
+                                "title": "Topping Shrimp Loaded fries",
+                                "sub_title": "AED 11.00"
+                            }]
+                        }],
+                        "selected_item_total_price": "AED 39.00",
+                        "sub_total": "AED 39.00"
+                    },{
+                        "description": "<null>",
+                        "discount_applied": 0,
+                        "discount_currency": "AED",
+                        "discount_title": "",
+                        "discount_value": "-AED 0.00",
+                        "imageURL": "",
+                        "item_id": 180127,
+                        "item_savings": "AED 0.00",
+                        "name": "Shrimp Loaded fries",
+                        "selectedOptions": [
+                        {
+                            "options": [{
+                                "title": "Topping Shrimp Loaded fries",
+                                "sub_title": "AED 11.00"
+                            },
+                            {
+                                "title": "Topping Shrimp Loaded fries",
+                                "sub_title": "Free"
+                            },
+                            {
+                                "title": "Topping Shrimp Loaded fries",
+                                "sub_title": "AED 11.00"
+                            }]
+                        }],
+                        "selected_item_total_price": "AED 39.00",
+                        "sub_total": "AED 39.00"
+                    },
+                        {
+                            "description": "<null>",
+                            "discount_applied": 0,
+                            "discount_currency": "AED",
+                            "discount_title": "",
+                            "discount_value": "-AED 0.00",
+                            "imageURL": "",
+                            "item_id": 180127,
+                            "item_savings": "AED 0.00",
+                            "name": "Shrimp Loaded fries",
+                            "selectedOptions": [],
+                            "selected_item_total_price": "AED 39.00",
+                            "sub_total": "AED 39.00"
+                        },
+                        {
+                            "description": "<null>",
+                            "discount_applied": 0,
+                            "discount_currency": "AED",
+                            "discount_title": "",
+                            "discount_value": "-AED 0.00",
+                            "imageURL": "",
+                            "item_id": 180127,
+                            "item_savings": "AED 0.00",
+                            "name": "Shrimp Loaded fries",
+                            "selectedOptions": [],
+                            "selected_item_total_price": "AED 39.00",
+                            "sub_total": "AED 39.00"
+                        }
+                    ],
+                    "order": {
+                        "currency": "AED",
+                        "delivery_charges": "0.00",
+                        "description": "",
+                        "discount_applied": 0,
+                        "discount_currency": "AED",
+                        "discount_title": "25% off",
+                        "discount_value": "0.00",
+                        "latitude": "25.300579",
+                        "longitude": "55.307709",
+                        "order_header_subtitle": "Order Number: 280293-236454",
+                        "order_header_title": "Order Details",
+                        "order_id": 3777613,
+                        "order_number": "280293-236454",
+                        "order_status_bottom_text": "Questions or concerns about your order? \nCall Crave Shack - The Springs Souk",
+                        "order_status_bottom_text_bg_color": "FFFFFF",
+                        "order_time": "2020-04-11 16:40:24",
+                        "order_total_amount": "234.00",
+                        "order_total_savings": "0.00",
+                        "outlet_contact_number": "+971 4 424 3347",
+                        "phone_icon": "https://s3.amazonaws.com/entertainer-app-assets/new_icon_phone.png",
+                        "special_instruction": "",
+                        "status_id": 16,
+                        "status_title": "Accepted",
+                        "updated_at": "2020-04-11 16:42:39"
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,62 @@
+{
+  "code": 200,
+  "data": {
+    "outlet": {
+      "cashless_delivery_params": {
+        "cashless_delivery": true,
+        "outlet_id": 3262,
+        "is_take_away": 0
+      },
+      "merchant": {
+        "id": 2061
+      },
+      "id": 3262,
+      "name": "Pizzaro - Mirdif",
+      "merchant_name": "Pizzaro"
+    },
+    "validation": {
+      "should_proceed": true,
+      "status_type": "success"
+    },
+    "addedProducts": [{
+      "imageURL": "",
+      "description": "",
+      "productId": 111329,
+      "is_customisable": false,
+      "price": 12.6,
+      "name": "Garden Greens",
+      "maximumOrderNumber": 1000
+    },
+    {
+      "imageURL": "",
+      "description": "",
+      "productId": 163896,
+      "is_customisable": false,
+      "price": 15.75,
+      "name": "Chicken Caesar",
+      "maximumOrderNumber": 1000
+    },{
+      "imageURL": "",
+      "description": "",
+      "productId": 111329,
+      "is_customisable": false,
+      "price": 12.6,
+      "name": "Garden Greens",
+      "maximumOrderNumber": 1000
+    },
+    {
+      "imageURL": "",
+      "description": "",
+      "productId": 163896,
+      "is_customisable": false,
+      "price": 15.75,
+      "name": "Chicken Caesar",
+      "maximumOrderNumber": 1000
+    }
+    ]
+  },
+  "success": true,
+  "cmd": "/et_rs_prd/web/v614/cashless/re-order/validation?",
+  "message": "",
+  "http_response": 200
+}

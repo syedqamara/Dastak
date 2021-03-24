@@ -1,0 +1,24 @@
+{
+    "status": true,
+    "message": "",
+    "http_code": 200,
+    "data": {
+        "location": {
+            "id": 123,
+            "longitude": "55.154118",
+            "flat": "123-A",
+            "building": "Nagina Tower",
+            "street": "Main Boulevard",
+            "area": "Dubai Downtown",
+            "title": "Home",
+            "tag": {
+                "tag_id": 1,
+                "tag_name": "Home",
+                "allow_custom_name": false
+            },
+            "latitude": "25.095394",
+            "getCompleteAddress": "abc, arjaan business tower - دبي - United Arab Emirates",
+            "special_instructions": "xyz"
+        }
+    }
+}

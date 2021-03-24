@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'DDAnalytics_Example' do
+  pod 'DDAnalytics', :path => '../'
+
+  target 'DDAnalytics_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

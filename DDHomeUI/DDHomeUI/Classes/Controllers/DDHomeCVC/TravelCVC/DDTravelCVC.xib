@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MuseoSans_300.otf">
+            <string>MuseoSans-300</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="gTV-IL-0wX" customClass="DDTravelCVC">
+            <rect key="frame" x="0.0" y="0.0" width="432" height="241"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="432" height="241"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a1M-iI-hnY">
+                        <rect key="frame" x="0.0" y="0.0" width="432" height="241"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ASy-lx-60l">
+                                <rect key="frame" x="0.0" y="0.0" width="432" height="141"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Travel" translatesAutoresizingMaskIntoConstraints="NO" id="4A1-h0-4g9">
+                                        <rect key="frame" x="0.0" y="0.0" width="432" height="141"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="141" id="aOd-VS-dyP"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7uR-kV-6aO">
+                                        <rect key="frame" x="342" y="78" width="77" height="48"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="77" id="JY8-HK-09y"/>
+                                            <constraint firstAttribute="height" constant="48" id="Kqx-ju-3wB"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="7uR-kV-6aO" secondAttribute="trailing" constant="13" id="1uV-r0-EMj"/>
+                                    <constraint firstAttribute="trailing" secondItem="4A1-h0-4g9" secondAttribute="trailing" id="IpZ-Oz-EPS"/>
+                                    <constraint firstAttribute="bottom" secondItem="7uR-kV-6aO" secondAttribute="bottom" constant="15" id="Tlg-IV-ihP"/>
+                                    <constraint firstItem="4A1-h0-4g9" firstAttribute="leading" secondItem="ASy-lx-60l" secondAttribute="leading" id="Unz-86-CWk"/>
+                                    <constraint firstItem="4A1-h0-4g9" firstAttribute="top" secondItem="ASy-lx-60l" secondAttribute="top" id="WE2-cJ-dIn"/>
+                                    <constraint firstAttribute="height" constant="141" id="g5f-BZ-vl3"/>
+                                    <constraint firstAttribute="bottom" secondItem="4A1-h0-4g9" secondAttribute="bottom" id="yrH-Ax-eGc"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Exclusive rates at over 550,000 hotels. Quick and simple. Exclusive rates at over 550,000 hotels." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YYz-3t-NJy">
+                                <rect key="frame" x="0.0" y="149" width="429" height="35"/>
+                                <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="YYz-3t-NJy" secondAttribute="trailing" constant="3" id="OA2-9i-tew"/>
+                            <constraint firstItem="YYz-3t-NJy" firstAttribute="top" secondItem="ASy-lx-60l" secondAttribute="bottom" constant="8" id="fsv-Xt-mFx"/>
+                            <constraint firstItem="YYz-3t-NJy" firstAttribute="leading" secondItem="a1M-iI-hnY" secondAttribute="leading" id="pUF-6x-2MV"/>
+                            <constraint firstItem="ASy-lx-60l" firstAttribute="leading" secondItem="a1M-iI-hnY" secondAttribute="leading" id="qiI-cy-E48"/>
+                            <constraint firstAttribute="trailing" secondItem="ASy-lx-60l" secondAttribute="trailing" id="r30-t6-mKn"/>
+                            <constraint firstItem="ASy-lx-60l" firstAttribute="top" secondItem="a1M-iI-hnY" secondAttribute="top" id="rxo-dN-hZc"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="a1M-iI-hnY" secondAttribute="bottom" id="6KG-cp-MOW"/>
+                <constraint firstAttribute="trailing" secondItem="a1M-iI-hnY" secondAttribute="trailing" id="Cbq-5b-7hC"/>
+                <constraint firstItem="a1M-iI-hnY" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="gal-wM-6SX"/>
+                <constraint firstItem="a1M-iI-hnY" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="vXg-vk-apx"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <size key="customSize" width="432" height="241"/>
+            <connections>
+                <outlet property="descriptionLbl" destination="YYz-3t-NJy" id="PT8-9o-oUk"/>
+                <outlet property="headerImg" destination="4A1-h0-4g9" id="Xh3-dM-dlm"/>
+                <outlet property="headerImgHgt" destination="g5f-BZ-vl3" id="CjV-WW-kCH"/>
+                <outlet property="logoImg" destination="7uR-kV-6aO" id="8Wd-RD-ZdU"/>
+            </connections>
+            <point key="canvasLocation" x="179.71014492753625" y="195.20089285714286"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Travel" width="339" height="140"/>
+    </resources>
+</document>

@@ -1,0 +1,86 @@
+{
+    "http_response": 200,
+    "cmd": "/pysearch/v1/auto-suggestions/?",
+    "status": true,
+    "data": {
+        "results": [
+        {
+            "section_title": "",
+            "param_names": [
+                "lon",
+                "lat"
+            ],
+            "value_attribute_names": [
+                "lon",
+                "lat"
+            ],
+            "details": [
+                {
+                    "lon": 55.376366,
+                    "lat": 25.298544,
+                    "title": "Gulberg",
+                    "identifier": "Lahore",
+                    "image_url": "https://i.ibb.co/JxWkB81/ic-Location-3x.png"
+                },
+                {
+                    "lon": 55.376366,
+                    "lat": 25.298544,
+                    "title": "Deffence",
+                    "identifier": "DHA",
+                    "image_url": "https://i.ibb.co/JxWkB81/ic-Location-3x.png"
+                },
+                {
+                    "lon": 55.376366,
+                    "lat": 25.298544,
+                    "title": "Johar Town",
+                    "image_url": "https://i.ibb.co/JxWkB81/ic-Location-3x.png"
+                },
+                {
+                    "lon": 55.376366,
+                    "lat": 25.298544,
+                    "title": "Faisal Mosque",
+                    "identifier": "Islamabad",
+                    "image_url": "https://i.ibb.co/JxWkB81/ic-Location-3x.png"
+                },
+                {
+                    "lon": 55.376366,
+                    "lat": 25.298544,
+                    "title": "Model Town",
+                    "identifier": "Lahore",
+                    "image_url": "https://i.ibb.co/JxWkB81/ic-Location-3x.png"
+                },
+                {
+                    "lon": 55.376366,
+                    "lat": 25.298544,
+                    "title": "Hiran Minar",
+                    "identifier": "Sheikhupura",
+                    "image_url": "https://i.ibb.co/JxWkB81/ic-Location-3x.png"
+                },
+                {
+                    "lon": 55.376366,
+                    "lat": 25.298544,
+                    "title": "Shangrila Lake",
+                    "identifier": "Skardu",
+                    "image_url": "https://i.ibb.co/JxWkB81/ic-Location-3x.png"
+                },
+                {
+                    "lon": 55.376366,
+                    "lat": 25.298544,
+                    "title": "Deosai",
+                    "identifier": "Skardu - Astore",
+                    "image_url": "https://i.ibb.co/JxWkB81/ic-Location-3x.png"
+                },
+                {
+                    "lon": 55.376366,
+                    "lat": 25.298544,
+                    "title": "Korangi",
+                    "identifier": "Karachi",
+                    "image_url": "https://i.ibb.co/JxWkB81/ic-Location-3x.png"
+                }
+            ],
+            "section_identifier": "places"
+        }
+    ]
+    },
+    "code": 0
+}

@@ -1,0 +1,16 @@
+PODS:
+  - DDAccountsUI (0.1.0)
+
+DEPENDENCIES:
+  - DDAccountsUI (from `../`)
+
+EXTERNAL SOURCES:
+  DDAccountsUI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DDAccountsUI: 5bf5b93bb567bd88e778414601d588dbca913df3
+
+PODFILE CHECKSUM: f4c7aa524b3894b08761e6813eb43d6728ab9631
+
+COCOAPODS: 1.8.4

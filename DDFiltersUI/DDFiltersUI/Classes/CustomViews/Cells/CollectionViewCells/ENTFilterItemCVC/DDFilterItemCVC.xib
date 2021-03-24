@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="l4w-sr-HVn" customClass="DDFilterItemCVC">
+            <rect key="frame" x="0.0" y="0.0" width="94" height="35"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="94" height="35"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o1u-QO-piU">
+                        <rect key="frame" x="0.0" y="0.0" width="94" height="35"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="2fq-66-JgU">
+                                <rect key="frame" x="12" y="6" width="70" height="23"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dy4-K9-Dn6">
+                                        <rect key="frame" x="0.0" y="0.0" width="52" height="23"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dpr-d4-G7l">
+                                        <rect key="frame" x="60" y="0.0" width="10" height="23"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="filter_cross.png" translatesAutoresizingMaskIntoConstraints="NO" id="nes-JB-Htg">
+                                                <rect key="frame" x="0.0" y="4.5" width="10" height="14"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="14" id="F5E-ZY-eb6"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5cC-8E-NIH">
+                                                <rect key="frame" x="0.0" y="0.0" width="10" height="23"/>
+                                                <connections>
+                                                    <action selector="imageTapped:" destination="l4w-sr-HVn" eventType="touchUpInside" id="Y6z-nj-fDT"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="5cC-8E-NIH" secondAttribute="trailing" id="8on-XH-512"/>
+                                            <constraint firstItem="5cC-8E-NIH" firstAttribute="leading" secondItem="Dpr-d4-G7l" secondAttribute="leading" id="D7f-px-4je"/>
+                                            <constraint firstItem="nes-JB-Htg" firstAttribute="centerY" secondItem="Dpr-d4-G7l" secondAttribute="centerY" id="Ixe-2E-zqU"/>
+                                            <constraint firstAttribute="bottom" secondItem="5cC-8E-NIH" secondAttribute="bottom" id="Kd9-AD-yck"/>
+                                            <constraint firstItem="5cC-8E-NIH" firstAttribute="top" secondItem="Dpr-d4-G7l" secondAttribute="top" id="M7b-pG-Ct9"/>
+                                            <constraint firstItem="nes-JB-Htg" firstAttribute="leading" secondItem="Dpr-d4-G7l" secondAttribute="leading" id="VxI-oQ-i5H"/>
+                                            <constraint firstAttribute="width" constant="10" id="WMJ-aN-NN4"/>
+                                            <constraint firstAttribute="trailing" secondItem="nes-JB-Htg" secondAttribute="trailing" id="XOP-ri-FCC"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="2fq-66-JgU" secondAttribute="trailing" constant="12" id="17L-Vb-c4j"/>
+                            <constraint firstAttribute="bottom" secondItem="2fq-66-JgU" secondAttribute="bottom" constant="6" id="1On-PM-Ry0"/>
+                            <constraint firstItem="2fq-66-JgU" firstAttribute="top" secondItem="o1u-QO-piU" secondAttribute="top" constant="6" id="gx5-zg-NnY"/>
+                            <constraint firstItem="2fq-66-JgU" firstAttribute="leading" secondItem="o1u-QO-piU" secondAttribute="leading" constant="12" id="uCg-Fp-VFT"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="o1u-QO-piU" firstAttribute="top" secondItem="l4w-sr-HVn" secondAttribute="top" id="2Rm-1j-zqg"/>
+                <constraint firstAttribute="bottom" secondItem="o1u-QO-piU" secondAttribute="bottom" id="H2a-Ug-pJw"/>
+                <constraint firstAttribute="trailing" secondItem="o1u-QO-piU" secondAttribute="trailing" id="qAq-Pv-Dv9"/>
+                <constraint firstItem="o1u-QO-piU" firstAttribute="leading" secondItem="l4w-sr-HVn" secondAttribute="leading" id="y4m-2z-LnL"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="IXV-fY-eO4"/>
+            <size key="customSize" width="94" height="35"/>
+            <connections>
+                <outlet property="bgView" destination="o1u-QO-piU" id="k3l-bZ-hea"/>
+                <outlet property="iconConatiner" destination="Dpr-d4-G7l" id="0bT-gY-Jx6"/>
+                <outlet property="imgView" destination="nes-JB-Htg" id="6JE-3D-cmj"/>
+                <outlet property="titleLbl" destination="dy4-K9-Dn6" id="tj9-l5-DAe"/>
+            </connections>
+            <point key="canvasLocation" x="63.768115942028992" y="147.65625"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="filter_cross.png" width="15" height="15"/>
+    </resources>
+</document>

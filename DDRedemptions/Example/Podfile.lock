@@ -1,0 +1,16 @@
+PODS:
+  - DDRedemptions (0.1.0)
+
+DEPENDENCIES:
+  - DDRedemptions (from `../`)
+
+EXTERNAL SOURCES:
+  DDRedemptions:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DDRedemptions: bb2a35edeee60ec2d2373b26889c8ab5b2ba30a2
+
+PODFILE CHECKSUM: fe31c10f7e7f4562ff80ec0578e0915854b499f0
+
+COCOAPODS: 1.7.4

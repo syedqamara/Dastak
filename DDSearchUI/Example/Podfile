@@ -1,0 +1,24 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'DDSearchUI_Example' do
+  
+  pod 'DDSearch', :path => '../../DDSearch/'
+  pod 'DDSearchUI', :path => '../../DDSearchUI/'
+  pod 'DDCommons', :path => '../../DDCommons/'
+  pod 'DDUI', :path => '../../DDUI/'
+  pod 'DDConstants', :path => '../../DDConstants/'
+  
+  pod 'JSONModel'
+   pod 'SVProgressHUD', '2.2.5'
+   pod 'DeepLinkKit'
+   pod 'MagicalRecord', :git => 'https://github.com/magicalpanda/MagicalRecord'
+   pod 'SDWebImage', '~> 5.1.0'
+
+  target 'DDSearchUI_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

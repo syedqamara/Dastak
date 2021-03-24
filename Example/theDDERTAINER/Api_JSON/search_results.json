@@ -1,0 +1,5745 @@
+{
+  "data": {
+    "filters": [
+      {
+        "api_param_value": "Spas",
+        "api_param_key": "sub_categories",
+        "analytics_param_key": "in_mood_for",
+        "uid": "0_cat_id_1_24",
+        "image_url": "https://s3.amazonaws.com/entertainer-app-assets/images/merchant_sub_categories/unselected/spas.png",
+        "analytics_param_value": "Spas",
+        "title": "Spas",
+        "image_url_selected": "https://s3.amazonaws.com/entertainer-app-assets/images/merchant_sub_categories/unselected/spas.png"
+      },
+      {
+        "api_param_value": "Beauty, Hair & Nails",
+        "api_param_key": "sub_categories",
+        "analytics_param_key": "in_mood_for",
+        "uid": "1_cat_id_1_6",
+        "image_url": "https://s3.amazonaws.com/entertainer-app-assets/images/merchant_sub_categories/unselected/beauty_hair_nails.png",
+        "analytics_param_value": "Beauty, Hair & Nails",
+        "title": "Beauty, Hair & Nails",
+        "image_url_selected": "https://s3.amazonaws.com/entertainer-app-assets/images/merchant_sub_categories/unselected/beauty_hair_nails.png"
+      }
+    ],
+    "outlets": [
+      {
+        "merchant_name": "Pret A Manger",
+        "sub_categories": {
+          "Restaurants and Bars": [
+            "Informal Dining & Takeaway"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O23880798",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Restaurants and Bars",
+        "top_offer_redeemability": 2,
+        "lat": 25.257505,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "FD",
+        "merchant_categories": [
+          "Restaurants and Bars"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "merchant": {
+          "categories": [
+            "Restaurants and Bars"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            {
+              "title": "Healthy",
+              "title_color": "ef4239"
+            }
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/pret-x23876318/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/pret-x23876318/merchant_primary_logo_%28retina%29_-_merchant.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "FD",
+          "cuisine": "",
+          "name_for_outlet": "Pret A Manger",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/pret-x23876318/merchant_profile_%22hero%22_image_%28retina%29.jpg",
+          "id": 39560,
+          "category": "Restaurants and Bars",
+          "name": "Pret A Manger",
+          "photo_small_url": "https://offerengine.theentertainerme.com/pret-x23876318/merchant_profile_%22hero%22_image_%28non-retina%29.jpg"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 34.822388,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 26288,
+        "lng": 55.344166,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Al Garhoud",
+        "top_offer_type": 0,
+        "categories": [
+          "Restaurants and Bars"
+        ],
+        "id": 68555,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "pretelr@mmi.ae",
+        "name": "Al Garhoud, Terminal 1",
+        "telephone": "+971 4 294 3555",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Dubai International Airport, Terminal 1, Concourse D",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://i.ibb.co/vmWQnP3/ic-delivery.png"
+          },
+          {
+            "type": "text",
+            "value": "Healthy"
+          },
+          {
+            "type": "text",
+            "value": "International"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 34.822388
+      },
+      {
+        "merchant_name": "Pret A Manger",
+        "sub_categories": {
+          "Restaurants and Bars": [
+            "Informal Dining & Takeaway"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O23880799",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Restaurants and Bars",
+        "top_offer_redeemability": 2,
+        "lat": 25.244337,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "FD",
+        "merchant_categories": [
+          "Restaurants and Bars"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "merchant": {
+          "categories": [
+            "Restaurants and Bars"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            {
+              "title": "European",
+              "title_color": "ef4239"
+            },
+            {
+              "title": "Beauty & Fitness",
+              "title_color": "ef4239"
+            },
+            {
+              "title": "Italian",
+              "title_color": "ef4239"
+            }
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/pret-x23876318/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/pret-x23876318/merchant_primary_logo_%28retina%29_-_merchant.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "FD",
+          "cuisine": "",
+          "name_for_outlet": "Pret A Manger",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/pret-x23876318/merchant_profile_%22hero%22_image_%28retina%29.jpg",
+          "id": 39560,
+          "category": "Restaurants and Bars",
+          "name": "Pret A Manger",
+          "photo_small_url": "https://offerengine.theentertainerme.com/pret-x23876318/merchant_profile_%22hero%22_image_%28non-retina%29.jpg"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 34.822388,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 27380,
+        "lng": 55.370667,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Al Garhoud",
+        "top_offer_type": 0,
+        "categories": [
+          "Restaurants and Bars"
+        ],
+        "id": 68558,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "pretelr@mmi.ae",
+        "name": "Al Garhoud, Terminal 3",
+        "telephone": "+971 4 235 0693",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Dubai International Airport, Terminal 3, Concourse A",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://i.ibb.co/vmWQnP3/ic-delivery.png"
+          },
+          {
+            "type": "text",
+            "value": "Healthy"
+          },
+          {
+            "type": "text",
+            "value": "International"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 34.822388
+      },
+      {
+        "merchant_name": "Pret A Manger",
+        "sub_categories": {
+          "Restaurants and Bars": [
+            "Informal Dining & Takeaway"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O23882450",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Restaurants and Bars",
+        "top_offer_redeemability": 2,
+        "lat": 22.214622,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "FD",
+        "merchant_categories": [
+          "Restaurants and Bars"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "merchant": {
+          "categories": [
+            "Restaurants and Bars"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            {
+              "title": "European",
+              "title_color": "ef4239"
+            },
+            {
+              "title": "Beauty & Fitness",
+              "title_color": "ef4239"
+            },
+            {
+              "title": "Italian",
+              "title_color": "ef4239"
+            }
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/pret-x23876318/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/pret-x23876318/merchant_primary_logo_%28retina%29_-_merchant.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "FD",
+          "cuisine": "",
+          "name_for_outlet": "Pret A Manger",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/pret-x23876318/merchant_profile_%22hero%22_image_%28retina%29.jpg",
+          "id": 39560,
+          "category": "Restaurants and Bars",
+          "name": "Pret A Manger",
+          "photo_small_url": "https://offerengine.theentertainerme.com/pret-x23876318/merchant_profile_%22hero%22_image_%28non-retina%29.jpg"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 34.822388,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 320677,
+        "lng": 55.280735,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Dubai International Financial Centre",
+        "top_offer_type": 0,
+        "categories": [
+          "Restaurants and Bars"
+        ],
+        "id": 70555,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "pretelr@mmi.ae",
+        "name": "Dubai International Financial Centre",
+        "telephone": "+971 4 259 1793",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Gate Building, Marble Walk, Ground Level",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://i.ibb.co/vmWQnP3/ic-delivery.png"
+          },
+          {
+            "type": "text",
+            "value": "Healthy"
+          },
+          {
+            "type": "text",
+            "value": "International"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 34.822388
+      },
+      {
+        "merchant_name": "Pret A Manger",
+        "sub_categories": {
+          "Restaurants and Bars": [
+            "Informal Dining & Takeaway"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O23880800",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Restaurants and Bars",
+        "top_offer_redeemability": 2,
+        "lat": 25.196953,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "The Dubai Mall",
+        "merchant_categories_analytics": "FD",
+        "merchant_categories": [
+          "Restaurants and Bars"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "merchant": {
+          "categories": [
+            "Restaurants and Bars"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            {
+              "title": "European",
+              "title_color": "ef4239"
+            },
+            {
+              "title": "Beauty & Fitness",
+              "title_color": "ef4239"
+            },
+            {
+              "title": "Italian",
+              "title_color": "ef4239"
+            }
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/pret-x23876318/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/pret-x23876318/merchant_primary_logo_%28retina%29_-_merchant.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "FD",
+          "cuisine": "",
+          "name_for_outlet": "Pret A Manger",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/pret-x23876318/merchant_profile_%22hero%22_image_%28retina%29.jpg",
+          "id": 39560,
+          "category": "Restaurants and Bars",
+          "name": "Pret A Manger",
+          "photo_small_url": "https://offerengine.theentertainerme.com/pret-x23876318/merchant_profile_%22hero%22_image_%28non-retina%29.jpg"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 34.65806,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 16737,
+        "lng": 55.276775,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Downtown Dubai",
+        "top_offer_type": 0,
+        "categories": [
+          "Restaurants and Bars"
+        ],
+        "id": 68561,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "pretelr@mmi.ae",
+        "name": "The Dubai Mall",
+        "telephone": "+971 4 339 9754",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Lower Ground Level",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://i.ibb.co/vmWQnP3/ic-delivery.png"
+          },
+          {
+            "type": "text",
+            "value": "Healthy"
+          },
+          {
+            "type": "text",
+            "value": "International"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 34.65806
+      },
+      {
+        "merchant_name": "Carlease Rent a Car",
+        "sub_categories": {
+          "Services": [
+            "Auto"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O22226910",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Services",
+        "top_offer_redeemability": 2,
+        "lat": 25.073986,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "ES",
+        "merchant_categories": [
+          "Services"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "merchant": {
+          "categories": [
+            "Services"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/carlease-x22217504/merchant_primary_logo_%28non-retina%29_-_merchant.png",
+          "logo_url": "https://offerengine.theentertainerme.com/carlease-x22217504/merchant_primary_logo_%28retina%29_-_merchant.png",
+          "digital_section": "Service - Auto",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "ES",
+          "cuisine": "",
+          "name_for_outlet": "Carlease Rent a Car",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/carlease-rent-a-car-x22217504/merchant_profile_%22hero%22_image_%28retina%29.jpg",
+          "id": 13501,
+          "category": "Services",
+          "name": "Carlease Rent a Car",
+          "photo_small_url": "https://offerengine.theentertainerme.com/carlease-rent-a-car-x22217504/merchant_profile_%22hero%22_image_%28non-retina%29.jpg"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 30.649664,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 2617,
+        "lng": 55.14333,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Jumeirah Lakes Towers",
+        "top_offer_type": 0,
+        "categories": [
+          "Services"
+        ],
+        "id": 22536,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "info@carlease.ae",
+        "name": "Jumeirah Lakes Towers",
+        "telephone": "+971 4 510 9656",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Reef Tower, Cluster O, Ground Level",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://i.ibb.co/vmWQnP3/ic-delivery.png"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 30.649664
+      },
+      {
+        "merchant_name": "Carlease Rent a Car",
+        "sub_categories": {
+          "Services": [
+            "Auto"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O22226909",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Services",
+        "top_offer_redeemability": 2,
+        "lat": 25.0485,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "ES",
+        "merchant_categories": [
+          "Services"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "merchant": {
+          "categories": [
+            "Services"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/carlease-x22217504/merchant_primary_logo_%28non-retina%29_-_merchant.png",
+          "logo_url": "https://offerengine.theentertainerme.com/carlease-x22217504/merchant_primary_logo_%28retina%29_-_merchant.png",
+          "digital_section": "Service - Auto",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "ES",
+          "cuisine": "",
+          "name_for_outlet": "Carlease Rent a Car",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/carlease-rent-a-car-x22217504/merchant_profile_%22hero%22_image_%28retina%29.jpg",
+          "id": 13501,
+          "category": "Services",
+          "name": "Carlease Rent a Car",
+          "photo_small_url": "https://offerengine.theentertainerme.com/carlease-rent-a-car-x22217504/merchant_profile_%22hero%22_image_%28non-retina%29.jpg"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 30.649664,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 5725,
+        "lng": 55.130684,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Discovery Gardens",
+        "top_offer_type": 0,
+        "categories": [
+          "Services"
+        ],
+        "id": 22534,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "info@carlease.ae",
+        "name": "Discovery Gardens",
+        "telephone": "+971 4 510 9654",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Near Chelsea Gardens Hotel Apartments",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/services_2.png"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 30.649664
+      },
+      {
+        "merchant_name": "Carlease Rent a Car",
+        "sub_categories": {
+          "Services": [
+            "Auto"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O22226908",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Services",
+        "top_offer_redeemability": 2,
+        "lat": 25.123341,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "ES",
+        "merchant_categories": [
+          "Services"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "merchant": {
+          "categories": [
+            "Services"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/carlease-x22217504/merchant_primary_logo_%28non-retina%29_-_merchant.png",
+          "logo_url": "https://offerengine.theentertainerme.com/carlease-x22217504/merchant_primary_logo_%28retina%29_-_merchant.png",
+          "digital_section": "Service - Auto",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "ES",
+          "cuisine": "",
+          "name_for_outlet": "Carlease Rent a Car",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/carlease-rent-a-car-x22217504/merchant_profile_%22hero%22_image_%28retina%29.jpg",
+          "id": 13501,
+          "category": "Services",
+          "name": "Carlease Rent a Car",
+          "photo_small_url": "https://offerengine.theentertainerme.com/carlease-rent-a-car-x22217504/merchant_profile_%22hero%22_image_%28non-retina%29.jpg"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 30.649664,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 6329,
+        "lng": 55.208851,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Al Quoz",
+        "top_offer_type": 0,
+        "categories": [
+          "Services"
+        ],
+        "id": 22532,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "info@carlease.ae",
+        "name": "Al Quoz",
+        "telephone": "+971 4 338 7773",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Near FGB Metro Station, Behind Gold & Diamond Park, Next to Arabtec Headquarters",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/services_2.png"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 30.649664
+      },
+      {
+        "merchant_name": "Carlease Rent a Car",
+        "sub_categories": {
+          "Services": [
+            "Auto"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O22226911",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Services",
+        "top_offer_redeemability": 2,
+        "lat": 25.200497,
+        "locked_image_url": "",
+        "hotel": "Sofitel Dubai Downtown",
+        "mall": "",
+        "merchant_categories_analytics": "ES",
+        "merchant_categories": [
+          "Services"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "merchant": {
+          "categories": [
+            "Services"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            {
+              "title": "European",
+              "title_color": "ef4239"
+            },
+            {
+              "title": "Beauty & Fitness",
+              "title_color": "ef4239"
+            },
+            {
+              "title": "Italian",
+              "title_color": "ef4239"
+            }
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/carlease-x22217504/merchant_primary_logo_%28non-retina%29_-_merchant.png",
+          "logo_url": "https://offerengine.theentertainerme.com/carlease-x22217504/merchant_primary_logo_%28retina%29_-_merchant.png",
+          "digital_section": "Service - Auto",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "ES",
+          "cuisine": "",
+          "name_for_outlet": "Carlease Rent a Car",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/carlease-rent-a-car-x22217504/merchant_profile_%22hero%22_image_%28retina%29.jpg",
+          "id": 13501,
+          "category": "Services",
+          "name": "Carlease Rent a Car",
+          "photo_small_url": "https://offerengine.theentertainerme.com/carlease-rent-a-car-x22217504/merchant_profile_%22hero%22_image_%28non-retina%29.jpg"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 30.649664,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 16479,
+        "lng": 55.269474,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Downtown Dubai",
+        "top_offer_type": 0,
+        "categories": [
+          "Services"
+        ],
+        "id": 22538,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "info@carlease.ae",
+        "name": "Sofitel Dubai Downtown",
+        "telephone": "+971 4 510 9657",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Ground Level, Near Burj Khalifa and Dubai Mall Metro Station",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/services_2.png"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 30.649664
+      },
+      {
+        "merchant_name": "Carlease Rent a Car",
+        "sub_categories": {
+          "Services": [
+            "Auto"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O22226912",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Services",
+        "top_offer_redeemability": 2,
+        "lat": 25.209465,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "ES",
+        "merchant_categories": [
+          "Services"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "merchant": {
+          "categories": [
+            "Services"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            {
+              "title": "European",
+              "title_color": "ef4239"
+            },
+            {
+              "title": "Beauty & Fitness",
+              "title_color": "ef4239"
+            },
+            {
+              "title": "Italian",
+              "title_color": "ef4239"
+            }
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/carlease-x22217504/merchant_primary_logo_%28non-retina%29_-_merchant.png",
+          "logo_url": "https://offerengine.theentertainerme.com/carlease-x22217504/merchant_primary_logo_%28retina%29_-_merchant.png",
+          "digital_section": "Service - Auto",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "ES",
+          "cuisine": "",
+          "name_for_outlet": "Carlease Rent a Car",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/carlease-rent-a-car-x22217504/merchant_profile_%22hero%22_image_%28retina%29.jpg",
+          "id": 13501,
+          "category": "Services",
+          "name": "Carlease Rent a Car",
+          "photo_small_url": "https://offerengine.theentertainerme.com/carlease-rent-a-car-x22217504/merchant_profile_%22hero%22_image_%28non-retina%29.jpg"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 30.649664,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 17873,
+        "lng": 55.279148,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Dubai International Financial Centre",
+        "top_offer_type": 0,
+        "categories": [
+          "Services"
+        ],
+        "id": 22540,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "info@carlease.ae",
+        "name": "Dubai International Financial Centre",
+        "telephone": "+971 4510 9658",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Emirates Financial Tower, Ground Level",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/services_2.png"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 30.649664
+      },
+      {
+        "merchant_name": "Un Dimanche A Paris",
+        "sub_categories": {
+          "Restaurants and Bars": [
+            "Casual Dining"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472,
+          8521
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O23883840",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Restaurants and Bars",
+        "top_offer_redeemability": 2,
+        "lat": 25.077721,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "Bluewaters Island",
+        "merchant_categories_analytics": "FD",
+        "merchant_categories": [
+          "Restaurants and Bars"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "merchant": {
+          "categories": [
+            "Restaurants and Bars"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            {
+              "title": "European",
+              "title_color": "ef4239"
+            },
+            {
+              "title": "Beauty & Fitness",
+              "title_color": "ef4239"
+            },
+            {
+              "title": "Italian",
+              "title_color": "ef4239"
+            }
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/un-dimanche-a-paris-x23879355/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/un-dimanche-a-paris-x23879355/merchant_primary_logo_%28retina%29_-_merchant.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "FD",
+          "cuisine": "",
+          "name_for_outlet": "Un Dimanche A Paris",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/un-dimanche-a-paris-x23879355/merchant_profile_%22hero%22_image_%28retina%29.jpg",
+          "id": 41452,
+          "category": "Restaurants and Bars",
+          "name": "Un Dimanche A Paris",
+          "photo_small_url": "https://offerengine.theentertainerme.com/un-dimanche-a-paris-x23879355/merchant_profile_%22hero%22_image_%28non-retina%29.jpg"
+        },
+        "is_cheers": 1,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 30.369719,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 3556,
+        "lng": 55.124702,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Jumeirah Beach Residence",
+        "top_offer_type": 0,
+        "categories": [
+          "Restaurants and Bars"
+        ],
+        "id": 72102,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "udap.bw@almedretail.com",
+        "name": "Bluewaters Island",
+        "telephone": "+971 4 564 0044",
+        "product_sku": [
+          "D20DBFMCP",
+          "D20DBCHCP"
+        ],
+        "human_location": "The Wharf Area",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/icons/badge_cheers.png"
+          },
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/food.png"
+          },
+          {
+            "type": "text",
+            "value": "French"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 30.369719
+      },
+      {
+        "merchant_name": "Dollar Rent a Car - Dubai",
+        "sub_categories": {
+          "Services": [
+            "Auto"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O23373263",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Services",
+        "top_offer_redeemability": 2,
+        "lat": 25.076454,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "Dubai Marina Mall",
+        "merchant_categories_analytics": "ES",
+        "merchant_categories": [
+          "Services"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "merchant": {
+          "categories": [
+            "Services"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_primary_logo_%28retina%29_-_merchant.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "ES",
+          "cuisine": "",
+          "name_for_outlet": "Dollar Rent a Car - Dubai",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_profile_%22hero%22_image_%28retina%29.jpg",
+          "id": 23192,
+          "category": "Services",
+          "name": "Dollar Rent a Car - Dubai",
+          "photo_small_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_profile_%22hero%22_image_%28non-retina%29.jpg"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 27.418236,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 2514,
+        "lng": 55.140503,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Dubai Marina",
+        "top_offer_type": 0,
+        "categories": [
+          "Services"
+        ],
+        "id": 39289,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "makeabooking@dollaruae.ae",
+        "name": "Dubai Marina Mall",
+        "telephone": "800 4710",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Ground Level",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/services_2.png"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 27.418236
+      },
+      {
+        "merchant_name": "Dollar Rent a Car - Dubai",
+        "sub_categories": {
+          "Services": [
+            "Auto"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O23373605",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Services",
+        "top_offer_redeemability": 2,
+        "lat": 25.04575,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "ES",
+        "merchant_categories": [
+          "Services"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "merchant": {
+          "categories": [
+            "Services"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            {
+              "title": "European",
+              "title_color": "ef4239"
+            },
+            {
+              "title": "Beauty & Fitness",
+              "title_color": "ef4239"
+            }
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_primary_logo_%28retina%29_-_merchant.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "ES",
+          "cuisine": "",
+          "name_for_outlet": "Dollar Rent a Car - Dubai",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_profile_%22hero%22_image_%28retina%29.jpg",
+          "id": 23192,
+          "category": "Services",
+          "name": "Dollar Rent a Car - Dubai",
+          "photo_small_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_profile_%22hero%22_image_%28non-retina%29.jpg"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 27.418236,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 10411,
+        "lng": 55.241718,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Dubai Motor City",
+        "top_offer_type": 0,
+        "categories": [
+          "Services"
+        ],
+        "id": 39311,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "makeabooking@dollaruae.ae",
+        "name": "Dubai Motor City",
+        "telephone": "800 4710",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Spinneys, Fox Hill Area",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/services_2.png"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 27.418236
+      },
+      {
+        "merchant_name": "Dollar Rent a Car - Dubai",
+        "sub_categories": {
+          "Services": [
+            "Auto"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O23373601",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Services",
+        "top_offer_redeemability": 2,
+        "lat": 25.169561,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "Oasis Centre",
+        "merchant_categories_analytics": "ES",
+        "merchant_categories": [
+          "Services"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "merchant": {
+          "categories": [
+            "Services"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_primary_logo_%28retina%29_-_merchant.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "ES",
+          "cuisine": "",
+          "name_for_outlet": "Dollar Rent a Car - Dubai",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_profile_%22hero%22_image_%28retina%29.jpg",
+          "id": 23192,
+          "category": "Services",
+          "name": "Dollar Rent a Car - Dubai",
+          "photo_small_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_profile_%22hero%22_image_%28non-retina%29.jpg"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 27.418236,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 12081,
+        "lng": 55.241768,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Al Quoz",
+        "top_offer_type": 0,
+        "categories": [
+          "Services"
+        ],
+        "id": 39308,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "makeabooking@dollaruae.ae",
+        "name": "Oasis Centre",
+        "telephone": "800 4710",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Ground Level",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/services_2.png"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 27.418236
+      },
+      {
+        "merchant_name": "Dollar Rent a Car - Dubai",
+        "sub_categories": {
+          "Services": [
+            "Auto"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O23867690",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Services",
+        "top_offer_redeemability": 2,
+        "lat": 24.965221,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "ES",
+        "merchant_categories": [
+          "Services"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "merchant": {
+          "categories": [
+            "Services"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            {
+              "title": "Beauty & Fitness",
+              "title_color": "ef4239"
+            },
+            {
+              "title": "Italian",
+              "title_color": "ef4239"
+            }
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_primary_logo_%28retina%29_-_merchant.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "ES",
+          "cuisine": "",
+          "name_for_outlet": "Dollar Rent a Car - Dubai",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_profile_%22hero%22_image_%28retina%29.jpg",
+          "id": 23192,
+          "category": "Services",
+          "name": "Dollar Rent a Car - Dubai",
+          "photo_small_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_profile_%22hero%22_image_%28non-retina%29.jpg"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 27.418236,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 16271,
+        "lng": 55.080452,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Jebel Ali",
+        "top_offer_type": 0,
+        "categories": [
+          "Services"
+        ],
+        "id": 54618,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "makeabooking@dollaruae.ae",
+        "name": "Jebel Ali",
+        "telephone": "+971 4 885 7838",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Food Court Level, Jafza One Convention Center, Next to ENBD",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/services_2.png"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 27.418236
+      },
+      {
+        "merchant_name": "Dollar Rent a Car - Dubai",
+        "sub_categories": {
+          "Services": [
+            "Auto"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O23373267",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Services",
+        "top_offer_redeemability": 2,
+        "lat": 25.226074,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "ES",
+        "merchant_categories": [
+          "Services"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "merchant": {
+          "categories": [
+            "Services"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_primary_logo_%28retina%29_-_merchant.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "ES",
+          "cuisine": "",
+          "name_for_outlet": "Dollar Rent a Car - Dubai",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_profile_%22hero%22_image_%28retina%29.jpg",
+          "id": 23192,
+          "category": "Services",
+          "name": "Dollar Rent a Car - Dubai",
+          "photo_small_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_profile_%22hero%22_image_%28non-retina%29.jpg"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 27.418236,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 19812,
+        "lng": 55.287853,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Dubai World Trade Centre",
+        "top_offer_type": 0,
+        "categories": [
+          "Services"
+        ],
+        "id": 39292,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "makeabooking@dollaruae.ae",
+        "name": "Dubai World Trade Centre",
+        "telephone": "800 4710",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Exhibition Hall 1",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/services_2.png"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 27.418236
+      },
+      {
+        "merchant_name": "Dollar Rent a Car - Dubai",
+        "sub_categories": {
+          "Services": [
+            "Auto"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O23373167",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Services",
+        "top_offer_redeemability": 2,
+        "lat": 25.239088,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "ES",
+        "merchant_categories": [
+          "Services"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "merchant": {
+          "categories": [
+            "Services"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            {
+              "title": "European",
+              "title_color": "ef4239"
+            },
+            {
+              "title": "Beauty & Fitness",
+              "title_color": "ef4239"
+            },
+            {
+              "title": "Italian",
+              "title_color": "ef4239"
+            }
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_primary_logo_%28retina%29_-_merchant.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "ES",
+          "cuisine": "",
+          "name_for_outlet": "Dollar Rent a Car - Dubai",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_profile_%22hero%22_image_%28retina%29.jpg",
+          "id": 23192,
+          "category": "Services",
+          "name": "Dollar Rent a Car - Dubai",
+          "photo_small_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_profile_%22hero%22_image_%28non-retina%29.jpg"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 27.418236,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 22074,
+        "lng": 55.305367,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Al Karama",
+        "top_offer_type": 0,
+        "categories": [
+          "Services"
+        ],
+        "id": 39280,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "makeabooking@dollaruae.ae",
+        "name": "Al Karama",
+        "telephone": "800 4710",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Arenco Building, Zabeel Road",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/services_2.png"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 27.418236
+      },
+      {
+        "merchant_name": "Dollar Rent a Car - Dubai",
+        "sub_categories": {
+          "Services": [
+            "Auto"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O23373119",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Services",
+        "top_offer_redeemability": 2,
+        "lat": 24.886171,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "ES",
+        "merchant_categories": [
+          "Services"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "tripadvisor_rating": 3.8,
+        "merchant": {
+          "categories": [
+            "Services"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            {
+              "title": "European",
+              "title_color": "ef4239"
+            },
+            {
+              "title": "Beauty & Fitness",
+              "title_color": "ef4239"
+            },
+            {
+              "title": "Italian",
+              "title_color": "ef4239"
+            }
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_primary_logo_%28retina%29_-_merchant.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "ES",
+          "cuisine": "",
+          "name_for_outlet": "Dollar Rent a Car - Dubai",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_profile_%22hero%22_image_%28retina%29.jpg",
+          "id": 23192,
+          "category": "Services",
+          "name": "Dollar Rent a Car - Dubai",
+          "photo_small_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_profile_%22hero%22_image_%28non-retina%29.jpg"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 27.418236,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 23274,
+        "lng": 55.157757,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Jebel Ali",
+        "top_offer_type": 0,
+        "categories": [
+          "Services"
+        ],
+        "id": 39277,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "makeabooking@dollaruae.ae",
+        "name": "Al Maktoum International Airport",
+        "telephone": "800 4710",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Arrival Area, Al Maktoum International Airport",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/services_2.png"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 27.418236
+      },
+      {
+        "merchant_name": "Dollar Rent a Car - Dubai",
+        "sub_categories": {
+          "Services": [
+            "Auto"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O23370746",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Services",
+        "top_offer_redeemability": 2,
+        "lat": 25.249041,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "ES",
+        "merchant_categories": [
+          "Services"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "tripadvisor_rating": 3.8,
+        "merchant": {
+          "categories": [
+            "Services"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_primary_logo_%28retina%29_-_merchant.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "ES",
+          "cuisine": "",
+          "name_for_outlet": "Dollar Rent a Car - Dubai",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_profile_%22hero%22_image_%28retina%29.jpg",
+          "id": 23192,
+          "category": "Services",
+          "name": "Dollar Rent a Car - Dubai",
+          "photo_small_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_profile_%22hero%22_image_%28non-retina%29.jpg"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 27.418236,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 26316,
+        "lng": 55.352921,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Airport Road",
+        "top_offer_type": 0,
+        "categories": [
+          "Services"
+        ],
+        "id": 39268,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "makeabooking@dollaruae.ae",
+        "name": "Dubai International Airport Terminal 1",
+        "telephone": "800 4710",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Departure Area, Dubai Airport Terminal 1",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/services_2.png"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 27.418236
+      },
+      {
+        "merchant_name": "Dollar Rent a Car - Dubai",
+        "sub_categories": {
+          "Services": [
+            "Auto"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O23373117",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Services",
+        "top_offer_redeemability": 2,
+        "lat": 25.24123,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "ES",
+        "merchant_categories": [
+          "Services"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "tripadvisor_rating": 3.8,
+        "merchant": {
+          "categories": [
+            "Services"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            {
+              "title": "European",
+              "title_color": "ef4239"
+            }
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_primary_logo_%28retina%29_-_merchant.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "ES",
+          "cuisine": "",
+          "name_for_outlet": "Dollar Rent a Car - Dubai",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_profile_%22hero%22_image_%28retina%29.jpg",
+          "id": 23192,
+          "category": "Services",
+          "name": "Dollar Rent a Car - Dubai",
+          "photo_small_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_profile_%22hero%22_image_%28non-retina%29.jpg"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 27.418236,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 27282,
+        "lng": 55.372021,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Airport Road",
+        "top_offer_type": 0,
+        "categories": [
+          "Services"
+        ],
+        "id": 39274,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "makeabooking@dollaruae.ae",
+        "name": "Dubai International Airport Terminal 3",
+        "telephone": "800 4710",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Arrival Area, Dubai Airport Terminal 3",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/services_2.png"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 27.418236
+      },
+      {
+        "merchant_name": "Dollar Rent a Car - Dubai",
+        "sub_categories": {
+          "Services": [
+            "Auto"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O23373116",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Services",
+        "top_offer_redeemability": 2,
+        "lat": 25.253176,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "ES",
+        "merchant_categories": [
+          "Services"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "tripadvisor_rating": 3.8,
+        "merchant": {
+          "categories": [
+            "Services"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_primary_logo_%28retina%29_-_merchant.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "ES",
+          "cuisine": "",
+          "name_for_outlet": "Dollar Rent a Car - Dubai",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_profile_%22hero%22_image_%28retina%29.jpg",
+          "id": 23192,
+          "category": "Services",
+          "name": "Dollar Rent a Car - Dubai",
+          "photo_small_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_profile_%22hero%22_image_%28non-retina%29.jpg"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 27.418236,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 27595,
+        "lng": 55.365673,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Airport Road",
+        "top_offer_type": 0,
+        "categories": [
+          "Services"
+        ],
+        "id": 39271,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "makeabooking@dollaruae.ae",
+        "name": "Dubai International Airport Terminal 2",
+        "telephone": "800 4710",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Arrival Area, Dubai Airport Terminal 2",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/services_2.png"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 27.418236
+      },
+      {
+        "merchant_name": "Dollar Rent a Car - Dubai",
+        "sub_categories": {
+          "Services": [
+            "Auto"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O23373657",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Services",
+        "top_offer_redeemability": 2,
+        "lat": 25.345484,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "ES",
+        "merchant_categories": [
+          "Services"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "tripadvisor_rating": 3.8,
+        "merchant": {
+          "categories": [
+            "Services"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_primary_logo_%28retina%29_-_merchant.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "ES",
+          "cuisine": "",
+          "name_for_outlet": "Dollar Rent a Car - Dubai",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_profile_%22hero%22_image_%28retina%29.jpg",
+          "id": 23192,
+          "category": "Services",
+          "name": "Dollar Rent a Car - Dubai",
+          "photo_small_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_profile_%22hero%22_image_%28non-retina%29.jpg"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 27.418236,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 36773,
+        "lng": 55.393147,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Sharjah",
+        "top_offer_type": 0,
+        "categories": [
+          "Services"
+        ],
+        "id": 39317,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "makeabooking@dollaruae.ae",
+        "name": "Sharjah",
+        "telephone": "800 4710",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "King Abdul Aziz Street",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/services_2.png"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 27.418236
+      },
+      {
+        "merchant_name": "Dollar Rent a Car - Dubai",
+        "sub_categories": {
+          "Services": [
+            "Auto"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O23373655",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Services",
+        "top_offer_redeemability": 2,
+        "lat": 25.321491,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "ES",
+        "merchant_categories": [
+          "Services"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "tripadvisor_rating": 3.8,
+        "merchant": {
+          "categories": [
+            "Services"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_primary_logo_%28retina%29_-_merchant.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "ES",
+          "cuisine": "",
+          "name_for_outlet": "Dollar Rent a Car - Dubai",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_profile_%22hero%22_image_%28retina%29.jpg",
+          "id": 23192,
+          "category": "Services",
+          "name": "Dollar Rent a Car - Dubai",
+          "photo_small_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_profile_%22hero%22_image_%28non-retina%29.jpg"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 27.418236,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 44605,
+        "lng": 55.520195,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Sharjah",
+        "top_offer_type": 0,
+        "categories": [
+          "Services"
+        ],
+        "id": 39314,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "makeabooking@dollaruae.ae",
+        "name": "Sharjah Airport",
+        "telephone": "800 4710",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Arrival Area, Sharjah Airport",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/services_2.png"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 27.418236
+      },
+      {
+        "merchant_name": "Dollar Rent a Car - Dubai",
+        "sub_categories": {
+          "Services": [
+            "Auto"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O23373544",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Services",
+        "top_offer_redeemability": 2,
+        "lat": 25.092266,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "ES",
+        "merchant_categories": [
+          "Services"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "tripadvisor_rating": 3.8,
+        "merchant": {
+          "categories": [
+            "Services"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_primary_logo_%28retina%29_-_merchant.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "ES",
+          "cuisine": "",
+          "name_for_outlet": "Dollar Rent a Car - Dubai",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_profile_%22hero%22_image_%28retina%29.jpg",
+          "id": 23192,
+          "category": "Services",
+          "name": "Dollar Rent a Car - Dubai",
+          "photo_small_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_profile_%22hero%22_image_%28non-retina%29.jpg"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 27.31289,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 561,
+        "lng": 55.158489,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Dubai Media City",
+        "top_offer_type": 0,
+        "categories": [
+          "Services"
+        ],
+        "id": 39301,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "makeabooking@dollaruae.ae",
+        "name": "Dubai Media City",
+        "telephone": "800 4710",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Arenco Towers",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/services_2.png"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 27.31289
+      },
+      {
+        "merchant_name": "Dollar Rent a Car - Dubai",
+        "sub_categories": {
+          "Services": [
+            "Auto"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O23373543",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Services",
+        "top_offer_redeemability": 2,
+        "lat": 25.143345,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "ES",
+        "merchant_categories": [
+          "Services"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "tripadvisor_rating": 3.8,
+        "merchant": {
+          "categories": [
+            "Services"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            {
+              "title": "European",
+              "title_color": "ef4239"
+            }
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_primary_logo_%28retina%29_-_merchant.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "ES",
+          "cuisine": "",
+          "name_for_outlet": "Dollar Rent a Car - Dubai",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_profile_%22hero%22_image_%28retina%29.jpg",
+          "id": 23192,
+          "category": "Services",
+          "name": "Dollar Rent a Car - Dubai",
+          "photo_small_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_profile_%22hero%22_image_%28non-retina%29.jpg"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 27.31289,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 9130,
+        "lng": 55.227699,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Al Quoz",
+        "top_offer_type": 0,
+        "categories": [
+          "Services"
+        ],
+        "id": 39298,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "makeabooking@dollaruae.ae",
+        "name": "Al Quoz",
+        "telephone": "800 4710",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "3rd Interchange, Industrial Area",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/services_2.png"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 27.31289
+      },
+      {
+        "merchant_name": "Dollar Rent a Car - Dubai",
+        "sub_categories": {
+          "Services": [
+            "Auto"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O23373481",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Services",
+        "top_offer_redeemability": 2,
+        "lat": 25.005152,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "ES",
+        "merchant_categories": [
+          "Services"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "tripadvisor_rating": 3.8,
+        "merchant": {
+          "categories": [
+            "Services"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_primary_logo_%28retina%29_-_merchant.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "ES",
+          "cuisine": "",
+          "name_for_outlet": "Dollar Rent a Car - Dubai",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_profile_%22hero%22_image_%28retina%29.jpg",
+          "id": 23192,
+          "category": "Services",
+          "name": "Dollar Rent a Car - Dubai",
+          "photo_small_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_profile_%22hero%22_image_%28non-retina%29.jpg"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 27.31289,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 10102,
+        "lng": 55.165417,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Dubai Investment Park",
+        "top_offer_type": 0,
+        "categories": [
+          "Services"
+        ],
+        "id": 39295,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "makeabooking@dollaruae.ae",
+        "name": "Dubai Investment Park",
+        "telephone": "800 4710",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Green Community Village",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/services_2.png"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 27.31289
+      },
+      {
+        "merchant_name": "Dollar Rent a Car - Dubai",
+        "sub_categories": {
+          "Services": [
+            "Auto"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O23370620",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Services",
+        "top_offer_redeemability": 2,
+        "lat": 25.246147,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "ES",
+        "merchant_categories": [
+          "Services"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "tripadvisor_rating": 3.8,
+        "merchant": {
+          "categories": [
+            "Services"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_primary_logo_%28retina%29_-_merchant.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "ES",
+          "cuisine": "",
+          "name_for_outlet": "Dollar Rent a Car - Dubai",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_profile_%22hero%22_image_%28retina%29.jpg",
+          "id": 23192,
+          "category": "Services",
+          "name": "Dollar Rent a Car - Dubai",
+          "photo_small_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_profile_%22hero%22_image_%28non-retina%29.jpg"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 27.31289,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 26226,
+        "lng": 55.354443,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Airport Road",
+        "top_offer_type": 0,
+        "categories": [
+          "Services"
+        ],
+        "id": 39266,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "makeabooking@dollaruae.ae",
+        "name": "Dubai International Airport Terminal 1 Arrival",
+        "telephone": "800 4710",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Arrival Area, Dubai Airport Terminal 1",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/services_2.png"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 27.31289
+      },
+      {
+        "merchant_name": "Dollar Rent a Car - Dubai",
+        "sub_categories": {
+          "Services": [
+            "Auto"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O23373546",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Services",
+        "top_offer_redeemability": 2,
+        "lat": 25.077734,
+        "locked_image_url": "",
+        "hotel": "Ramada Plaza Jumeirah Beach",
+        "mall": "",
+        "merchant_categories_analytics": "ES",
+        "merchant_categories": [
+          "Services"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "tripadvisor_rating": 3.8,
+        "merchant": {
+          "categories": [
+            "Services"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_primary_logo_%28retina%29_-_merchant.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "ES",
+          "cuisine": "",
+          "name_for_outlet": "Dollar Rent a Car - Dubai",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_profile_%22hero%22_image_%28retina%29.jpg",
+          "id": 23192,
+          "category": "Services",
+          "name": "Dollar Rent a Car - Dubai",
+          "photo_small_url": "https://offerengine.theentertainerme.com/dollar-rent-a-car---dubai-x23348801/merchant_profile_%22hero%22_image_%28non-retina%29.jpg"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 27.175936,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 2673,
+        "lng": 55.13612,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Jumeirah Beach Residence",
+        "top_offer_type": 0,
+        "categories": [
+          "Services"
+        ],
+        "id": 39302,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "makeabooking@dollaruae.ae",
+        "name": "Ramada Plaza Jumeirah Beach",
+        "telephone": "800 4710",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Ground Level",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/services_2.png"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 27.175936
+      },
+      {
+        "merchant_name": "Hometown Elite Residence A - 1BR",
+        "sub_categories": {
+          "Travel": [
+            "Apartment"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8837
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O23876867",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Travel",
+        "top_offer_redeemability": 2,
+        "lat": 25.089573,
+        "locked_image_url": "",
+        "hotel": "Hometown Elite Residence A - 1BR",
+        "mall": "",
+        "merchant_categories_analytics": "HW",
+        "merchant_categories": [
+          "Travel"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "tripadvisor_rating": 3.8,
+        "merchant": {
+          "categories": [
+            "Travel"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/hometown-elite-residence-a-x23871997/merchant_primary_logo_%28non-retina%29_-_merchant.png",
+          "logo_url": "https://offerengine.theentertainerme.com/hometown-elite-residence-a-x23871997/merchant_primary_logo_%28retina%29_-_merchant.png",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "HW",
+          "cuisine": "",
+          "name_for_outlet": "Hometown Elite Residence A - 1BR",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/hometown-elite-residence-a-x23871997/merchant_profile_%22hero%22_image_%28retina%29.png",
+          "id": 36491,
+          "category": "Travel",
+          "name": "Hometown Elite Residence A - 1BR",
+          "photo_small_url": "https://offerengine.theentertainerme.com/hometown-elite-residence-a-x23871997/merchant_profile_%22hero%22_image_%28non-retina%29.png"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "7513368",
+        "score": 26.418236,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 905,
+        "lng": 55.147842,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Dubai",
+        "top_offer_type": 0,
+        "categories": [
+          "Travel"
+        ],
+        "id": 62560,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "reservations@hometown.ae",
+        "name": "Dubai, UAE",
+        "telephone": "+971 4 456 2285",
+        "product_sku": [
+          "D20TRTRCP"
+        ],
+        "human_location": "King Salman Bin Abdulaziz Al Saud Street, Dubai Marina",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/travel.png"
+          },
+          {
+            "type": "text",
+            "value": "Apartment"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 26.418236
+      },
+      {
+        "merchant_name": "Maitria Hotel Sukhumvit 18 \u2013 A Chatrium Collection",
+        "sub_categories": {
+          "Travel": [
+            "4 Star"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8837
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O23274950",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Travel",
+        "top_offer_redeemability": 2,
+        "lat": 13.732914,
+        "locked_image_url": "",
+        "hotel": "Maitria Hotel Sukhumvit 18",
+        "mall": "",
+        "merchant_categories_analytics": "HW",
+        "merchant_categories": [
+          "Travel"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "tripadvisor_rating": 3.8,
+        "merchant": {
+          "categories": [
+            "Travel"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/matria-hotel-sukhumvit-18-x23251914/merchant_primary_logo_%28non-retina%29_-_merchant.png",
+          "logo_url": "https://offerengine.theentertainerme.com/matria-hotel-sukhumvit-18-x23251914/merchant_primary_logo_%28retina%29_-_merchant.png",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "HW",
+          "cuisine": "",
+          "name_for_outlet": "Maitria Hotel Sukhumvit 18 \u2013 A Chatrium Collection",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/maitria-hotel-sukhumvit-18-x23251914/merchant_profile_%22hero%22_image_%28retina%29.png",
+          "id": 22058,
+          "category": "Travel",
+          "name": "Maitria Hotel Sukhumvit 18 \u2013 A Chatrium Collection",
+          "photo_small_url": "https://offerengine.theentertainerme.com/maitria-hotel-sukhumvit-18-x23251914/merchant_profile_%22hero%22_image_%28non-retina%29.png"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "1784761",
+        "score": 21.549196,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 4903598,
+        "lng": 100.562561,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Bangkok",
+        "top_offer_type": 0,
+        "categories": [
+          "Travel"
+        ],
+        "id": 36872,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "rsvn.maitria@chatrium.com",
+        "name": "Bangkok, Thailand",
+        "telephone": "+66 2302 5777",
+        "product_sku": [
+          "D20TRTRCP"
+        ],
+        "human_location": "26 Sukhumvit Soi 18, Khlong Tan, Khlong Tei",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/travel.png"
+          },
+          {
+            "type": "text",
+            "value": "4 Star"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 21.549196
+      },
+      {
+        "merchant_name": "Andes Restaurant",
+        "sub_categories": {
+          "Restaurants and Bars": [
+            "Fine Dining"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          7717
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O23875477",
+        "is_purchased": false,
+        "opening_hours": "",
+        "sub_categories_analytics": "Restaurants and Bars",
+        "top_offer_redeemability": 0,
+        "lat": 25.221172,
+        "locked_image_url": "https://s3.amazonaws.com/entertainer-app-assets/icons/locked_outlet_grey.png",
+        "hotel": "ibis One Central",
+        "mall": "",
+        "merchant_categories_analytics": "FD",
+        "merchant_categories": [
+          "Restaurants and Bars"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "tripadvisor_rating": 3.8,
+        "merchant": {
+          "categories": [
+            "Restaurants and Bars"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            {
+              "title": "International",
+              "title_color": "ef4239"
+            }
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/andes-restaurant-x23870202/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/andes-restaurant-x23870202/merchant_primary_logo_%28retina%29_-_merchant.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "FD",
+          "cuisine": "",
+          "name_for_outlet": "Andes Restaurant",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/andes-restaurant-x23870202/merchant_profile_%22hero%22_image_%28retina%29.jpg",
+          "id": 35737,
+          "category": "Restaurants and Bars",
+          "name": "Andes Restaurant",
+          "photo_small_url": "https://offerengine.theentertainerme.com/andes-restaurant-x23870202/merchant_profile_%22hero%22_image_%28non-retina%29.jpg"
+        },
+        "is_cheers": false,
+        "is_redeemable": false,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 6.3216777,
+        "has_fourth_offers": true,
+        "description": "",
+        "distance": 19202,
+        "lng": 55.284771,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Dubai World Trade Centre",
+        "top_offer_type": 2,
+        "categories": [
+          "Restaurants and Bars"
+        ],
+        "id": 60762,
+        "has_type_2_offers": true,
+        "top_up_offer": false,
+        "email": "reservations@andesrestaurants.com",
+        "name": "ibis One Central",
+        "telephone": "+971 4 338 9935",
+        "product_sku": [
+          "D20DBFDCP"
+        ],
+        "human_location": "Ground Level, The Offices 3",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/food.png"
+          },
+          {
+            "type": "text",
+            "value": "International"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 6.3216777
+      },
+      {
+        "merchant_name": "Shabaka",
+        "sub_categories": {
+          "Services": [
+            "Cleaning"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O23880754",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Services",
+        "top_offer_redeemability": 2,
+        "lat": 25.082081,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "ES",
+        "merchant_categories": [
+          "Services"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "tripadvisor_rating": 3.8,
+        "merchant": {
+          "categories": [
+            "Services"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/shabaka-x23875671/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/shabaka-x23875671/merchant_primary_logo_%28retina%29_-_merchant.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "ES",
+          "cuisine": "",
+          "name_for_outlet": "Shabaka",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/shabaka-x23875671/merchant_profile_%22hero%22_image_%28retina%29.jpg",
+          "id": 39238,
+          "category": "Services",
+          "name": "Shabaka",
+          "photo_small_url": "https://offerengine.theentertainerme.com/shabaka-x23875671/merchant_profile_%22hero%22_image_%28non-retina%29.jpg"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 6.0334053,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 2140,
+        "lng": 55.138783,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Jumeirah Beach Residence",
+        "top_offer_type": 0,
+        "categories": [
+          "Services"
+        ],
+        "id": 68579,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "",
+        "name": "Jumeirah Beach Residence",
+        "telephone": "800 5465",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Murjan 2 Building, Mezzanine Level",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/services_2.png"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 6.0334053
+      },
+      {
+        "merchant_name": "TYREPLUS - Dubai",
+        "sub_categories": {
+          "Services": [
+            "Auto"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O23873724",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Services",
+        "top_offer_redeemability": 2,
+        "lat": 25.169819,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "ES",
+        "merchant_categories": [
+          "Services"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "tripadvisor_rating": 3.8,
+        "merchant": {
+          "categories": [
+            "Services"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/tyreplus---dubai-x21235117/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/tyreplus---dubai-x21235117/merchant_primary_logo_%28retina%29_-_merchant.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "ES",
+          "cuisine": "",
+          "name_for_outlet": "TYREPLUS - Dubai",
+          "ad_active_status": 1,
+          "photo_url": "https://offerengine.theentertainerme.com/tyreplus---dubai-x21235117/merchant_profile_%22hero%22_image_%28retina%29.jpg",
+          "id": 4692,
+          "category": "Services",
+          "name": "TYREPLUS - Dubai",
+          "photo_small_url": "https://offerengine.theentertainerme.com/tyreplus---dubai-x21235117/merchant_profile_%22hero%22_image_%28non-retina%29.jpg"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 6.0334053,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 20747,
+        "lng": 55.343044,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Ras Al Khor",
+        "top_offer_type": 0,
+        "categories": [
+          "Services"
+        ],
+        "id": 59355,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "sales@ctc-uae.com",
+        "name": "Ras Al Khor",
+        "telephone": "+971 4 345 5525",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Safeer Tyres, Industrial First, Bin Saifan Rak Building, Showroom",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/services_2.png"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 6.0334053
+      },
+      {
+        "merchant_name": "Dunkin Donuts - Dubai",
+        "sub_categories": {
+          "Restaurants and Bars": [
+            "Informal Dining & Takeaway"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O043977",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Restaurants and Bars",
+        "top_offer_redeemability": 2,
+        "lat": 25.21809,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "FD",
+        "merchant_categories": [
+          "Restaurants and Bars"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "tripadvisor_rating": 3.8,
+        "merchant": {
+          "categories": [
+            "Restaurants and Bars"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            {
+              "title": "Baked Goods",
+              "title_color": "ef4239"
+            }
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/dunkin-donuts---dubai-x091244/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/dunkin-donuts---dubai-x091244/merchant_primary_logo_%28retina%29_-_merchant201911111159.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "FD",
+          "cuisine": "",
+          "name_for_outlet": "Dunkin Donuts - Dubai",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/dunkin-donuts-dubai-x091244/merchant_profile_%22hero%22_image_%28retina%29.png",
+          "id": 2087,
+          "category": "Restaurants and Bars",
+          "name": "Dunkin Donuts - Dubai",
+          "photo_small_url": "https://offerengine.theentertainerme.com/dunkin-donuts-dubai-x091244/merchant_profile_%22hero%22_image_%28non-retina%29.png"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 6.0334053,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 21196,
+        "lng": 55.315208,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Oud Metha",
+        "top_offer_type": 0,
+        "categories": [
+          "Restaurants and Bars"
+        ],
+        "id": 3434,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "",
+        "name": "ENOC 1088, Oud Metha",
+        "telephone": "+971 4 337 1085",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "ENOC 1088, Opposite Al Wasl Club",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/food.png"
+          },
+          {
+            "type": "text",
+            "value": "Baked Goods"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 6.0334053
+      },
+      {
+        "merchant_name": "Dunkin Donuts - Dubai",
+        "sub_categories": {
+          "Restaurants and Bars": [
+            "Informal Dining & Takeaway"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O043983",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Restaurants and Bars",
+        "top_offer_redeemability": 2,
+        "lat": 25.1903,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "FD",
+        "merchant_categories": [
+          "Restaurants and Bars"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "tripadvisor_rating": 3.8,
+        "merchant": {
+          "categories": [
+            "Restaurants and Bars"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            {
+              "title": "Baked Goods",
+              "title_color": "ef4239"
+            }
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/dunkin-donuts---dubai-x091244/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/dunkin-donuts---dubai-x091244/merchant_primary_logo_%28retina%29_-_merchant201911111159.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "FD",
+          "cuisine": "",
+          "name_for_outlet": "Dunkin Donuts - Dubai",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/dunkin-donuts-dubai-x091244/merchant_profile_%22hero%22_image_%28retina%29.png",
+          "id": 2087,
+          "category": "Restaurants and Bars",
+          "name": "Dunkin Donuts - Dubai",
+          "photo_small_url": "https://offerengine.theentertainerme.com/dunkin-donuts-dubai-x091244/merchant_profile_%22hero%22_image_%28non-retina%29.png"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "8771745",
+        "score": 6.0334053,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 28755,
+        "lng": 55.419769,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Al Warqa'a",
+        "top_offer_type": 0,
+        "categories": [
+          "Restaurants and Bars"
+        ],
+        "id": 3424,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "",
+        "name": "Al Warqa'a",
+        "telephone": "+971 4 280 4778",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Aswaaq",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/food.png"
+          },
+          {
+            "type": "text",
+            "value": "Baked Goods"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 6.0334053
+      },
+      {
+        "merchant_name": "Dunkin Donuts - Dubai",
+        "sub_categories": {
+          "Restaurants and Bars": [
+            "Informal Dining & Takeaway"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O043999",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Restaurants and Bars",
+        "top_offer_redeemability": 2,
+        "lat": 25.352871,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "FD",
+        "merchant_categories": [
+          "Restaurants and Bars"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "tripadvisor_rating": 3.8,
+        "merchant": {
+          "categories": [
+            "Restaurants and Bars"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            {
+              "title": "Baked Goods",
+              "title_color": "ef4239"
+            }
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/dunkin-donuts---dubai-x091244/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/dunkin-donuts---dubai-x091244/merchant_primary_logo_%28retina%29_-_merchant201911111159.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "FD",
+          "cuisine": "",
+          "name_for_outlet": "Dunkin Donuts - Dubai",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/dunkin-donuts-dubai-x091244/merchant_profile_%22hero%22_image_%28retina%29.png",
+          "id": 2087,
+          "category": "Restaurants and Bars",
+          "name": "Dunkin Donuts - Dubai",
+          "photo_small_url": "https://offerengine.theentertainerme.com/dunkin-donuts-dubai-x091244/merchant_profile_%22hero%22_image_%28non-retina%29.png"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 6.0334053,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 37325,
+        "lng": 55.392021,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Sharjah",
+        "top_offer_type": 0,
+        "categories": [
+          "Restaurants and Bars"
+        ],
+        "id": 3452,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "",
+        "name": "ENOC 1114, Sharjah",
+        "telephone": "+971 6 577 5901",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "ENOC 1114, Sharjah-Dubai Highway",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/food.png"
+          },
+          {
+            "type": "text",
+            "value": "Baked Goods"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 6.0334053
+      },
+      {
+        "merchant_name": "Dunkin Donuts - Dubai",
+        "sub_categories": {
+          "Restaurants and Bars": [
+            "Informal Dining & Takeaway"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O043993",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Restaurants and Bars",
+        "top_offer_redeemability": 2,
+        "lat": 25.314939,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "FD",
+        "merchant_categories": [
+          "Restaurants and Bars"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "tripadvisor_rating": 3.8,
+        "merchant": {
+          "categories": [
+            "Restaurants and Bars"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            {
+              "title": "Baked Goods",
+              "title_color": "ef4239"
+            }
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/dunkin-donuts---dubai-x091244/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/dunkin-donuts---dubai-x091244/merchant_primary_logo_%28retina%29_-_merchant201911111159.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "FD",
+          "cuisine": "",
+          "name_for_outlet": "Dunkin Donuts - Dubai",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/dunkin-donuts-dubai-x091244/merchant_profile_%22hero%22_image_%28retina%29.png",
+          "id": 2087,
+          "category": "Restaurants and Bars",
+          "name": "Dunkin Donuts - Dubai",
+          "photo_small_url": "https://offerengine.theentertainerme.com/dunkin-donuts-dubai-x091244/merchant_profile_%22hero%22_image_%28non-retina%29.png"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "3921865",
+        "score": 6.0334053,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 42081,
+        "lng": 55.494659,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Sharjah",
+        "top_offer_type": 0,
+        "categories": [
+          "Restaurants and Bars"
+        ],
+        "id": 3446,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "",
+        "name": "American University of Sharjah",
+        "telephone": "+971 6 515 2765",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Food Court, Students Centre, American University of Sharjah",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/food.png"
+          },
+          {
+            "type": "text",
+            "value": "Baked Goods"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 6.0334053
+      },
+      {
+        "merchant_name": "Fast Fit",
+        "sub_categories": {
+          "Services": [
+            "Auto"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O22389709",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Services",
+        "top_offer_redeemability": 2,
+        "lat": 25.322327,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "ES",
+        "merchant_categories": [
+          "Services"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "tripadvisor_rating": 3.8,
+        "merchant": {
+          "categories": [
+            "Services"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/fast-fit-x22381097/merchant_primary_logo_%28non-retina%29_-_merchant.png",
+          "logo_url": "https://offerengine.theentertainerme.com/fast-fit-x22381097/merchant_primary_logo_%28retina%29_-_merchant.png",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "ES",
+          "cuisine": "",
+          "name_for_outlet": "Fast Fit",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/fast-fit-x22381097/merchant_profile_%22hero%22_image_%28retina%29.png",
+          "id": 16009,
+          "category": "Services",
+          "name": "Fast Fit",
+          "photo_small_url": "https://offerengine.theentertainerme.com/fast-fit-x22381097/merchant_profile_%22hero%22_image_%28non-retina%29.png"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 6.0334053,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 44115,
+        "lng": 55.513641,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Sharjah",
+        "top_offer_type": 0,
+        "categories": [
+          "Services"
+        ],
+        "id": 25963,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "",
+        "name": "FastFit, Emirates Sharjah",
+        "telephone": "(800) 327-8348",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Gubaibha Road, Opposite Home Centre, Next to Baby Shop",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/services_2.png"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 6.0334053
+      },
+      {
+        "merchant_name": "Dunkin Donuts - Dubai",
+        "sub_categories": {
+          "Restaurants and Bars": [
+            "Informal Dining & Takeaway"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O044011",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Restaurants and Bars",
+        "top_offer_redeemability": 2,
+        "lat": 25.77277,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "Ras Al Khaimah Mall",
+        "merchant_categories_analytics": "FD",
+        "merchant_categories": [
+          "Restaurants and Bars"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "tripadvisor_rating": 3.8,
+        "merchant": {
+          "categories": [
+            "Restaurants and Bars"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            {
+              "title": "Baked Goods",
+              "title_color": "ef4239"
+            }
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/dunkin-donuts---dubai-x091244/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/dunkin-donuts---dubai-x091244/merchant_primary_logo_%28retina%29_-_merchant201911111159.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "FD",
+          "cuisine": "",
+          "name_for_outlet": "Dunkin Donuts - Dubai",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/dunkin-donuts-dubai-x091244/merchant_profile_%22hero%22_image_%28retina%29.png",
+          "id": 2087,
+          "category": "Restaurants and Bars",
+          "name": "Dunkin Donuts - Dubai",
+          "photo_small_url": "https://offerengine.theentertainerme.com/dunkin-donuts-dubai-x091244/merchant_profile_%22hero%22_image_%28non-retina%29.png"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "3921157",
+        "score": 6.0334053,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 110525,
+        "lng": 55.959202,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Ras Al Khaimah",
+        "top_offer_type": 0,
+        "categories": [
+          "Restaurants and Bars"
+        ],
+        "id": 3464,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "",
+        "name": "Ras Al Khaimah Mall",
+        "telephone": "+971 7 233 8489",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Ground Level",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/food.png"
+          },
+          {
+            "type": "text",
+            "value": "Baked Goods"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 6.0334053
+      },
+      {
+        "merchant_name": "Dunkin Donuts - Dubai",
+        "sub_categories": {
+          "Restaurants and Bars": [
+            "Informal Dining & Takeaway"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O130095",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Restaurants and Bars",
+        "top_offer_redeemability": 2,
+        "lat": 25.391945,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "FD",
+        "merchant_categories": [
+          "Restaurants and Bars"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "tripadvisor_rating": 3.8,
+        "merchant": {
+          "categories": [
+            "Restaurants and Bars"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            {
+              "title": "Baked Goods",
+              "title_color": "ef4239"
+            }
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/dunkin-donuts---dubai-x091244/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/dunkin-donuts---dubai-x091244/merchant_primary_logo_%28retina%29_-_merchant201911111159.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "FD",
+          "cuisine": "",
+          "name_for_outlet": "Dunkin Donuts - Dubai",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/dunkin-donuts-dubai-x091244/merchant_profile_%22hero%22_image_%28retina%29.png",
+          "id": 2087,
+          "category": "Restaurants and Bars",
+          "name": "Dunkin Donuts - Dubai",
+          "photo_small_url": "https://offerengine.theentertainerme.com/dunkin-donuts-dubai-x091244/merchant_profile_%22hero%22_image_%28non-retina%29.png"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "3921157",
+        "score": 6.0334053,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 124888,
+        "lng": 56.351425,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Fujairah",
+        "top_offer_type": 0,
+        "categories": [
+          "Restaurants and Bars"
+        ],
+        "id": 3470,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "",
+        "name": "Khorfakkan, Fujairah",
+        "telephone": "+971 9 237 2334",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Co-Operative Society, Lulayyah, Khorfakkan",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/food.png"
+          },
+          {
+            "type": "text",
+            "value": "Baked Goods"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 6.0334053
+      },
+      {
+        "merchant_name": "Dunkin Donuts - Dubai",
+        "sub_categories": {
+          "Restaurants and Bars": [
+            "Informal Dining & Takeaway"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O043976",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Restaurants and Bars",
+        "top_offer_redeemability": 2,
+        "lat": 25.118158,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "Mall of the Emirates",
+        "merchant_categories_analytics": "FD",
+        "merchant_categories": [
+          "Restaurants and Bars"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "tripadvisor_rating": 3.8,
+        "merchant": {
+          "categories": [
+            "Restaurants and Bars"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            {
+              "title": "Baked Goods",
+              "title_color": "ef4239"
+            }
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/dunkin-donuts---dubai-x091244/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/dunkin-donuts---dubai-x091244/merchant_primary_logo_%28retina%29_-_merchant201911111159.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "FD",
+          "cuisine": "",
+          "name_for_outlet": "Dunkin Donuts - Dubai",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/dunkin-donuts-dubai-x091244/merchant_profile_%22hero%22_image_%28retina%29.png",
+          "id": 2087,
+          "category": "Restaurants and Bars",
+          "name": "Dunkin Donuts - Dubai",
+          "photo_small_url": "https://offerengine.theentertainerme.com/dunkin-donuts-dubai-x091244/merchant_profile_%22hero%22_image_%28non-retina%29.png"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "3919122",
+        "score": 5.96494,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 5272,
+        "lng": 55.200027,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Al Barsha",
+        "top_offer_type": 0,
+        "categories": [
+          "Restaurants and Bars"
+        ],
+        "id": 3433,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "",
+        "name": "Mall of the Emirates",
+        "telephone": "+971 4 341 1438",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Ground Level",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/food.png"
+          },
+          {
+            "type": "text",
+            "value": "Baked Goods"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 5.96494
+      },
+      {
+        "merchant_name": "Icon Auto Garage",
+        "sub_categories": {
+          "Retail": [
+            "Sporting Goods"
+          ],
+          "Services": [
+            "Auto"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O23882343",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Retail,Services",
+        "top_offer_redeemability": 2,
+        "lat": 25.160234,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "FR,ES",
+        "merchant_categories": [
+          "Retail",
+          "Services"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "tripadvisor_rating": 3.8,
+        "merchant": {
+          "categories": [
+            "Retail",
+            "Services"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/icon-auto-garage-x23877557/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/icon-auto-garage-x23877557/merchant_primary_logo_%28retina%29_-_merchant.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "FR,ES",
+          "cuisine": "",
+          "name_for_outlet": "Icon Auto Garage",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/icon-auto-garage-x23877557/merchant_profile_%22hero%22_image_%28retina%29.jpg",
+          "id": 40314,
+          "category": "Services",
+          "name": "Icon Auto Garage",
+          "photo_small_url": "https://offerengine.theentertainerme.com/icon-auto-garage-x23877557/merchant_profile_%22hero%22_image_%28non-retina%29.jpg"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 5.96494,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 11177,
+        "lng": 55.238911,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Al Quoz",
+        "top_offer_type": 0,
+        "categories": [
+          "Retail",
+          "Services"
+        ],
+        "id": 70227,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "",
+        "name": "Al Quoz",
+        "telephone": "+971 4 338 2744",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Al Qouz Industrial Area 3, Opposite Side of National Cement Factory",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/retail.png"
+          },
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/services_2.png"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 5.96494
+      },
+      {
+        "merchant_name": "Fast Fit",
+        "sub_categories": {
+          "Services": [
+            "Auto"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O22389755",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Services",
+        "top_offer_redeemability": 2,
+        "lat": 25.052368,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "ES",
+        "merchant_categories": [
+          "Services"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "tripadvisor_rating": 3.8,
+        "merchant": {
+          "categories": [
+            "Services"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/fast-fit-x22381097/merchant_primary_logo_%28non-retina%29_-_merchant.png",
+          "logo_url": "https://offerengine.theentertainerme.com/fast-fit-x22381097/merchant_primary_logo_%28retina%29_-_merchant.png",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "ES",
+          "cuisine": "",
+          "name_for_outlet": "Fast Fit",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/fast-fit-x22381097/merchant_profile_%22hero%22_image_%28retina%29.png",
+          "id": 16009,
+          "category": "Services",
+          "name": "Fast Fit",
+          "photo_small_url": "https://offerengine.theentertainerme.com/fast-fit-x22381097/merchant_profile_%22hero%22_image_%28non-retina%29.png"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 5.96494,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 12372,
+        "lng": 55.267361,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Arabian Ranches",
+        "top_offer_type": 0,
+        "categories": [
+          "Services"
+        ],
+        "id": 25977,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "",
+        "name": "TyreExpress, Arabian Ranches",
+        "telephone": "(800) 327-8348",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Bin Humaidan, Global Village towards Jebel Ali",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/services_2.png"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 5.96494
+      },
+      {
+        "merchant_name": "Fast Fit",
+        "sub_categories": {
+          "Services": [
+            "Auto"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O22389751",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Services",
+        "top_offer_redeemability": 2,
+        "lat": 25.186943,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "ES",
+        "merchant_categories": [
+          "Services"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "tripadvisor_rating": 3.8,
+        "merchant": {
+          "categories": [
+            "Services"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/fast-fit-x22381097/merchant_primary_logo_%28non-retina%29_-_merchant.png",
+          "logo_url": "https://offerengine.theentertainerme.com/fast-fit-x22381097/merchant_primary_logo_%28retina%29_-_merchant.png",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "ES",
+          "cuisine": "",
+          "name_for_outlet": "Fast Fit",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/fast-fit-x22381097/merchant_profile_%22hero%22_image_%28retina%29.png",
+          "id": 16009,
+          "category": "Services",
+          "name": "Fast Fit",
+          "photo_small_url": "https://offerengine.theentertainerme.com/fast-fit-x22381097/merchant_profile_%22hero%22_image_%28non-retina%29.png"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 5.96494,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 13338,
+        "lng": 55.239685,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Al Safa",
+        "top_offer_type": 0,
+        "categories": [
+          "Services"
+        ],
+        "id": 25969,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "",
+        "name": "TyreExpress, Al Safa",
+        "telephone": "(800) 327-8348",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Al Wasl Road, Near Safa Park",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/services_2.png"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 5.96494
+      },
+      {
+        "merchant_name": "Dunkin Donuts - Dubai",
+        "sub_categories": {
+          "Restaurants and Bars": [
+            "Informal Dining & Takeaway"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O043974",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Restaurants and Bars",
+        "top_offer_redeemability": 2,
+        "lat": 25.254181,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "BurJuman",
+        "merchant_categories_analytics": "FD",
+        "merchant_categories": [
+          "Restaurants and Bars"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "tripadvisor_rating": 3.8,
+        "merchant": {
+          "categories": [
+            "Restaurants and Bars"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            {
+              "title": "Baked Goods",
+              "title_color": "ef4239"
+            }
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/dunkin-donuts---dubai-x091244/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/dunkin-donuts---dubai-x091244/merchant_primary_logo_%28retina%29_-_merchant201911111159.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "FD",
+          "cuisine": "",
+          "name_for_outlet": "Dunkin Donuts - Dubai",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/dunkin-donuts-dubai-x091244/merchant_profile_%22hero%22_image_%28retina%29.png",
+          "id": 2087,
+          "category": "Restaurants and Bars",
+          "name": "Dunkin Donuts - Dubai",
+          "photo_small_url": "https://offerengine.theentertainerme.com/dunkin-donuts-dubai-x091244/merchant_profile_%22hero%22_image_%28non-retina%29.png"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 5.96494,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 23207,
+        "lng": 55.303669,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Bur Dubai",
+        "top_offer_type": 0,
+        "categories": [
+          "Restaurants and Bars"
+        ],
+        "id": 3431,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "",
+        "name": "BurJuman",
+        "telephone": "+971 56 158 9510",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "1st Level",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/food.png"
+          },
+          {
+            "type": "text",
+            "value": "Baked Goods"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 5.96494
+      },
+      {
+        "merchant_name": "Dunkin Donuts - Dubai",
+        "sub_categories": {
+          "Restaurants and Bars": [
+            "Informal Dining & Takeaway"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O23877136",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Restaurants and Bars",
+        "top_offer_redeemability": 2,
+        "lat": 25.260271,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "Al Seef",
+        "merchant_categories_analytics": "FD",
+        "merchant_categories": [
+          "Restaurants and Bars"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "tripadvisor_rating": 3.8,
+        "merchant": {
+          "categories": [
+            "Restaurants and Bars"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            {
+              "title": "Baked Goods",
+              "title_color": "ef4239"
+            }
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/dunkin-donuts---dubai-x091244/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/dunkin-donuts---dubai-x091244/merchant_primary_logo_%28retina%29_-_merchant201911111159.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "FD",
+          "cuisine": "",
+          "name_for_outlet": "Dunkin Donuts - Dubai",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/dunkin-donuts-dubai-x091244/merchant_profile_%22hero%22_image_%28retina%29.png",
+          "id": 2087,
+          "category": "Restaurants and Bars",
+          "name": "Dunkin Donuts - Dubai",
+          "photo_small_url": "https://offerengine.theentertainerme.com/dunkin-donuts-dubai-x091244/merchant_profile_%22hero%22_image_%28non-retina%29.png"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 5.96494,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 24096,
+        "lng": 55.309399,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Bur Dubai",
+        "top_offer_type": 0,
+        "categories": [
+          "Restaurants and Bars"
+        ],
+        "id": 62874,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "",
+        "name": "Al Seef",
+        "telephone": "+971 4 852 5115",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Building 23 Unit 4, Phase 3",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/food.png"
+          },
+          {
+            "type": "text",
+            "value": "Baked Goods"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 5.96494
+      },
+      {
+        "merchant_name": "Dunkin Donuts - Dubai",
+        "sub_categories": {
+          "Restaurants and Bars": [
+            "Informal Dining & Takeaway"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O168462",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Restaurants and Bars",
+        "top_offer_redeemability": 2,
+        "lat": 25.253481,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "City Centre Deira",
+        "merchant_categories_analytics": "FD",
+        "merchant_categories": [
+          "Restaurants and Bars"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "tripadvisor_rating": 3.8,
+        "merchant": {
+          "categories": [
+            "Restaurants and Bars"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            {
+              "title": "Baked Goods",
+              "title_color": "ef4239"
+            }
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/dunkin-donuts---dubai-x091244/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/dunkin-donuts---dubai-x091244/merchant_primary_logo_%28retina%29_-_merchant201911111159.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "FD",
+          "cuisine": "",
+          "name_for_outlet": "Dunkin Donuts - Dubai",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/dunkin-donuts-dubai-x091244/merchant_profile_%22hero%22_image_%28retina%29.png",
+          "id": 2087,
+          "category": "Restaurants and Bars",
+          "name": "Dunkin Donuts - Dubai",
+          "photo_small_url": "https://offerengine.theentertainerme.com/dunkin-donuts-dubai-x091244/merchant_profile_%22hero%22_image_%28non-retina%29.png"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "3921867",
+        "score": 5.96494,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 25015,
+        "lng": 55.330872,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Deira",
+        "top_offer_type": 0,
+        "categories": [
+          "Restaurants and Bars"
+        ],
+        "id": 3472,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "",
+        "name": "Food Court, City Centre Deira",
+        "telephone": "+971 4 250 4102",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "1st Level, Food Court",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/food.png"
+          },
+          {
+            "type": "text",
+            "value": "Baked Goods"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 5.96494
+      },
+      {
+        "merchant_name": "TYREPLUS - Dubai",
+        "sub_categories": {
+          "Services": [
+            "Auto"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O22398780",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Services",
+        "top_offer_redeemability": 2,
+        "lat": 25.234022,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "ES",
+        "merchant_categories": [
+          "Services"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "tripadvisor_rating": 3.8,
+        "merchant": {
+          "categories": [
+            "Services"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/tyreplus---dubai-x21235117/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/tyreplus---dubai-x21235117/merchant_primary_logo_%28retina%29_-_merchant.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "ES",
+          "cuisine": "",
+          "name_for_outlet": "TYREPLUS - Dubai",
+          "ad_active_status": 1,
+          "photo_url": "https://offerengine.theentertainerme.com/tyreplus---dubai-x21235117/merchant_profile_%22hero%22_image_%28retina%29.jpg",
+          "id": 4692,
+          "category": "Services",
+          "name": "TYREPLUS - Dubai",
+          "photo_small_url": "https://offerengine.theentertainerme.com/tyreplus---dubai-x21235117/merchant_profile_%22hero%22_image_%28non-retina%29.jpg"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 5.96494,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 25540,
+        "lng": 55.356361,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Al Garhoud",
+        "top_offer_type": 0,
+        "categories": [
+          "Services"
+        ],
+        "id": 26269,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "sales@ctc-uae.com",
+        "name": "Al Garhoud",
+        "telephone": "+971 4 236 9747",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Central Trading Company, Umm Ramoul Maarrakish Street",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/services_2.png"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 5.96494
+      },
+      {
+        "merchant_name": "Fast Fit",
+        "sub_categories": {
+          "Services": [
+            "Auto"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O22389757",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Services",
+        "top_offer_redeemability": 2,
+        "lat": 25.067905,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "ES",
+        "merchant_categories": [
+          "Services"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "tripadvisor_rating": 3.8,
+        "merchant": {
+          "categories": [
+            "Services"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/fast-fit-x22381097/merchant_primary_logo_%28non-retina%29_-_merchant.png",
+          "logo_url": "https://offerengine.theentertainerme.com/fast-fit-x22381097/merchant_primary_logo_%28retina%29_-_merchant.png",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "ES",
+          "cuisine": "",
+          "name_for_outlet": "Fast Fit",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/fast-fit-x22381097/merchant_profile_%22hero%22_image_%28retina%29.png",
+          "id": 16009,
+          "category": "Services",
+          "name": "Fast Fit",
+          "photo_small_url": "https://offerengine.theentertainerme.com/fast-fit-x22381097/merchant_profile_%22hero%22_image_%28non-retina%29.png"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 5.96494,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 25808,
+        "lng": 55.408497,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Dubai - Al Ain Road",
+        "top_offer_type": 0,
+        "categories": [
+          "Services"
+        ],
+        "id": 25979,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "",
+        "name": "Ain Road",
+        "telephone": "(800) 327-8348",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Abu Khadra, After Emirates NBD Bank",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/services_2.png"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 5.96494
+      },
+      {
+        "merchant_name": "TYREPLUS - Dubai",
+        "sub_categories": {
+          "Services": [
+            "Auto"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O21731112",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Services",
+        "top_offer_redeemability": 2,
+        "lat": 25.27634,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "ES",
+        "merchant_categories": [
+          "Services"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "tripadvisor_rating": 3.8,
+        "merchant": {
+          "categories": [
+            "Services"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/tyreplus---dubai-x21235117/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/tyreplus---dubai-x21235117/merchant_primary_logo_%28retina%29_-_merchant.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "ES",
+          "cuisine": "",
+          "name_for_outlet": "TYREPLUS - Dubai",
+          "ad_active_status": 1,
+          "photo_url": "https://offerengine.theentertainerme.com/tyreplus---dubai-x21235117/merchant_profile_%22hero%22_image_%28retina%29.jpg",
+          "id": 4692,
+          "category": "Services",
+          "name": "TYREPLUS - Dubai",
+          "photo_small_url": "https://offerengine.theentertainerme.com/tyreplus---dubai-x21235117/merchant_profile_%22hero%22_image_%28non-retina%29.jpg"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 5.96494,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 26547,
+        "lng": 55.326118,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Deira",
+        "top_offer_type": 0,
+        "categories": [
+          "Services"
+        ],
+        "id": 13608,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "sales@ctc-uae.com",
+        "name": "Deira Suzuki",
+        "telephone": "+971 4 203 6868",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Central Trading Company, Next to Suzuki Showroom",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/services_2.png"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 5.96494
+      },
+      {
+        "merchant_name": "Dunkin Donuts - Dubai",
+        "sub_categories": {
+          "Restaurants and Bars": [
+            "Informal Dining & Takeaway"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O168463",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Restaurants and Bars",
+        "top_offer_redeemability": 2,
+        "lat": 25.21633,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "City Centre Mirdif",
+        "merchant_categories_analytics": "FD",
+        "merchant_categories": [
+          "Restaurants and Bars"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "tripadvisor_rating": 3.8,
+        "merchant": {
+          "categories": [
+            "Restaurants and Bars"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            {
+              "title": "Baked Goods",
+              "title_color": "ef4239"
+            }
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/dunkin-donuts---dubai-x091244/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/dunkin-donuts---dubai-x091244/merchant_primary_logo_%28retina%29_-_merchant201911111159.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "FD",
+          "cuisine": "",
+          "name_for_outlet": "Dunkin Donuts - Dubai",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/dunkin-donuts-dubai-x091244/merchant_profile_%22hero%22_image_%28retina%29.png",
+          "id": 2087,
+          "category": "Restaurants and Bars",
+          "name": "Dunkin Donuts - Dubai",
+          "photo_small_url": "https://offerengine.theentertainerme.com/dunkin-donuts-dubai-x091244/merchant_profile_%22hero%22_image_%28non-retina%29.png"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "3921867",
+        "score": 5.96494,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 28875,
+        "lng": 55.407902,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Mirdif",
+        "top_offer_type": 0,
+        "categories": [
+          "Restaurants and Bars"
+        ],
+        "id": 3473,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "",
+        "name": "City Centre Mirdif",
+        "telephone": "+971 4 280 4778",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Food Court",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/food.png"
+          },
+          {
+            "type": "text",
+            "value": "Baked Goods"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 5.96494
+      },
+      {
+        "merchant_name": "Dunkin Donuts - Dubai",
+        "sub_categories": {
+          "Restaurants and Bars": [
+            "Informal Dining & Takeaway"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O043995",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Restaurants and Bars",
+        "top_offer_redeemability": 2,
+        "lat": 25.298059,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "Sahara Centre",
+        "merchant_categories_analytics": "FD",
+        "merchant_categories": [
+          "Restaurants and Bars"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "tripadvisor_rating": 3.8,
+        "merchant": {
+          "categories": [
+            "Restaurants and Bars"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            {
+              "title": "Baked Goods",
+              "title_color": "ef4239"
+            }
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/dunkin-donuts---dubai-x091244/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/dunkin-donuts---dubai-x091244/merchant_primary_logo_%28retina%29_-_merchant201911111159.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "FD",
+          "cuisine": "",
+          "name_for_outlet": "Dunkin Donuts - Dubai",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/dunkin-donuts-dubai-x091244/merchant_profile_%22hero%22_image_%28retina%29.png",
+          "id": 2087,
+          "category": "Restaurants and Bars",
+          "name": "Dunkin Donuts - Dubai",
+          "photo_small_url": "https://offerengine.theentertainerme.com/dunkin-donuts-dubai-x091244/merchant_profile_%22hero%22_image_%28non-retina%29.png"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "3917082",
+        "score": 5.96494,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 31475,
+        "lng": 55.372379,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Sharjah",
+        "top_offer_type": 0,
+        "categories": [
+          "Restaurants and Bars"
+        ],
+        "id": 3448,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "",
+        "name": "Sahara Centre",
+        "telephone": "+971 6 531 3390",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "1st Level, Food Court",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/food.png"
+          },
+          {
+            "type": "text",
+            "value": "Baked Goods"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 5.96494
+      },
+      {
+        "merchant_name": "Fast Fit",
+        "sub_categories": {
+          "Services": [
+            "Auto"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O22389753",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Services",
+        "top_offer_redeemability": 2,
+        "lat": 25.286448,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "ES",
+        "merchant_categories": [
+          "Services"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "merchant": {
+          "categories": [
+            "Services"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/fast-fit-x22381097/merchant_primary_logo_%28non-retina%29_-_merchant.png",
+          "logo_url": "https://offerengine.theentertainerme.com/fast-fit-x22381097/merchant_primary_logo_%28retina%29_-_merchant.png",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "ES",
+          "cuisine": "",
+          "name_for_outlet": "Fast Fit",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/fast-fit-x22381097/merchant_profile_%22hero%22_image_%28retina%29.png",
+          "id": 16009,
+          "category": "Services",
+          "name": "Fast Fit",
+          "photo_small_url": "https://offerengine.theentertainerme.com/fast-fit-x22381097/merchant_profile_%22hero%22_image_%28non-retina%29.png"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 5.96494,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 32811,
+        "lng": 55.402508,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Muhaisnah",
+        "top_offer_type": 0,
+        "categories": [
+          "Services"
+        ],
+        "id": 25973,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "",
+        "name": "TyreExpress, Muhaisnah",
+        "telephone": "(800) 327-8348",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Al Qama, Opposite Lulu Village",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/services_2.png"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 5.96494
+      },
+      {
+        "merchant_name": "Dunkin Donuts - Dubai",
+        "sub_categories": {
+          "Restaurants and Bars": [
+            "Informal Dining & Takeaway"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O043994",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Restaurants and Bars",
+        "top_offer_redeemability": 2,
+        "lat": 25.339581,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "FD",
+        "merchant_categories": [
+          "Restaurants and Bars"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "merchant": {
+          "categories": [
+            "Restaurants and Bars"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            {
+              "title": "Baked Goods",
+              "title_color": "ef4239"
+            }
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/dunkin-donuts---dubai-x091244/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/dunkin-donuts---dubai-x091244/merchant_primary_logo_%28retina%29_-_merchant201911111159.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "FD",
+          "cuisine": "",
+          "name_for_outlet": "Dunkin Donuts - Dubai",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/dunkin-donuts-dubai-x091244/merchant_profile_%22hero%22_image_%28retina%29.png",
+          "id": 2087,
+          "category": "Restaurants and Bars",
+          "name": "Dunkin Donuts - Dubai",
+          "photo_small_url": "https://offerengine.theentertainerme.com/dunkin-donuts-dubai-x091244/merchant_profile_%22hero%22_image_%28non-retina%29.png"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "3926700",
+        "score": 5.96494,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 35795,
+        "lng": 55.38583,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Al Buhaira Corniche",
+        "top_offer_type": 0,
+        "categories": [
+          "Restaurants and Bars"
+        ],
+        "id": 3447,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "",
+        "name": "Al Buhaira Corniche",
+        "telephone": "+971 6 572 1019",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Beside Hotel Holiday International",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/food.png"
+          },
+          {
+            "type": "text",
+            "value": "Baked Goods"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 5.96494
+      },
+      {
+        "merchant_name": "Fast Fit",
+        "sub_categories": {
+          "Services": [
+            "Auto"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O22389682",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Services",
+        "top_offer_redeemability": 2,
+        "lat": 25.331406,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "ES",
+        "merchant_categories": [
+          "Services"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "tripadvisor_rating": 3.8,
+        "merchant": {
+          "categories": [
+            "Services"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/fast-fit-x22381097/merchant_primary_logo_%28non-retina%29_-_merchant.png",
+          "logo_url": "https://offerengine.theentertainerme.com/fast-fit-x22381097/merchant_primary_logo_%28retina%29_-_merchant.png",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "ES",
+          "cuisine": "",
+          "name_for_outlet": "Fast Fit",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/fast-fit-x22381097/merchant_profile_%22hero%22_image_%28retina%29.png",
+          "id": 16009,
+          "category": "Services",
+          "name": "Fast Fit",
+          "photo_small_url": "https://offerengine.theentertainerme.com/fast-fit-x22381097/merchant_profile_%22hero%22_image_%28non-retina%29.png"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 5.96494,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 37640,
+        "lng": 55.422188,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Sharjah",
+        "top_offer_type": 0,
+        "categories": [
+          "Services"
+        ],
+        "id": 25955,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "",
+        "name": "FastFit, Sharjah Club",
+        "telephone": "(800) 327-8348",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Sharjah Club, Near Sharjah Cricket Stadium",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://i.ibb.co/vmWQnP3/ic-delivery.png"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 5.96494
+      },
+      {
+        "merchant_name": "Fast Fit",
+        "sub_categories": {
+          "Services": [
+            "Auto"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O22389706",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Services",
+        "top_offer_redeemability": 2,
+        "lat": 25.513233,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "ES",
+        "merchant_categories": [
+          "Services"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "merchant": {
+          "categories": [
+            "Services"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/fast-fit-x22381097/merchant_primary_logo_%28non-retina%29_-_merchant.png",
+          "logo_url": "https://offerengine.theentertainerme.com/fast-fit-x22381097/merchant_primary_logo_%28retina%29_-_merchant.png",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "ES",
+          "cuisine": "",
+          "name_for_outlet": "Fast Fit",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/fast-fit-x22381097/merchant_profile_%22hero%22_image_%28retina%29.png",
+          "id": 16009,
+          "category": "Services",
+          "name": "Fast Fit",
+          "photo_small_url": "https://offerengine.theentertainerme.com/fast-fit-x22381097/merchant_profile_%22hero%22_image_%28non-retina%29.png"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 5.96494,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 62458,
+        "lng": 55.569084,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Umm Al Quwain",
+        "top_offer_type": 0,
+        "categories": [
+          "Services"
+        ],
+        "id": 25959,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "",
+        "name": "FastFit, Umm Al Quwain",
+        "telephone": "(800) 327-8348",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Abraq, Near UAQ Round-About from Ajman",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/services_2.png"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 5.96494
+      },
+      {
+        "merchant_name": "Dunkin Donuts - Dubai",
+        "sub_categories": {
+          "Restaurants and Bars": [
+            "Informal Dining & Takeaway"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O044010",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Restaurants and Bars",
+        "top_offer_redeemability": 2,
+        "lat": 25.809549,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "Centre Point",
+        "merchant_categories_analytics": "FD",
+        "merchant_categories": [
+          "Restaurants and Bars"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "merchant": {
+          "categories": [
+            "Restaurants and Bars"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            {
+              "title": "Baked Goods",
+              "title_color": "ef4239"
+            }
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/dunkin-donuts---dubai-x091244/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/dunkin-donuts---dubai-x091244/merchant_primary_logo_%28retina%29_-_merchant201911111159.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "FD",
+          "cuisine": "",
+          "name_for_outlet": "Dunkin Donuts - Dubai",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/dunkin-donuts-dubai-x091244/merchant_profile_%22hero%22_image_%28retina%29.png",
+          "id": 2087,
+          "category": "Restaurants and Bars",
+          "name": "Dunkin Donuts - Dubai",
+          "photo_small_url": "https://offerengine.theentertainerme.com/dunkin-donuts-dubai-x091244/merchant_profile_%22hero%22_image_%28non-retina%29.png"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "3919122",
+        "score": 5.96494,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 114273,
+        "lng": 55.972111,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Ras Al Khaimah",
+        "top_offer_type": 0,
+        "categories": [
+          "Restaurants and Bars"
+        ],
+        "id": 3463,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "",
+        "name": "Centre Point",
+        "telephone": "+971 6 575 9988",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Ground Level",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/food.png"
+          },
+          {
+            "type": "text",
+            "value": "Baked Goods"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 5.96494
+      },
+      {
+        "merchant_name": "Fast Fit",
+        "sub_categories": {
+          "Services": [
+            "Auto"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O22389658",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Services",
+        "top_offer_redeemability": 2,
+        "lat": 25.128811,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "ES",
+        "merchant_categories": [
+          "Services"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "merchant": {
+          "categories": [
+            "Services"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/fast-fit-x22381097/merchant_primary_logo_%28non-retina%29_-_merchant.png",
+          "logo_url": "https://offerengine.theentertainerme.com/fast-fit-x22381097/merchant_primary_logo_%28retina%29_-_merchant.png",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "ES",
+          "cuisine": "",
+          "name_for_outlet": "Fast Fit",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/fast-fit-x22381097/merchant_profile_%22hero%22_image_%28retina%29.png",
+          "id": 16009,
+          "category": "Services",
+          "name": "Fast Fit",
+          "photo_small_url": "https://offerengine.theentertainerme.com/fast-fit-x22381097/merchant_profile_%22hero%22_image_%28non-retina%29.png"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 5.96494,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 118131,
+        "lng": 56.326485,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Fujairah",
+        "top_offer_type": 0,
+        "categories": [
+          "Services"
+        ],
+        "id": 25949,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "",
+        "name": "FastFit, Fujairah",
+        "telephone": "(800) 327-8348",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Next to Emirates Driving Institute",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/services_2.png"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 5.96494
+      },
+      {
+        "merchant_name": "TYREPLUS - Dubai",
+        "sub_categories": {
+          "Services": [
+            "Auto"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O23873722",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Services",
+        "top_offer_redeemability": 2,
+        "lat": 25.122992,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "ES",
+        "merchant_categories": [
+          "Services"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "merchant": {
+          "categories": [
+            "Services"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/tyreplus---dubai-x21235117/merchant_primary_logo_%28non-retina%29_-_merchant.jpg",
+          "logo_url": "https://offerengine.theentertainerme.com/tyreplus---dubai-x21235117/merchant_primary_logo_%28retina%29_-_merchant.jpg",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "ES",
+          "cuisine": "",
+          "name_for_outlet": "TYREPLUS - Dubai",
+          "ad_active_status": 1,
+          "photo_url": "https://offerengine.theentertainerme.com/tyreplus---dubai-x21235117/merchant_profile_%22hero%22_image_%28retina%29.jpg",
+          "id": 4692,
+          "category": "Services",
+          "name": "TYREPLUS - Dubai",
+          "photo_small_url": "https://offerengine.theentertainerme.com/tyreplus---dubai-x21235117/merchant_profile_%22hero%22_image_%28non-retina%29.jpg"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 5.96494,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 119399,
+        "lng": 56.339233,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Fujairah",
+        "top_offer_type": 0,
+        "categories": [
+          "Services"
+        ],
+        "id": 59352,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "sales@ctc-uae.com",
+        "name": "Fujairah, Al Atlal",
+        "telephone": "+971 9 222 3998",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Eid Musalla Road",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/services_2.png"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 5.96494
+      },
+      {
+        "merchant_name": "Fast Fit",
+        "sub_categories": {
+          "Services": [
+            "Auto"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O22389758",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Services",
+        "top_offer_redeemability": 2,
+        "lat": 25.186943,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "ES",
+        "merchant_categories": [
+          "Services"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "merchant": {
+          "categories": [
+            "Services"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/fast-fit-x22381097/merchant_primary_logo_%28non-retina%29_-_merchant.png",
+          "logo_url": "https://offerengine.theentertainerme.com/fast-fit-x22381097/merchant_primary_logo_%28retina%29_-_merchant.png",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "ES",
+          "cuisine": "",
+          "name_for_outlet": "Fast Fit",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/fast-fit-x22381097/merchant_profile_%22hero%22_image_%28retina%29.png",
+          "id": 16009,
+          "category": "Services",
+          "name": "Fast Fit",
+          "photo_small_url": "https://offerengine.theentertainerme.com/fast-fit-x22381097/merchant_profile_%22hero%22_image_%28non-retina%29.png"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 5.9480286,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 13338,
+        "lng": 55.239685,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Al Safa",
+        "top_offer_type": 0,
+        "categories": [
+          "Services"
+        ],
+        "id": 25981,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "",
+        "name": "TyreExpress, Rajhan Al Safa",
+        "telephone": "(800) 327-8348",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Opposite Immigration Office, Next to Al Jafliya Metro Station",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/services_2.png"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 5.9480286
+      },
+      {
+        "merchant_name": "Fast Fit",
+        "sub_categories": {
+          "Services": [
+            "Auto"
+          ]
+        },
+        "api_params": {
+          "show_monthly_product": true
+        },
+        "product_id": [
+          8472
+        ],
+        "cashless_delivery_enabled": 0,
+        "is_birthday": false,
+        "sfId": "O22389750",
+        "is_purchased": true,
+        "opening_hours": "",
+        "sub_categories_analytics": "Services",
+        "top_offer_redeemability": 2,
+        "lat": 25.229633,
+        "locked_image_url": "",
+        "hotel": "",
+        "mall": "",
+        "merchant_categories_analytics": "ES",
+        "merchant_categories": [
+          "Services"
+        ],
+        "is_monthly": false,
+        "is_more_sa": false,
+        "merchant": {
+          "categories": [
+            "Services"
+          ],
+          "map_pin_url": "",
+          "map_pin_selected_url": "",
+          "map_cluster_url": "",
+          "cuisines": [
+            
+          ],
+          "logo_small_url": "https://offerengine.theentertainerme.com/fast-fit-x22381097/merchant_primary_logo_%28non-retina%29_-_merchant.png",
+          "logo_url": "https://offerengine.theentertainerme.com/fast-fit-x22381097/merchant_primary_logo_%28retina%29_-_merchant.png",
+          "digital_section": "",
+          "description": "",
+          "ad_travel_country": "",
+          "categories_analytics": "ES",
+          "cuisine": "",
+          "name_for_outlet": "Fast Fit",
+          "ad_active_status": 0,
+          "photo_url": "https://offerengine.theentertainerme.com/fast-fit-x22381097/merchant_profile_%22hero%22_image_%28retina%29.png",
+          "id": 16009,
+          "category": "Services",
+          "name": "Fast Fit",
+          "photo_small_url": "https://offerengine.theentertainerme.com/fast-fit-x22381097/merchant_profile_%22hero%22_image_%28non-retina%29.png"
+        },
+        "is_cheers": false,
+        "is_redeemable": true,
+        "is_new": false,
+        "tripadvisor_id": "9999",
+        "score": 5.9480286,
+        "has_fourth_offers": false,
+        "description": "",
+        "distance": 22358,
+        "lng": 55.319424,
+        "has_bonus_offers": false,
+        "is_shared": false,
+        "neighborhood": "Al Garhoud",
+        "top_offer_type": 0,
+        "categories": [
+          "Services"
+        ],
+        "id": 25967,
+        "has_type_2_offers": false,
+        "top_up_offer": false,
+        "email": "",
+        "name": "TyreExpress, Al Garhoud",
+        "telephone": "(800) 327-8348",
+        "product_sku": [
+          "D20DBFMCP"
+        ],
+        "human_location": "Near Garhoud Bridge, Police Club, Opposite Wafi Mall",
+        "attributes": [
+          {
+            "type": "image",
+            "value": "https://s3.amazonaws.com/entertainer-app-assets/categories/services_2.png"
+          }
+        ],
+        "is_delivery": false,
+        "fuzzy_relevance": 5.9480286
+      }
+    ]
+  },
+  "http_response": 200,
+  "code": 0,
+  "success": true,
+  "cmd": "/et_rs_prd/web/v614/outlets?",
+  "message": "success"
+}

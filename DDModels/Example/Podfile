@@ -1,0 +1,6 @@
+use_frameworks!
+target 'DDModels_Tests' do
+  pod 'DDModels', :path => '../'
+  
+  
+end

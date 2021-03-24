@@ -1,0 +1,598 @@
+{
+    "status": true,
+    "message": "",
+    "http_code": 200,
+    "data": {
+        "merchant": {
+            "id": 123,
+            "status_color": "06d6a0",
+            "complete_address": "Gulberg III Main Boulevard Lahore",
+            "currency": "$",
+            "info": [{
+                    "title": "Address",
+                    "sub_title": "Strada Brasov nr. 32, Bucharest, Romania",
+                    "identifier": "address",
+                    "image_url": "https:\/\/i.ibb.co\/y0cyDmn\/ic-rating.png"
+                },
+                {
+                    "title": "Delivery Times",
+                    "identifier": "delivery_times",
+                    "image_url": "https:\/\/i.ibb.co\/y0cyDmn\/ic-rating.png",
+                    "times": [{
+                            "title": "Sunday",
+                            "sub_title": "10:30 - 20:30"
+                        },
+                        {
+                            "title": "Monday",
+                            "sub_title": "10:30 - 20:30"
+                        },
+                        {
+                            "title": "Tuesday",
+                            "sub_title": "10:30 - 20:30"
+                        }
+                    ]
+                },
+                {
+                    "title": "Payment Options",
+                    "identifier": "payment_options",
+                    "image_url": "https:\/\/i.ibb.co\/y0cyDmn\/ic-rating.png",
+                    "times": [{
+                            "image_url": "https:\/\/i.ibb.co\/y0cyDmn\/ic-rating.png"
+                        },
+                        {
+                            "image_url": "https:\/\/i.ibb.co\/y0cyDmn\/ic-rating.png"
+                        },
+                        {
+                            "image_url": "https:\/\/i.ibb.co\/y0cyDmn\/ic-rating.png"
+                        }
+                    ]
+                }
+            ],
+            "delivery_rules": [{
+                    "title": "Delivery time",
+                    "value": "20 - 30 mins"
+                },
+                {
+                    "title": "Minimum Order",
+                    "value": "10.00"
+                },
+                {
+                    "title": "Delivery fee",
+                    "value": "Free"
+                }
+            ],
+            "min_delivery_amount": 25,
+            "rating": {
+                "review_subtitle": "out of 4 reviews",
+                "reviews": [{
+                    "rate": 4,
+                    "title": "Harry Brown",
+                    "sub_title": "20 Feb 2020 at 12:00",
+                    "review_text": "Lorem Ipsum"
+                }],
+                "rate": 4.5
+            },
+            "longitude": "123.0023",
+            "merchant_attributes": [{
+                    "type": "image",
+                    "value": "https:\/\/i.ibb.co\/y0cyDmn\/ic-rating.png"
+                },
+                {
+                    "type": "text",
+                    "value": "4.5",
+                    "title_color": "1cb5e0"
+                },
+                {
+                    "type": "text",
+                    "value": " •  Pizza, Pasta",
+                    "title_color": "c7c7c7"
+                },
+                {
+                    "type": "text",
+                    "value": " •  $$$",
+                    "title_color": "c7c7c7"
+                }
+            ],
+            "latitude": "123.0023",
+            "delivery_fee": 10,
+            "image_urls": [
+                "https:\/\/i.ibb.co\/XWFP8M0\/pizza-image.png"
+            ],
+            "delivery_time": "20-30 mins",
+            "delivery_menu": [{
+                    "id": 123,
+                    "name": "Beverages",
+                    "items": [{
+                            "image_url": "https:\/\/i.ibb.co\/XWFP8M0\/pizza-image.png",
+                            "id": 1,
+                            "item_stock_count": 10,
+                            "name": "Pepsi",
+                            "detail_description": "Choose 1 pizza and get 1 free",
+                            "price": 3.5
+                        },
+                        {
+                            "detail_description": "Choose 1 pizza and get 1 free",
+                            "id": 3,
+                            "price": 5,
+                            "image_url": "https:\/\/i.ibb.co\/XWFP8M0\/pizza-image.png",
+                            "item_stock_count": 10,
+                            "name": "Pizza",
+                            "customizations": [{
+                                    "sub_title": "Required",
+                                    "id": 1,
+                                    "min_selected_count": 1,
+                                    "title": "Variations",
+                                    "is_single_selection": true,
+                                    "options": [{
+                                            "id": 1,
+                                            "title": "Small - 24 cm",
+                                            "is_additional_price": false,
+                                            "price": 0
+                                        },
+                                        {
+                                            "id": 2,
+                                            "title": "Medium - 34 cm",
+                                            "is_additional_price": false,
+                                            "price": 10
+                                        },
+                                        {
+                                            "id": 3,
+                                            "title": "Large - 44 cm",
+                                            "is_additional_price": false,
+                                            "price": 20
+                                        }
+                                    ],
+                                    "max_selected_count": 1
+                                },
+                                {
+                                    "sub_title": "Optional. Select up to 5",
+                                    "id": 2,
+                                    "min_selected_count": 0,
+                                    "title": "Extra Topping",
+                                    "is_single_selection": false,
+                                    "options": [{
+                                            "id": 4,
+                                            "title": "Cheese",
+                                            "price": 10
+                                        },
+                                        {
+                                            "id": 5,
+                                            "title": "Mashrooms",
+                                            "price": 5
+                                        },
+                                        {
+                                            "id": 6,
+                                            "title": "Olives",
+                                            "price": 15
+                                        }
+                                    ],
+                                    "max_selected_count": 5
+                                },
+                                {
+                                    "sub_title": "Optional. Select up to 5",
+                                    "id": 2,
+                                    "min_selected_count": 0,
+                                    "title": "Extra Topping",
+                                    "is_single_selection": false,
+                                    "options": [{
+                                            "id": 4,
+                                            "title": "Cheese",
+                                            "price": 10
+                                        },
+                                        {
+                                            "id": 5,
+                                            "title": "Mashrooms",
+                                            "price": 5
+                                        },
+                                        {
+                                            "id": 6,
+                                            "title": "Olives",
+                                            "price": 15
+                                        }
+                                    ],
+                                    "max_selected_count": 5
+                                }
+                            ]
+                        },
+                        {
+                            "image_url": "https:\/\/i.ibb.co\/XWFP8M0\/pizza-image.png",
+                            "id": 2,
+                            "item_stock_count": 10,
+                            "name": "Juices",
+                            "price": 5,
+                            "detail_description": "Choose 1 pizza and get 1 free"
+                        },
+                        {
+                            "detail_description": "Choose 1 pizza and get 1 free",
+                            "id": 3,
+                            "price": 5,
+                            "image_url": "https:\/\/i.ibb.co\/XWFP8M0\/pizza-image.png",
+                            "item_stock_count": 10,
+                            "name": "Pizza",
+                            "customizations": [{
+                                    "sub_title": "Required",
+                                    "id": 1,
+                                    "min_selected_count": 1,
+                                    "title": "Variations",
+                                    "is_single_selection": true,
+                                    "options": [{
+                                            "id": 1,
+                                            "title": "Small - 24 cm",
+                                            "is_additional_price": false,
+                                            "price": 0
+                                        },
+                                        {
+                                            "id": 2,
+                                            "title": "Medium - 34 cm",
+                                            "is_additional_price": false,
+                                            "price": 10
+                                        },
+                                        {
+                                            "id": 3,
+                                            "title": "Large - 44 cm",
+                                            "is_additional_price": false,
+                                            "price": 20
+                                        }
+                                    ],
+                                    "max_selected_count": 1
+                                },
+                                {
+                                    "sub_title": "Optional. Select up to 5",
+                                    "id": 2,
+                                    "min_selected_count": 0,
+                                    "title": "Extra Topping",
+                                    "is_single_selection": false,
+                                    "options": [{
+                                            "id": 4,
+                                            "title": "Cheese",
+                                            "price": 10
+                                        },
+                                        {
+                                            "id": 5,
+                                            "title": "Mashrooms",
+                                            "price": 5
+                                        },
+                                        {
+                                            "id": 6,
+                                            "title": "Olives",
+                                            "price": 15
+                                        }
+                                    ],
+                                    "max_selected_count": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 456,
+                    "name": "Food",
+                    "items": [{
+                            "image_url": "https:\/\/i.ibb.co\/XWFP8M0\/pizza-image.png",
+                            "id": 1,
+                            "item_stock_count": 10,
+                            "name": "Pepsi",
+                            "detail_description": "Choose 1 pizza and get 1 free",
+                            "price": 3.5
+                        },
+                        {
+                            "detail_description": "Choose 1 pizza and get 1 free",
+                            "id": 3,
+                            "price": 5,
+                            "image_url": "https:\/\/i.ibb.co\/XWFP8M0\/pizza-image.png",
+                            "item_stock_count": 10,
+                            "name": "Pizza",
+                            "customizations": [{
+                                    "sub_title": "Required",
+                                    "id": 1,
+                                    "min_selected_count": 1,
+                                    "title": "Variations",
+                                    "is_single_selection": true,
+                                    "options": [{
+                                            "id": 1,
+                                            "title": "Small - 24 cm",
+                                            "is_additional_price": false,
+                                            "price": 0
+                                        },
+                                        {
+                                            "id": 2,
+                                            "title": "Medium - 34 cm",
+                                            "is_additional_price": false,
+                                            "price": 10
+                                        },
+                                        {
+                                            "id": 3,
+                                            "title": "Large - 44 cm",
+                                            "is_additional_price": false,
+                                            "price": 20
+                                        }
+                                    ],
+                                    "max_selected_count": 1
+                                },
+                                {
+                                    "sub_title": "Optional. Select up to 5",
+                                    "id": 2,
+                                    "min_selected_count": 0,
+                                    "title": "Extra Topping",
+                                    "is_single_selection": false,
+                                    "options": [{
+                                            "id": 4,
+                                            "title": "Cheese",
+                                            "price": 10
+                                        },
+                                        {
+                                            "id": 5,
+                                            "title": "Mashrooms",
+                                            "price": 5
+                                        },
+                                        {
+                                            "id": 6,
+                                            "title": "Olives",
+                                            "price": 15
+                                        }
+                                    ],
+                                    "max_selected_count": 5
+                                },
+                                {
+                                    "sub_title": "Optional. Select up to 5",
+                                    "id": 2,
+                                    "min_selected_count": 0,
+                                    "title": "Extra Topping",
+                                    "is_single_selection": false,
+                                    "options": [{
+                                            "id": 4,
+                                            "title": "Cheese",
+                                            "price": 10
+                                        },
+                                        {
+                                            "id": 5,
+                                            "title": "Mashrooms",
+                                            "price": 5
+                                        },
+                                        {
+                                            "id": 6,
+                                            "title": "Olives",
+                                            "price": 15
+                                        }
+                                    ],
+                                    "max_selected_count": 5
+                                }
+                            ]
+                        },
+                        {
+                            "image_url": "https:\/\/i.ibb.co\/XWFP8M0\/pizza-image.png",
+                            "id": 2,
+                            "item_stock_count": 10,
+                            "name": "Juices",
+                            "price": 5,
+                            "detail_description": "Choose 1 pizza and get 1 free"
+                        },
+                        {
+                            "detail_description": "Choose 1 pizza and get 1 free",
+                            "id": 3,
+                            "price": 5,
+                            "image_url": "https:\/\/i.ibb.co\/XWFP8M0\/pizza-image.png",
+                            "item_stock_count": 10,
+                            "name": "Pizza",
+                            "customizations": [{
+                                    "sub_title": "Required",
+                                    "id": 1,
+                                    "min_selected_count": 1,
+                                    "title": "Variations",
+                                    "is_single_selection": true,
+                                    "options": [{
+                                            "id": 1,
+                                            "title": "Small - 24 cm",
+                                            "price": 0
+                                        },
+                                        {
+                                            "id": 2,
+                                            "title": "Medium - 34 cm",
+                                            "price": 10
+                                        },
+                                        {
+                                            "id": 3,
+                                            "title": "Large - 44 cm",
+                                            "price": 20
+                                        }
+                                    ],
+                                    "max_selected_count": 1
+                                },
+                                {
+                                    "sub_title": "Optional. Select up to 5",
+                                    "id": 2,
+                                    "min_selected_count": 0,
+                                    "title": "Extra Topping",
+                                    "is_single_selection": false,
+                                    "options": [{
+                                            "id": 4,
+                                            "title": "Cheese",
+                                            "price": 10
+                                        },
+                                        {
+                                            "id": 5,
+                                            "title": "Mashrooms",
+                                            "price": 5
+                                        },
+                                        {
+                                            "id": 6,
+                                            "title": "Olives",
+                                            "price": 15
+                                        }
+                                    ],
+                                    "max_selected_count": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 678,
+                    "name": "New Breverages",
+                    "items": [{
+                            "image_url": "https:\/\/i.ibb.co\/XWFP8M0\/pizza-image.png",
+                            "id": 1,
+                            "item_stock_count": 10,
+                            "name": "Pepsi",
+                            "detail_description": "Choose 1 pizza and get 1 free",
+                            "price": 3.5
+                        },
+                        {
+                            "detail_description": "Choose 1 pizza and get 1 free",
+                            "id": 3,
+                            "price": 5,
+                            "image_url": "https:\/\/i.ibb.co\/XWFP8M0\/pizza-image.png",
+                            "item_stock_count": 10,
+                            "name": "Pizza",
+                            "customizations": [{
+                                    "sub_title": "Required",
+                                    "id": 1,
+                                    "min_selected_count": 1,
+                                    "title": "Variations",
+                                    "is_single_selection": true,
+                                    "options": [{
+                                            "id": 1,
+                                            "title": "Small - 24 cm",
+                                            "price": 0
+                                        },
+                                        {
+                                            "id": 2,
+                                            "title": "Medium - 34 cm",
+                                            "price": 10
+                                        },
+                                        {
+                                            "id": 3,
+                                            "title": "Large - 44 cm",
+                                            "price": 20
+                                        }
+                                    ],
+                                    "max_selected_count": 1
+                                },
+                                {
+                                    "sub_title": "Optional. Select up to 5",
+                                    "id": 2,
+                                    "min_selected_count": 0,
+                                    "title": "Extra Topping",
+                                    "is_single_selection": false,
+                                    "options": [{
+                                            "id": 4,
+                                            "title": "Cheese",
+                                            "price": 10
+                                        },
+                                        {
+                                            "id": 5,
+                                            "title": "Mashrooms",
+                                            "price": 5
+                                        },
+                                        {
+                                            "id": 6,
+                                            "title": "Olives",
+                                            "price": 15
+                                        }
+                                    ],
+                                    "max_selected_count": 5
+                                },
+                                {
+                                    "sub_title": "Optional. Select up to 5",
+                                    "id": 2,
+                                    "min_selected_count": 0,
+                                    "title": "Extra Topping",
+                                    "is_single_selection": false,
+                                    "options": [{
+                                            "id": 4,
+                                            "title": "Cheese",
+                                            "price": 10
+                                        },
+                                        {
+                                            "id": 5,
+                                            "title": "Mashrooms",
+                                            "price": 5
+                                        },
+                                        {
+                                            "id": 6,
+                                            "title": "Olives",
+                                            "price": 15
+                                        }
+                                    ],
+                                    "max_selected_count": 5
+                                }
+                            ]
+                        },
+                        {
+                            "image_url": "https:\/\/i.ibb.co\/XWFP8M0\/pizza-image.png",
+                            "id": 2,
+                            "item_stock_count": 10,
+                            "name": "Juices",
+                            "price": 5,
+                            "detail_description": "Choose 1 pizza and get 1 free"
+                        },
+                        {
+                            "detail_description": "Choose 1 pizza and get 1 free",
+                            "id": 3,
+                            "price": 5,
+                            "image_url": "https:\/\/i.ibb.co\/XWFP8M0\/pizza-image.png",
+                            "item_stock_count": 10,
+                            "name": "Pizza",
+                            "customizations": [{
+                                    "sub_title": "Required",
+                                    "id": 1,
+                                    "min_selected_count": 1,
+                                    "title": "Variations",
+                                    "is_single_selection": true,
+                                    "options": [{
+                                            "id": 1,
+                                            "title": "Small - 24 cm",
+                                            "is_additional_price": false,
+                                            "price": 0
+                                        },
+                                        {
+                                            "id": 2,
+                                            "title": "Medium - 34 cm",
+                                            "is_additional_price": false,
+                                            "price": 10
+                                        },
+                                        {
+                                            "id": 3,
+                                            "title": "Large - 44 cm",
+                                            "is_additional_price": false,
+                                            "price": 20
+                                        }
+                                    ],
+                                    "max_selected_count": 1
+                                },
+                                {
+                                    "sub_title": "Optional. Select up to 5",
+                                    "id": 2,
+                                    "min_selected_count": 0,
+                                    "title": "Extra Topping",
+                                    "is_single_selection": false,
+                                    "options": [{
+                                            "id": 4,
+                                            "title": "Cheese",
+                                            "price": 10
+                                        },
+                                        {
+                                            "id": 5,
+                                            "title": "Mashrooms",
+                                            "price": 5
+                                        },
+                                        {
+                                            "id": 6,
+                                            "title": "Olives",
+                                            "price": 15
+                                        }
+                                    ],
+                                    "max_selected_count": 5
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "online_time": "12:00AM - 11:59PM",
+            "is_open": true,
+            "name": "KFC",
+            "status": "Open"
+        }
+    }
+}

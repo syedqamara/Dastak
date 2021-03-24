@@ -1,0 +1,16 @@
+PODS:
+  - DDOutlets (0.1.0)
+
+DEPENDENCIES:
+  - DDOutlets (from `../`)
+
+EXTERNAL SOURCES:
+  DDOutlets:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DDOutlets: 0cab5e4bae03fe88b61db3860c17df0013a7678f
+
+PODFILE CHECKSUM: 149d683533b1dca0258fe5b397bbbca3cf0cc36f
+
+COCOAPODS: 1.7.4

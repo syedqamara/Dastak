@@ -1,0 +1,27 @@
+PODS:
+  - DDHome (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - DDHome (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  DDHome:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DDHome: 8b9d76662e79e6dff1ac6bb47cb682d1260cb1ed
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: b96c9d03660b9e702f3f739dc3cccdc6f2d1346a
+
+COCOAPODS: 1.8.4

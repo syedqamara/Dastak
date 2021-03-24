@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="18E227" minimumToolsVersion="Xcode 4.2" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="7">
+    <entity name="DDAnalyticsCDM" representedClassName="DDAnalyticsCDM" syncable="YES">
+        <attribute name="company_key" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="event_content" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="event_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="event_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="session_id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DDUserRedemptions" representedClassName="DDUserRedemptions" syncable="YES">
+        <attribute name="currency" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="family_identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="is_birthday_offer" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="is_family_offer" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="is_sync" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isshared" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="language" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lat" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="lng" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="merchant_id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="offer_id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="outlet_id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="product_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="quantity" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="redemption_code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="redemption_date_timezone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="redemption_datetime" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="transaction_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="DDUserRedemptions" positionX="-1260" positionY="-90" width="128" height="328"/>
+        <element name="DDAnalyticsCDM" positionX="-1260" positionY="54" width="128" height="133"/>
+    </elements>
+</model>

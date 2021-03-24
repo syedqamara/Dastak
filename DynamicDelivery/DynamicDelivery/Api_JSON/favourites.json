@@ -1,0 +1,53 @@
+{
+    "status": true,
+    "http_code": 200,
+    "message": "",
+    "data": {
+        "favourites": [
+            {
+                "id": 132,
+                "name": "Papa John - Mascat",
+                "outlet_attribute": [{
+                        "type": "image",
+                        "value": "https://i.ibb.co/y0cyDmn/ic-rating.png"
+                    },
+                    {
+                        "type": "text",
+                        "value": "4.5",
+                        "title_color": "1cb5e0"
+                    },
+                    {
+                        "type": "text",
+                        "value": " •  Pizza, Pasta",
+                        "title_color": "c7c7c7"
+                    },
+                    {
+                        "type": "text",
+                        "value": " •  $$$",
+                        "title_color": "c7c7c7"
+                    }
+                ],
+                "outlet_statuses": [{
+                        "type": "image",
+                        "value": "https://i.ibb.co/y0cyDmn/ic-rating.png"
+                    },
+                    {
+                        "type": "text",
+                        "value": "4.5",
+                        "title_color": "1cb5e0"
+                    },
+                    {
+                        "type": "text",
+                        "value": " •  Pizza, Pasta",
+                        "title_color": "c7c7c7"
+                    },
+                    {
+                        "type": "text",
+                        "value": " •  $$$",
+                        "title_color": "c7c7c7"
+                    }
+                ]
+            }
+        ]
+    }
+}

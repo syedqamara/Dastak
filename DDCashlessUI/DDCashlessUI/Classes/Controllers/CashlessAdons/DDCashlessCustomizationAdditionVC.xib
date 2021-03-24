@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MuseoSans_300.otf">
+            <string>MuseoSans-300</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DDCashlessCustomizationAdditionVC">
+            <connections>
+                <outlet property="addButton" destination="a21-GW-Bpu" id="klX-oU-CjF"/>
+                <outlet property="crossButton" destination="ke4-my-02k" id="3CG-l2-JbM"/>
+                <outlet property="tableView" destination="vId-Ra-VZI" id="gmu-mE-B4t"/>
+                <outlet property="view" destination="YuN-fz-cn8" id="saG-ma-tJU"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="YuN-fz-cn8">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="vId-Ra-VZI">
+                    <rect key="frame" x="0.0" y="74" width="414" height="697"/>
+                    <color key="backgroundColor" red="0.90588235289999997" green="0.90588235289999997" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CX5-Zt-hyk">
+                    <rect key="frame" x="0.0" y="773" width="414" height="70"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a21-GW-Bpu">
+                            <rect key="frame" x="20" y="10" width="374" height="50"/>
+                            <color key="backgroundColor" red="0.95686274510000002" green="0.4549019608" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="18"/>
+                            <state key="normal" title="ADD">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="didTapAddButton:" destination="-1" eventType="touchUpInside" id="Y7A-8e-f3C"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="a21-GW-Bpu" firstAttribute="top" secondItem="CX5-Zt-hyk" secondAttribute="top" constant="10" id="BxS-2b-DbI"/>
+                        <constraint firstItem="a21-GW-Bpu" firstAttribute="leading" secondItem="CX5-Zt-hyk" secondAttribute="leading" constant="20" id="Z8i-4V-pnP"/>
+                        <constraint firstAttribute="bottom" secondItem="a21-GW-Bpu" secondAttribute="bottom" constant="10" id="idr-BC-E6Q"/>
+                        <constraint firstAttribute="height" constant="70" id="kaE-oT-Ehw"/>
+                        <constraint firstAttribute="trailing" secondItem="a21-GW-Bpu" secondAttribute="trailing" constant="20" id="nQy-EC-DTu"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ke4-my-02k">
+                    <rect key="frame" x="374" y="49" width="24" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="24" id="OeO-ra-lzW"/>
+                        <constraint firstAttribute="width" constant="24" id="lrE-tS-RPQ"/>
+                    </constraints>
+                    <state key="normal" image="cross.png"/>
+                    <connections>
+                        <action selector="didTapCrossButton:" destination="-1" eventType="touchUpInside" id="WQv-4p-fdz"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="CX5-Zt-hyk" firstAttribute="trailing" secondItem="vId-Ra-VZI" secondAttribute="trailing" id="3Am-y5-f8x"/>
+                <constraint firstItem="ke4-my-02k" firstAttribute="top" secondItem="lnX-p7-YVR" secondAttribute="top" constant="5" id="6eF-6G-qM0"/>
+                <constraint firstItem="vId-Ra-VZI" firstAttribute="top" secondItem="YuN-fz-cn8" secondAttribute="top" constant="74" id="L9G-9N-gHq"/>
+                <constraint firstItem="vId-Ra-VZI" firstAttribute="trailing" secondItem="lnX-p7-YVR" secondAttribute="trailing" id="Sfa-a0-AwJ"/>
+                <constraint firstItem="CX5-Zt-hyk" firstAttribute="top" secondItem="vId-Ra-VZI" secondAttribute="bottom" constant="2" id="T5F-D8-Ccf"/>
+                <constraint firstItem="lnX-p7-YVR" firstAttribute="bottom" secondItem="CX5-Zt-hyk" secondAttribute="bottom" constant="19" id="gIB-Y4-euo"/>
+                <constraint firstItem="CX5-Zt-hyk" firstAttribute="leading" secondItem="vId-Ra-VZI" secondAttribute="leading" id="geA-eQ-Oub"/>
+                <constraint firstItem="CX5-Zt-hyk" firstAttribute="top" secondItem="vId-Ra-VZI" secondAttribute="bottom" constant="2" id="pjD-aW-ndo"/>
+                <constraint firstItem="lnX-p7-YVR" firstAttribute="trailing" secondItem="ke4-my-02k" secondAttribute="trailing" constant="16" id="tcF-Sc-hLW"/>
+                <constraint firstItem="vId-Ra-VZI" firstAttribute="leading" secondItem="lnX-p7-YVR" secondAttribute="leading" id="xNT-p1-kMk"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="lnX-p7-YVR"/>
+            <point key="canvasLocation" x="1877" y="546"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cross.png" width="85.333335876464844" height="85.333335876464844"/>
+    </resources>
+</document>

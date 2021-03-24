@@ -1,0 +1,16 @@
+PODS:
+  - DDFamily (0.1.0)
+
+DEPENDENCIES:
+  - DDFamily (from `../`)
+
+EXTERNAL SOURCES:
+  DDFamily:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DDFamily: 94700104440be2eb5dc27eab7c1bd303fa2d1fd3
+
+PODFILE CHECKSUM: b7dc52cb426379fd9fdf674997717d3b1f9a0ffc
+
+COCOAPODS: 1.8.4

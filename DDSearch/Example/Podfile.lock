@@ -1,0 +1,16 @@
+PODS:
+  - DDSearch (0.1.0)
+
+DEPENDENCIES:
+  - DDSearch (from `../`)
+
+EXTERNAL SOURCES:
+  DDSearch:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DDSearch: 2e0cd78020d674448fc4188bd24771f159989119
+
+PODFILE CHECKSUM: 085ebbe11076dbb6b3f0e4a0ba39aa51aa2c6d26
+
+COCOAPODS: 1.7.4

@@ -1,0 +1,16 @@
+PODS:
+  - DDNetwork (0.1.0)
+
+DEPENDENCIES:
+  - DDNetwork (from `../`)
+
+EXTERNAL SOURCES:
+  DDNetwork:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DDNetwork: 9eebee2eb815463214f51b61a82b75779abd9e88
+
+PODFILE CHECKSUM: a5ddb980a255faa0409b42d2b360625be4c670e7
+
+COCOAPODS: 1.8.4

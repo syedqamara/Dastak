@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "1130"
+   version = "1.7">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <PreActions>
+         <ExecutionAction
+            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+            <ActionContent
+               title = "Run Script"
+               scriptText = "# Type a script or drag a script file from your workspace to insert its path.&#10;rm -rf ${BUILT_PRODUCTS_DIR}&#10;">
+               <EnvironmentBuildable>
+                  <BuildableReference
+                     BuildableIdentifier = "primary"
+                     BlueprintIdentifier = "33AB468E248BCD2F00EEB840"
+                     BuildableName = "Dynamic Delivery.app"
+                     BlueprintName = "Dynamic Delivery"
+                     ReferencedContainer = "container:DynamicDelivery.xcodeproj">
+                  </BuildableReference>
+               </EnvironmentBuildable>
+            </ActionContent>
+         </ExecutionAction>
+         <ExecutionAction
+            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+            <ActionContent
+               title = "Run Script"
+               scriptText = "# Type a script or drag a script file from your workspace to insert its path.&#10;IS_PROD_ENV=$(grep &apos;define.* IS_PROD_ENV&apos; ${PROJECT_DIR}/DynamicDelivery/Configurations/AppConfigurations/DDAppConfiguration.h | awk &apos;{print $3}&apos;)&#10;echo $IS_PROD_ENV&#10;echo &quot;DD_Bundle_Settings&quot;&#10;if [[ &quot;$IS_PROD_ENV&quot; = 0 ]]; then&#10;cp -r &quot;${PROJECT_DIR}/DynamicDelivery/Settings/Settings_DD.bundle/Root.plist&quot; &quot;${PROJECT_DIR}/DynamicDelivery/Settings/Settings.bundle/Root.plist&quot;&#10;echo &quot;DEBUG&quot;&#10;else&#10;cp -r  &quot;${PROJECT_DIR}/DynamicDelivery/Settings/Settings_release.bundle/Root.plist&quot; &quot;${PROJECT_DIR}/DynamicDelivery/Settings/Settings.bundle/Root.plist&quot;&#10;echo &quot;RELEASE&quot;&#10;fi&#10;&#10;&#10;&#10;">
+               <EnvironmentBuildable>
+                  <BuildableReference
+                     BuildableIdentifier = "primary"
+                     BlueprintIdentifier = "33AB468E248BCD2F00EEB840"
+                     BuildableName = "Dynamic Delivery.app"
+                     BlueprintName = "Dynamic Delivery"
+                     ReferencedContainer = "container:DynamicDelivery.xcodeproj">
+                  </BuildableReference>
+               </EnvironmentBuildable>
+            </ActionContent>
+         </ExecutionAction>
+      </PreActions>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "33AB468E248BCD2F00EEB840"
+               BuildableName = "Dynamic Delivery.app"
+               BlueprintName = "Dynamic Delivery"
+               ReferencedContainer = "container:DynamicDelivery.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = "en"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <PreActions>
+         <ExecutionAction
+            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+            <ActionContent
+               title = "Run Script"
+               scriptText = "# Type a script or drag a script file from your workspace to insert its path.&#10;&#10;">
+            </ActionContent>
+         </ExecutionAction>
+      </PreActions>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "33AB468E248BCD2F00EEB840"
+            BuildableName = "Dynamic Delivery.app"
+            BlueprintName = "Dynamic Delivery"
+            ReferencedContainer = "container:DynamicDelivery.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "OS_ACTIVITY_MODE"
+            value = "disable"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
+      <LocationScenarioReference
+         identifier = "../DynamicDelivery/Other/Dubai, UAE.gpx"
+         referenceType = "0">
+      </LocationScenarioReference>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "33AB468E248BCD2F00EEB840"
+            BuildableName = "Dynamic Delivery.app"
+            BlueprintName = "Dynamic Delivery"
+            ReferencedContainer = "container:DynamicDelivery.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

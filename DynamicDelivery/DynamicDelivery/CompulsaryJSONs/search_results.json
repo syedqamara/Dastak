@@ -1,0 +1,39 @@
+{
+  "status": true,
+  "http_code": 200,
+  "message": "",
+  "data": {
+    "results": [
+      {
+        "section_title": "Restaurants",
+        "section_identifier": "merchants",
+        "section_list": [
+          {
+            "title": "The Pizza Factory",
+            "image_url": "https://i.ibb.co/XWFP8M0/pizza-image.png",
+            "api_params": {
+                "outlet_id": 123,
+                "merchant_id": 123
+            }
+          },
+          {
+            "title": "Island Pizzeria",
+            "image_url": "https://i.ibb.co/XWFP8M0/pizza-image.png",
+            "api_params": {
+                "outlet_id": 123,
+                "merchant_id": 123
+            }
+          },
+          {
+            "title": "Pizza Kingdom",
+            "image_url": "https://i.ibb.co/XWFP8M0/pizza-image.png",
+            "api_params": {
+                "outlet_id": 123,
+                "merchant_id": 123
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

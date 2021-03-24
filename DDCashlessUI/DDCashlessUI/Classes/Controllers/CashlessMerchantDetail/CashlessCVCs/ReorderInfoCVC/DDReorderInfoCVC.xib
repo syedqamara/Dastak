@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="gTV-IL-0wX" customClass="DDReorderInfoCVC">
+            <rect key="frame" x="0.0" y="0.0" width="211" height="140"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="211" height="140"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LjR-JX-zdc">
+                        <rect key="frame" x="0.0" y="0.0" width="211" height="140"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EMX-PU-415">
+                                <rect key="frame" x="12" y="12" width="24" height="24"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Go7-3r-YWA">
+                                        <rect key="frame" x="7.5" y="1.5" width="8" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="O4G-Uw-oj1"/>
+                                    <constraint firstItem="Go7-3r-YWA" firstAttribute="centerY" secondItem="EMX-PU-415" secondAttribute="centerY" id="TTi-D0-HMk"/>
+                                    <constraint firstItem="Go7-3r-YWA" firstAttribute="centerX" secondItem="EMX-PU-415" secondAttribute="centerX" constant="-0.5" id="d5l-ko-8ob"/>
+                                    <constraint firstAttribute="width" constant="24" id="duA-cE-Jkh"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerR">
+                                        <real key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4kj-wv-9LZ">
+                                <rect key="frame" x="40" y="13.5" width="159" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eXK-DR-0py">
+                                <rect key="frame" x="12" y="107" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jxh-YS-xaw">
+                                <rect key="frame" x="153" y="106" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="4kj-wv-9LZ" secondAttribute="trailing" constant="12" id="0yZ-EC-uAb"/>
+                            <constraint firstAttribute="trailing" secondItem="Jxh-YS-xaw" secondAttribute="trailing" constant="12" id="16O-hU-hQ2"/>
+                            <constraint firstItem="EMX-PU-415" firstAttribute="top" secondItem="LjR-JX-zdc" secondAttribute="top" constant="12" id="1lV-DM-g06"/>
+                            <constraint firstItem="4kj-wv-9LZ" firstAttribute="leading" secondItem="EMX-PU-415" secondAttribute="trailing" constant="4" id="3Uy-yZ-lrg"/>
+                            <constraint firstAttribute="bottom" secondItem="eXK-DR-0py" secondAttribute="bottom" constant="12" id="3tF-PA-bpK"/>
+                            <constraint firstItem="4kj-wv-9LZ" firstAttribute="centerY" secondItem="Go7-3r-YWA" secondAttribute="centerY" id="Iqe-bK-0fV"/>
+                            <constraint firstItem="EMX-PU-415" firstAttribute="leading" secondItem="LjR-JX-zdc" secondAttribute="leading" constant="12" id="l0l-no-p0N"/>
+                            <constraint firstItem="eXK-DR-0py" firstAttribute="leading" secondItem="LjR-JX-zdc" secondAttribute="leading" constant="12" id="oJB-uu-uHL"/>
+                            <constraint firstAttribute="bottom" secondItem="Jxh-YS-xaw" secondAttribute="bottom" constant="4" id="vmJ-R2-xN5"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="LjR-JX-zdc" secondAttribute="trailing" id="8TV-WX-uQb"/>
+                <constraint firstItem="LjR-JX-zdc" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="J2r-r7-T6Q"/>
+                <constraint firstAttribute="bottom" secondItem="LjR-JX-zdc" secondAttribute="bottom" id="txF-bJ-zMx"/>
+                <constraint firstItem="LjR-JX-zdc" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="u8H-TF-wqx"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <size key="customSize" width="211" height="140"/>
+            <connections>
+                <outlet property="countLabel" destination="Go7-3r-YWA" id="S1j-1V-VpI"/>
+                <outlet property="countLabelContainerView" destination="EMX-PU-415" id="LuJ-3z-Rrd"/>
+                <outlet property="dateLabel" destination="eXK-DR-0py" id="ff3-Yb-FzA"/>
+                <outlet property="nameLabel" destination="4kj-wv-9LZ" id="ZcM-qY-r9p"/>
+                <outlet property="reorderButton" destination="Jxh-YS-xaw" id="krW-8d-ijW"/>
+            </connections>
+            <point key="canvasLocation" x="57.24637681159421" y="172.76785714285714"/>
+        </collectionViewCell>
+    </objects>
+</document>

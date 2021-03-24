@@ -1,0 +1,514 @@
+PODS:
+  - AppAuth (1.4.0):
+    - AppAuth/Core (= 1.4.0)
+    - AppAuth/ExternalUserAgent (= 1.4.0)
+  - AppAuth/Core (1.4.0)
+  - AppAuth/ExternalUserAgent (1.4.0)
+  - Appboy-iOS-SDK (3.22.0):
+    - Appboy-iOS-SDK/UI (= 3.22.0)
+  - Appboy-iOS-SDK/ContentCards (3.22.0):
+    - Appboy-iOS-SDK/Core
+    - SDWebImage (~> 5.0)
+  - Appboy-iOS-SDK/Core (3.22.0)
+  - Appboy-iOS-SDK/InAppMessage (3.22.0):
+    - Appboy-iOS-SDK/Core
+    - SDWebImage (~> 5.0)
+  - Appboy-iOS-SDK/NewsFeed (3.22.0):
+    - Appboy-iOS-SDK/Core
+    - SDWebImage (~> 5.0)
+  - Appboy-iOS-SDK/UI (3.22.0):
+    - Appboy-iOS-SDK/ContentCards
+    - Appboy-iOS-SDK/Core
+    - Appboy-iOS-SDK/InAppMessage
+    - Appboy-iOS-SDK/NewsFeed
+  - Base64 (1.1.2)
+  - Branch (0.30.1):
+    - Branch/Core (= 0.30.1)
+  - Branch/Core (0.30.1)
+  - ChameleonFramework (2.1.0):
+    - ChameleonFramework/Default (= 2.1.0)
+  - ChameleonFramework/Default (2.1.0)
+  - DDAnalytics (0.1.0):
+    - DDAnalytics/Resources (= 0.1.0)
+    - DDModels (~> 0.1.0)
+    - DDNetwork (~> 0.1.0)
+    - DDStorage (~> 0.1.0)
+    - JSONModel
+  - DDAnalytics/Resources (0.1.0):
+    - DDModels (~> 0.1.0)
+    - DDNetwork (~> 0.1.0)
+    - DDStorage (~> 0.1.0)
+    - JSONModel
+  - DDAuth (0.1.0):
+    - DDAnalytics (~> 0.1.0)
+    - DDAuth/Resources (= 0.1.0)
+    - DDCommons (~> 0.1.0)
+    - DDConstants (~> 0.1.0)
+    - DDLocations (~> 0.1.0)
+    - DDModels (~> 0.1.0)
+    - FBSDKLoginKit
+    - GoogleSignIn
+  - DDAuth/Resources (0.1.0):
+    - DDAnalytics (~> 0.1.0)
+    - DDCommons (~> 0.1.0)
+    - DDConstants (~> 0.1.0)
+    - DDLocations (~> 0.1.0)
+    - DDModels (~> 0.1.0)
+    - FBSDKLoginKit
+    - GoogleSignIn
+  - DDAuthUI (0.1.0):
+    - DDAuth (~> 0.1.0)
+    - DDAuthUI/Resources (= 0.1.0)
+    - DDUI (~> 0.1.0)
+    - NimbusKit-AttributedLabel
+    - SVProgressHUD (= 2.2.5)
+  - DDAuthUI/Resources (0.1.0):
+    - DDAuth (~> 0.1.0)
+    - DDUI (~> 0.1.0)
+    - NimbusKit-AttributedLabel
+    - SVProgressHUD (= 2.2.5)
+  - DDCommons (0.1.8):
+    - ChameleonFramework
+    - DDCommons/Resources (= 0.1.8)
+    - DDConstants (~> 0.1.92)
+    - DeviceUtil
+    - IQKeyboardManager
+    - JNKeychain
+    - JSONModel (~> 1.8.0)
+    - JWT
+    - lottie-ios (= 2.5.3)
+    - "NSDate+TimeAgo"
+    - SDWebImage (~> 5.1.0)
+  - DDCommons/Resources (0.1.8):
+    - ChameleonFramework
+    - DDConstants (~> 0.1.92)
+    - DeviceUtil
+    - IQKeyboardManager
+    - JNKeychain
+    - JSONModel (~> 1.8.0)
+    - JWT
+    - lottie-ios (= 2.5.3)
+    - "NSDate+TimeAgo"
+    - SDWebImage (~> 5.1.0)
+  - DDConstants (0.1.92)
+  - DDEditConfig (0.1.0):
+    - DDCommons
+    - DDEditConfig/Resources (= 0.1.0)
+    - DDStorage
+    - DDUI
+  - DDEditConfig/Resources (0.1.0):
+    - DDCommons
+    - DDStorage
+    - DDUI
+  - DDEncryption (0.1.0):
+    - DDCommons (~> 0.1.0)
+  - DDHome (0.1.0):
+    - DDAuthUI (~> 0.1.0)
+    - DDCommons (~> 0.1.0)
+    - DDConstants (~> 0.1.0)
+    - DDHome/Resources (= 0.1.0)
+    - DDLocationsUI (~> 0.1.0)
+    - DDUI (~> 0.1.0)
+  - DDHome/Resources (0.1.0):
+    - DDAuthUI (~> 0.1.0)
+    - DDCommons (~> 0.1.0)
+    - DDConstants (~> 0.1.0)
+    - DDLocationsUI (~> 0.1.0)
+    - DDUI (~> 0.1.0)
+  - DDHomeUI (0.1.0):
+    - DDHome (~> 0.1.0)
+    - DDHomeUI/Resources (= 0.1.0)
+  - DDHomeUI/Resources (0.1.0):
+    - DDHome (~> 0.1.0)
+  - DDLocations (0.1.0):
+    - DDConstants (~> 0.1.0)
+    - DDLocations/Resources (= 0.1.0)
+    - DDNetwork (~> 0.1.0)
+    - DDStorage (~> 0.1.0)
+    - GoogleMaps
+    - GooglePlaces
+  - DDLocations/Resources (0.1.0):
+    - DDConstants (~> 0.1.0)
+    - DDNetwork (~> 0.1.0)
+    - DDStorage (~> 0.1.0)
+    - GoogleMaps
+    - GooglePlaces
+  - DDLocationsUI (0.1.0):
+    - DDAuth (~> 0.1.0)
+    - DDLocations (~> 0.1.0)
+    - DDLocationsUI/Resources (= 0.1.0)
+    - DDMapsUI
+    - NimbusKit-AttributedLabel
+  - DDLocationsUI/Resources (0.1.0):
+    - DDAuth (~> 0.1.0)
+    - DDLocations (~> 0.1.0)
+    - DDMapsUI
+    - NimbusKit-AttributedLabel
+  - DDMaps (0.1.0):
+    - DDCommons (~> 0.1.0)
+    - DDConstants (~> 0.1.0)
+    - DDLocations (~> 0.1.0)
+    - DDMaps/Resources (= 0.1.0)
+    - DDModels (~> 0.1.0)
+    - DDNetwork (~> 0.1.0)
+    - DDUI (~> 0.1.0)
+    - Google-Maps-iOS-Utils
+    - GoogleMaps
+    - GooglePlaces
+    - SDWebImage (~> 5.1.0)
+  - DDMaps/Resources (0.1.0):
+    - DDCommons (~> 0.1.0)
+    - DDConstants (~> 0.1.0)
+    - DDLocations (~> 0.1.0)
+    - DDModels (~> 0.1.0)
+    - DDNetwork (~> 0.1.0)
+    - DDUI (~> 0.1.0)
+    - Google-Maps-iOS-Utils
+    - GoogleMaps
+    - GooglePlaces
+    - SDWebImage (~> 5.1.0)
+  - DDMapsUI (0.1.0):
+    - DDMaps (~> 0.1.0)
+    - DDMapsUI/Resources (= 0.1.0)
+  - DDMapsUI/Resources (0.1.0):
+    - DDMaps (~> 0.1.0)
+  - DDModels (0.1.0):
+    - DDCommons
+  - DDNetwork (0.1.0):
+    - DDEncryption (~> 0.1.0)
+    - DDModels (~> 0.1.0)
+  - DDSearch (0.1.0):
+    - DDCommons (~> 0.1.0)
+    - DDConstants (~> 0.1.0)
+    - DDLocations (~> 0.1.0)
+    - DDSearch/Resources (= 0.1.0)
+    - DDUI (~> 0.1.0)
+  - DDSearch/Resources (0.1.0):
+    - DDCommons (~> 0.1.0)
+    - DDConstants (~> 0.1.0)
+    - DDLocations (~> 0.1.0)
+    - DDUI (~> 0.1.0)
+  - DDSearchUI (0.1.0):
+    - DDSearch (~> 0.1.0)
+    - DDSearchUI/Resources (= 0.1.0)
+  - DDSearchUI/Resources (0.1.0):
+    - DDSearch (~> 0.1.0)
+  - DDStorage (0.1.2):
+    - DDEncryption (~> 0.1.0)
+    - DDStorage/Resources (= 0.1.2)
+    - MagicalRecord
+  - DDStorage/Resources (0.1.2):
+    - DDEncryption (~> 0.1.0)
+    - MagicalRecord
+  - DDUI (0.1.0):
+    - DDAnalytics (~> 0.1.0)
+    - DDCommons (~> 0.1.0)
+    - DDConstants (~> 0.1.0)
+    - DDUI/Resources (= 0.1.0)
+    - HCSStarRatingView
+    - HWPanModal
+    - LSAnimator (= 2.1.4)
+    - MGSwipeTableCell
+    - OTPTextField
+    - PBJNetworkObserver
+    - RestKit (= 0.27.2)
+    - SDWebImage (~> 5.1.0)
+    - TYCyclePagerView
+    - VBPieChart
+  - DDUI/Resources (0.1.0):
+    - DDAnalytics (~> 0.1.0)
+    - DDCommons (~> 0.1.0)
+    - DDConstants (~> 0.1.0)
+    - HCSStarRatingView
+    - HWPanModal
+    - LSAnimator (= 2.1.4)
+    - MGSwipeTableCell
+    - OTPTextField
+    - PBJNetworkObserver
+    - RestKit (= 0.27.2)
+    - SDWebImage (~> 5.1.0)
+    - TYCyclePagerView
+    - VBPieChart
+  - DeepLinkKit (1.5.1)
+  - DeviceUtil (6.1.5)
+  - FBSDKCoreKit (5.8.0):
+    - FBSDKCoreKit/Basics (= 5.8.0)
+    - FBSDKCoreKit/Core (= 5.8.0)
+  - FBSDKCoreKit/Basics (5.8.0)
+  - FBSDKCoreKit/Core (5.8.0):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (5.8.0):
+    - FBSDKLoginKit/Login (= 5.8.0)
+  - FBSDKLoginKit/Login (5.8.0):
+    - FBSDKCoreKit (~> 5.0)
+  - FBSDKShareKit (5.8.0):
+    - FBSDKShareKit/Share (= 5.8.0)
+  - FBSDKShareKit/Share (5.8.0):
+    - FBSDKCoreKit (~> 5.0)
+  - Google-Maps-iOS-Utils (3.1.1):
+    - Google-Maps-iOS-Utils/Clustering (= 3.1.1)
+    - Google-Maps-iOS-Utils/Geometry (= 3.1.1)
+    - Google-Maps-iOS-Utils/Heatmap (= 3.1.1)
+    - Google-Maps-iOS-Utils/QuadTree (= 3.1.1)
+    - GoogleMaps
+  - Google-Maps-iOS-Utils/Clustering (3.1.1):
+    - Google-Maps-iOS-Utils/QuadTree
+    - GoogleMaps
+  - Google-Maps-iOS-Utils/Geometry (3.1.1):
+    - GoogleMaps
+  - Google-Maps-iOS-Utils/Heatmap (3.1.1):
+    - Google-Maps-iOS-Utils/QuadTree
+    - GoogleMaps
+  - Google-Maps-iOS-Utils/QuadTree (3.1.1):
+    - GoogleMaps
+  - GoogleMaps (3.8.0):
+    - GoogleMaps/Maps (= 3.8.0)
+  - GoogleMaps/Base (3.8.0)
+  - GoogleMaps/Maps (3.8.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.8.0):
+    - GoogleMaps/Base (= 3.8.0)
+  - GoogleSignIn (5.0.2):
+    - AppAuth (~> 1.2)
+    - GTMAppAuth (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GTMAppAuth (1.0.0):
+    - AppAuth/Core (~> 1.0)
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.4.0):
+    - GTMSessionFetcher/Full (= 1.4.0)
+  - GTMSessionFetcher/Core (1.4.0)
+  - GTMSessionFetcher/Full (1.4.0):
+    - GTMSessionFetcher/Core (= 1.4.0)
+  - HCSStarRatingView (1.5)
+  - HWPanModal (0.7.2)
+  - IQKeyboardManager (6.5.5)
+  - ISO8601DateFormatterValueTransformer (0.6.1):
+    - RKValueTransformers (~> 1.1.0)
+  - JNKeychain (0.1.4)
+  - JSONModel (1.8.0)
+  - JWT (2.2.0):
+    - Base64 (~> 1.1.2)
+  - lottie-ios (2.5.3)
+  - LSAnimator (2.1.4)
+  - MagicalRecord (2.3.2):
+    - MagicalRecord/Core (= 2.3.2)
+  - MagicalRecord/Core (2.3.2)
+  - MGSwipeTableCell (1.6.11)
+  - MRCircularProgressView (0.3.0)
+  - NimbusKit-AttributedLabel (1.0.0)
+  - "NSDate+TimeAgo (1.0.6)"
+  - OTPTextField (1.1.5)
+  - PBJNetworkObserver (0.1.3)
+  - Reachability (3.2)
+  - RestKit (0.27.2):
+    - RestKit/Core (= 0.27.2)
+  - RestKit/Core (0.27.2):
+    - RestKit/CoreData
+    - RestKit/Network
+    - RestKit/ObjectMapping
+  - RestKit/CoreData (0.27.2):
+    - RestKit/ObjectMapping
+  - RestKit/Network (0.27.2):
+    - RestKit/ObjectMapping
+    - RestKit/Support
+    - SOCKit
+  - RestKit/ObjectMapping (0.27.2):
+    - ISO8601DateFormatterValueTransformer (~> 0.6.1)
+    - RestKit/Support
+    - RKValueTransformers (~> 1.1.0)
+  - RestKit/Support (0.27.2):
+    - TransitionKit (~> 2.2)
+  - RKValueTransformers (1.1.3)
+  - SDWebImage (5.1.1):
+    - SDWebImage/Core (= 5.1.1)
+  - SDWebImage/Core (5.1.1)
+  - SOCKit (1.1)
+  - SVProgressHUD (2.2.5)
+  - TransitionKit (2.2.1)
+  - TYCyclePagerView (1.2.0)
+  - VBPieChart (1.2.1)
+
+DEPENDENCIES:
+  - Appboy-iOS-SDK
+  - Branch (~> 0.30.0)
+  - DDAnalytics (from `../DDAnalytics/`)
+  - DDAuth (from `../DDAuth/`)
+  - DDAuthUI (from `../DDAuthUI/`)
+  - DDCommons (from `../DDCommons/`)
+  - DDConstants (from `../DDConstants/`)
+  - DDEditConfig (from `../DDEditConfig/`)
+  - DDEncryption (from `../DDEncryption/`)
+  - DDHome (from `../DDHome/`)
+  - DDHomeUI (from `../DDHomeUI/`)
+  - DDLocations (from `../DDLocations/`)
+  - DDLocationsUI (from `../DDLocationsUI/`)
+  - DDMaps (from `../DDMaps/`)
+  - DDMapsUI (from `../DDMapsUI/`)
+  - DDModels (from `../DDModels/`)
+  - DDNetwork (from `../DDNetwork/`)
+  - DDSearch (from `../DDSearch/`)
+  - DDSearchUI (from `../DDSearchUI/`)
+  - DDStorage (from `../DDStorage/`)
+  - DDUI (from `../DDUI/`)
+  - DeepLinkKit
+  - FBSDKCoreKit (= 5.8.0)
+  - FBSDKLoginKit (= 5.8.0)
+  - FBSDKShareKit (= 5.8.0)
+  - IQKeyboardManager
+  - lottie-ios (= 2.5.3)
+  - LSAnimator (= 2.1.4)
+  - MRCircularProgressView
+  - Reachability
+  - SDWebImage (~> 5.1.0)
+  - SVProgressHUD (= 2.2.5)
+
+SPEC REPOS:
+  trunk:
+    - AppAuth
+    - Appboy-iOS-SDK
+    - Base64
+    - Branch
+    - ChameleonFramework
+    - DeepLinkKit
+    - DeviceUtil
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FBSDKShareKit
+    - Google-Maps-iOS-Utils
+    - GoogleMaps
+    - GooglePlaces
+    - GoogleSignIn
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - HCSStarRatingView
+    - HWPanModal
+    - IQKeyboardManager
+    - ISO8601DateFormatterValueTransformer
+    - JNKeychain
+    - JSONModel
+    - JWT
+    - lottie-ios
+    - LSAnimator
+    - MagicalRecord
+    - MGSwipeTableCell
+    - MRCircularProgressView
+    - NimbusKit-AttributedLabel
+    - "NSDate+TimeAgo"
+    - OTPTextField
+    - PBJNetworkObserver
+    - Reachability
+    - RestKit
+    - RKValueTransformers
+    - SDWebImage
+    - SOCKit
+    - SVProgressHUD
+    - TransitionKit
+    - TYCyclePagerView
+    - VBPieChart
+
+EXTERNAL SOURCES:
+  DDAnalytics:
+    :path: "../DDAnalytics/"
+  DDAuth:
+    :path: "../DDAuth/"
+  DDAuthUI:
+    :path: "../DDAuthUI/"
+  DDCommons:
+    :path: "../DDCommons/"
+  DDConstants:
+    :path: "../DDConstants/"
+  DDEditConfig:
+    :path: "../DDEditConfig/"
+  DDEncryption:
+    :path: "../DDEncryption/"
+  DDHome:
+    :path: "../DDHome/"
+  DDHomeUI:
+    :path: "../DDHomeUI/"
+  DDLocations:
+    :path: "../DDLocations/"
+  DDLocationsUI:
+    :path: "../DDLocationsUI/"
+  DDMaps:
+    :path: "../DDMaps/"
+  DDMapsUI:
+    :path: "../DDMapsUI/"
+  DDModels:
+    :path: "../DDModels/"
+  DDNetwork:
+    :path: "../DDNetwork/"
+  DDSearch:
+    :path: "../DDSearch/"
+  DDSearchUI:
+    :path: "../DDSearchUI/"
+  DDStorage:
+    :path: "../DDStorage/"
+  DDUI:
+    :path: "../DDUI/"
+
+SPEC CHECKSUMS:
+  AppAuth: 31bcec809a638d7bd2f86ea8a52bd45f6e81e7c7
+  Appboy-iOS-SDK: 42ceb7ad62e436ffa969a0d9172f1ca84f6e923c
+  Base64: cecfb41a004124895a7bcee567a89bae5a89d49b
+  Branch: 80c583d989d3d46a7ada15b6cc1881142c1720a1
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  DDAnalytics: 972717947243d11fefaa2cf824572fd99df126b0
+  DDAuth: 31de2433d7f3bd1711eda7e31f648b2415de2223
+  DDAuthUI: f0f381099df071b2d6a9894e201ef6e22d56e822
+  DDCommons: 599953cf9b261c6250185658dcc09c1180b77ede
+  DDConstants: 5b29132b2879c4e49c2cf75e436a81683a15938a
+  DDEditConfig: b66b41e6f24a2eb6dca1e68dd93d03f958a8d023
+  DDEncryption: 0ebe6eb4a14b9ac556d90583f417545498f1c170
+  DDHome: 6eb1d5ec9a7eddd7df391df8c4793b1819fc9bba
+  DDHomeUI: 0baf516c640a2c6832072273c3ef719b98ea83f9
+  DDLocations: a7550afd1de7181bbbb19887d472631b8b11fc71
+  DDLocationsUI: 12c4021e8382541df7e5c4f8826a9398d6c1ef8c
+  DDMaps: 9245db271017685655969a38a7dfa09181800f21
+  DDMapsUI: b06ad0af67cd8006e37ec46fad1fac5c449d0183
+  DDModels: 15c42e7e7a3c58d38467f8b69c7dfbcaa00532be
+  DDNetwork: 8f13f295d9a25cc72543fd1e0bcbe53ce5b31baa
+  DDSearch: 989b66b16a154a5bbcad859ab4749c1e2c5b63b4
+  DDSearchUI: c0e0079173ba5f7c098fb1b0547813777aa67271
+  DDStorage: ea0088ba23c90596621d9b742c352faf2349c96b
+  DDUI: acfa314921e55a01a267bc36f891aa50c32f0840
+  DeepLinkKit: 9f300348cbb20ef8389a5018a57d8c9952b1831c
+  DeviceUtil: f523081e3496cf5d64464237e2299c95c15264b1
+  FBSDKCoreKit: e7dcac0aabcfb09d0166998edd95fe3b05a0ce5d
+  FBSDKLoginKit: 1b0cf04df0370b37404213157b060d6666ede814
+  FBSDKShareKit: abc29e1bb4f9f59f679adf1ae191006d68455f96
+  Google-Maps-iOS-Utils: f5d6ea55799d2ef47c113e1351b48e21cddd593c
+  GoogleMaps: 7c8d66d70e4e8c300f43a7219d8fdaad7b325a9a
+  GooglePlaces: d5f70c3e9e427964fdeca1301a665d276ccd8754
+  GoogleSignIn: 7137d297ddc022a7e0aa4619c86d72c909fa7213
+  GTMAppAuth: 4deac854479704f348309e7b66189e604cf5e01e
+  GTMSessionFetcher: 6f5c8abbab8a9bce4bb3f057e317728ec6182b10
+  HCSStarRatingView: 1d18f79654735514cd6f00e6d90e38cb6320dc31
+  HWPanModal: 4e38df2219055757796284f0a32235911843d0d9
+  IQKeyboardManager: 3a8b9e603f8b0eeaf5f096a1f2b2cfcf121992ef
+  ISO8601DateFormatterValueTransformer: 52da467d6ec899d6aedda8e48280ac92e8ee97e6
+  JNKeychain: fb6cc9ec95959ba46cd95d0ee6f7a05e41da9f42
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  JWT: cf73c0ab0dac762df3de8a3f1164352089d97780
+  lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
+  LSAnimator: 9f13256cd41a31a0ad2269fa6238a3dd083472c3
+  MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
+  MGSwipeTableCell: b804e4e450dee439c42250be90bd50458bf67fce
+  MRCircularProgressView: ad3088a7e2908954ef3f1d4e9e322e2960ef0ebe
+  NimbusKit-AttributedLabel: b07b1f99ba46801a1c0d32c43a3a044fdda46c15
+  "NSDate+TimeAgo": 35601c619b2d59290055e4fe76e61d97677a2360
+  OTPTextField: 9d35010a6356972471298aea37bf8d6d5f9974f7
+  PBJNetworkObserver: 03c4351ddaa8c00797f35720a24a30fb12566cb6
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  RestKit: 556c913b0640c5bc5a9cb972361504e3ed628a1d
+  RKValueTransformers: e5ed67e3811229b616fe01bddeeafe3bb337b1b9
+  SDWebImage: 96d7f03415ccb28d299d765f93557ff8a617abd8
+  SOCKit: c7376ac262bea9115b8f749358f762522a47d392
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TransitionKit: 9ceccda4cd0cdc0a05ef85eb235e5a3292c3c250
+  TYCyclePagerView: 2b051dade0615c70784aa34f40c646feeddb7344
+  VBPieChart: dc43077e24bf56f53d8f645eb8369f91ecc6f136
+
+PODFILE CHECKSUM: 8b814a7c37eba26bf747a6c8d2ce50494f2a6aa2
+
+COCOAPODS: 1.10.1

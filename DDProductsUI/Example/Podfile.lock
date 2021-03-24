@@ -1,0 +1,16 @@
+PODS:
+  - DDProductsUI (0.1.0)
+
+DEPENDENCIES:
+  - DDProductsUI (from `../`)
+
+EXTERNAL SOURCES:
+  DDProductsUI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DDProductsUI: 4e19cf86af9d4bb027c41b06e40910abb7007e2b
+
+PODFILE CHECKSUM: 35d0d96332171ddecc3381d70cbc2479e2cf7882
+
+COCOAPODS: 1.8.4

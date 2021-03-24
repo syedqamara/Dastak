@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MuseoSans_700.otf">
+            <string>MuseoSans-700</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DDMerchantSectionOnlineOffersHFV">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="64"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="253" verticalCompressionResistancePriority="752" text="Onlins Offers History" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bs8-uv-K5s">
+                    <rect key="frame" x="16" y="16" width="197.5" height="30"/>
+                    <fontDescription key="fontDescription" name="MuseoSans-700" family="Museo Sans" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F3l-Hc-NrJ">
+                    <rect key="frame" x="342" y="16" width="56" height="30"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x4l-kf-rVQ">
+                            <rect key="frame" x="0.0" y="0.0" width="56" height="30"/>
+                            <state key="normal" title="See All">
+                                <color key="titleColor" red="0.1843137255" green="0.52156862749999999" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="seeAllAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="T5i-RT-NMF"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstItem="x4l-kf-rVQ" firstAttribute="top" secondItem="F3l-Hc-NrJ" secondAttribute="top" id="7Iu-6S-LNE"/>
+                        <constraint firstItem="x4l-kf-rVQ" firstAttribute="leading" secondItem="F3l-Hc-NrJ" secondAttribute="leading" id="7aR-AL-3W0"/>
+                        <constraint firstAttribute="trailing" secondItem="x4l-kf-rVQ" secondAttribute="trailing" id="FGz-Zo-jiI"/>
+                        <constraint firstAttribute="bottom" secondItem="x4l-kf-rVQ" secondAttribute="bottom" id="x6a-O5-w8Q"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dld-3Q-vPM">
+                    <rect key="frame" x="16" y="62" width="382" height="1"/>
+                    <color key="backgroundColor" red="0.38823529410000002" green="0.38823529410000002" blue="0.38823529410000002" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="xv1-xj-SGd"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Dld-3Q-vPM" secondAttribute="bottom" constant="1" id="5kq-j1-Hbw"/>
+                <constraint firstItem="Bs8-uv-K5s" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="Grd-G7-Q7A"/>
+                <constraint firstItem="F3l-Hc-NrJ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="I6E-Rs-oeT"/>
+                <constraint firstItem="Dld-3Q-vPM" firstAttribute="top" secondItem="F3l-Hc-NrJ" secondAttribute="bottom" constant="16" id="Lup-Rr-RvL"/>
+                <constraint firstItem="Dld-3Q-vPM" firstAttribute="top" secondItem="Bs8-uv-K5s" secondAttribute="bottom" constant="16" id="Sru-5u-y0c"/>
+                <constraint firstItem="Dld-3Q-vPM" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="VDi-bB-tI4"/>
+                <constraint firstItem="Bs8-uv-K5s" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="WZv-sR-KgJ"/>
+                <constraint firstAttribute="trailing" secondItem="F3l-Hc-NrJ" secondAttribute="trailing" constant="16" id="dL2-Ji-3S9"/>
+                <constraint firstAttribute="trailing" secondItem="Dld-3Q-vPM" secondAttribute="trailing" constant="16" id="g3U-99-KbM"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="btnSeeAll" destination="x4l-kf-rVQ" id="P9u-Pp-RW9"/>
+                <outlet property="lblSectionTitle" destination="Bs8-uv-K5s" id="Pvl-cE-fFl"/>
+                <outlet property="liveView" destination="Dld-3Q-vPM" id="OlB-e6-CPQ"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="234.375"/>
+        </view>
+    </objects>
+</document>

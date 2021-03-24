@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'DDCashlessUI_Example' do
+  pod 'DDCashlessUI', :path => '../'
+
+  target 'DDCashlessUI_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

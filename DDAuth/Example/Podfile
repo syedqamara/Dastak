@@ -1,0 +1,6 @@
+use_frameworks!
+target 'DDAuth_Tests' do
+  pod 'DDAuth', :path => '../'
+  
+  
+end

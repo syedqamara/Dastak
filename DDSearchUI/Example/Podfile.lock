@@ -1,0 +1,99 @@
+PODS:
+  - DeepLinkKit (1.5.1)
+  - DDCommons (0.1.0):
+    - DDCommons/Resources (= 0.1.0)
+    - DDConstants (~> 0.1.0)
+    - JSONModel (~> 1.8.0)
+    - MagicalRecord (= 2.4.0)
+    - SDWebImage (~> 5.1.0)
+  - DDCommons/Resources (0.1.0):
+    - DDConstants (~> 0.1.0)
+    - JSONModel (~> 1.8.0)
+    - MagicalRecord (= 2.4.0)
+    - SDWebImage (~> 5.1.0)
+  - DDConstants (0.1.0)
+  - DDSearch (0.1.0):
+    - DDCommons (~> 0.1.0)
+    - DDConstants (~> 0.1.0)
+    - DDSearch/Resources (= 0.1.0)
+    - DDUI (~> 0.1.0)
+  - DDSearch/Resources (0.1.0):
+    - DDCommons (~> 0.1.0)
+    - DDConstants (~> 0.1.0)
+    - DDUI (~> 0.1.0)
+  - DDSearchUI (0.1.0):
+    - DDSearch (~> 0.1.0)
+    - DDSearchUI/Resources (= 0.1.0)
+  - DDSearchUI/Resources (0.1.0):
+    - DDSearch (~> 0.1.0)
+  - DDUI (0.1.0):
+    - DDCommons (~> 0.1.0)
+    - DDConstants (~> 0.1.0)
+    - DDUI/Resources (= 0.1.0)
+    - SDWebImage (~> 5.1.0)
+  - DDUI/Resources (0.1.0):
+    - DDCommons (~> 0.1.0)
+    - DDConstants (~> 0.1.0)
+    - SDWebImage (~> 5.1.0)
+  - JSONModel (1.8.0)
+  - MagicalRecord (2.4.0):
+    - MagicalRecord/Core (= 2.4.0)
+  - MagicalRecord/Core (2.4.0)
+  - SDWebImage (5.1.1):
+    - SDWebImage/Core (= 5.1.1)
+  - SDWebImage/Core (5.1.1)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - DeepLinkKit
+  - DDCommons (from `../../DDCommons/`)
+  - DDConstants (from `../../DDConstants/`)
+  - DDSearch (from `../../DDSearch/`)
+  - DDSearchUI (from `../../DDSearchUI/`)
+  - DDUI (from `../../DDUI/`)
+  - JSONModel
+  - MagicalRecord (from `https://github.com/magicalpanda/MagicalRecord`)
+  - SDWebImage (~> 5.1.0)
+  - SVProgressHUD (= 2.2.5)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DeepLinkKit
+    - JSONModel
+    - SDWebImage
+    - SVProgressHUD
+
+EXTERNAL SOURCES:
+  DDCommons:
+    :path: "../../DDCommons/"
+  DDConstants:
+    :path: "../../DDConstants/"
+  DDSearch:
+    :path: "../../DDSearch/"
+  DDSearchUI:
+    :path: "../../DDSearchUI/"
+  DDUI:
+    :path: "../../DDUI/"
+  MagicalRecord:
+    :git: https://github.com/magicalpanda/MagicalRecord
+
+CHECKOUT OPTIONS:
+  MagicalRecord:
+    :commit: 6031f608b79c1d6802007aaed6efd100e11f59ba
+    :git: https://github.com/magicalpanda/MagicalRecord
+
+SPEC CHECKSUMS:
+  DeepLinkKit: 9f300348cbb20ef8389a5018a57d8c9952b1831c
+  DDCommons: b8da9c23249552f35e6f5064d5d2ee4c1a1cb12a
+  DDConstants: 6d3933c44639b1ad22f6928563d66c00e58672a5
+  DDSearch: 98d66ac301e0937762d31e57065aae0bb8d667a6
+  DDSearchUI: 94c78a5022f024c5a6466daa788ddab14185a72f
+  DDUI: d62842985c777003735e27ce9a1c8fd2980783d9
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  MagicalRecord: 1f22a766156474d9f46a9b1e1ce59ca9e37830fc
+  SDWebImage: 96d7f03415ccb28d299d765f93557ff8a617abd8
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 2d9204015f13492b15e1b1e468cf5016720664d7
+
+COCOAPODS: 1.7.4

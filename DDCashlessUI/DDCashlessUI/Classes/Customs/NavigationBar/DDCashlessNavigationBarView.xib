@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="RST-D2-qma" customClass="DDCashlessNavigationBarView">
+            <rect key="frame" x="0.0" y="0.0" width="434" height="108"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5U3-ie-Wl5">
+                    <rect key="frame" x="0.0" y="0.0" width="434" height="108"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="B20-BW-KBp">
+                            <rect key="frame" x="16" y="6" width="402" height="90"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sns-Je-eQS">
+                                    <rect key="frame" x="0.0" y="0.0" width="24" height="42"/>
+                                    <state key="normal" image="icNavBack.png"/>
+                                </button>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="QBL-fB-7wN">
+                                    <rect key="frame" x="48" y="0.0" width="282" height="69.5"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Deliver To" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PZb-qj-lBx">
+                                            <rect key="frame" x="0.0" y="0.0" width="76" height="20.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dubai Media City" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1R0-bh-0w3">
+                                            <rect key="frame" x="0.0" y="24.5" width="130" height="20.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="---------------------------------------------------" textAlignment="natural" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xCJ-TY-tZ4">
+                                            <rect key="frame" x="0.0" y="49" width="282" height="20.5"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5CV-FC-5XT">
+                                    <rect key="frame" x="354" y="0.0" width="48" height="48"/>
+                                    <state key="normal" image="icMore.png"/>
+                                </button>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="B20-BW-KBp" secondAttribute="bottom" constant="12" id="8ru-Vd-HOL"/>
+                        <constraint firstAttribute="trailing" secondItem="B20-BW-KBp" secondAttribute="trailing" constant="16" id="O4K-oh-uqi"/>
+                        <constraint firstItem="B20-BW-KBp" firstAttribute="leading" secondItem="5U3-ie-Wl5" secondAttribute="leading" constant="16" id="Vbw-cZ-y18"/>
+                        <constraint firstItem="B20-BW-KBp" firstAttribute="top" secondItem="5U3-ie-Wl5" secondAttribute="top" constant="6" id="pXz-pz-7Ke"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="5U3-ie-Wl5" firstAttribute="trailing" secondItem="4J5-bc-05L" secondAttribute="trailing" id="9gR-eW-eXf"/>
+                <constraint firstItem="5U3-ie-Wl5" firstAttribute="leading" secondItem="4J5-bc-05L" secondAttribute="leading" id="AO5-fL-rjA"/>
+                <constraint firstItem="5U3-ie-Wl5" firstAttribute="top" secondItem="RST-D2-qma" secondAttribute="top" id="Esw-uJ-QwN"/>
+                <constraint firstAttribute="bottom" secondItem="5U3-ie-Wl5" secondAttribute="bottom" id="zWE-uK-xVx"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="4J5-bc-05L"/>
+            <connections>
+                <outlet property="backButton" destination="sns-Je-eQS" id="bmr-CV-HUN"/>
+                <outlet property="containerView" destination="5U3-ie-Wl5" id="i6u-UK-XWk"/>
+                <outlet property="optionsButton" destination="5CV-FC-5XT" id="P8j-mt-oTS"/>
+                <outlet property="selectedTitleLabel" destination="1R0-bh-0w3" id="0iR-zW-uos"/>
+                <outlet property="titleLabel" destination="PZb-qj-lBx" id="lxP-O7-udD"/>
+                <outlet property="topSpace" destination="pXz-pz-7Ke" id="3Rb-nf-xZf"/>
+            </connections>
+            <point key="canvasLocation" x="59.420289855072468" y="-111.16071428571428"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icMore.png" width="24" height="24"/>
+        <image name="icNavBack.png" width="12" height="21"/>
+    </resources>
+</document>
