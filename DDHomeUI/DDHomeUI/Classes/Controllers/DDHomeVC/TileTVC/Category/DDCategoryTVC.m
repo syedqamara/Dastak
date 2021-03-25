@@ -23,13 +23,13 @@
     // Initialization code
 }
 -(void)designUI {
-    self.titleLabel.font = [UIFont DDSemiBoldFont:20];
-    self.titleLabel.textColor = HOME_THEME.text_black.colorValue;
+   // self.titleLabel.font = [UIFont DDSemiBoldFont:20];
+   // self.titleLabel.textColor = HOME_THEME.text_black.colorValue;
     self.separatorView.backgroundColor = HOME_THEME.text_grey_238.colorValue;
 }
 -(void)setData:(id)data {
     sectionObj = data;
-    self.titleLabel.text = sectionObj.section_title;
+   // self.titleLabel.text = sectionObj.section_title;
     [super setData:data];
 }
 -(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
@@ -50,7 +50,8 @@
     }
 }
 -(CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
-    return CGSizeMake(143, collectionView.frame.size.height);
+    CGFloat viewHeight = (self.frame.size.width - 3) / 3;
+    return CGSizeMake(viewHeight, viewHeight);
 }
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];

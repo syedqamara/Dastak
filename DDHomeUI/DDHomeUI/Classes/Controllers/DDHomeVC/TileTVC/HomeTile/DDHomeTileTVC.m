@@ -58,6 +58,7 @@
 }
 - (IBAction)didTapSeeAllButton:(id)sender {
     if (self.delegate != nil) {
+        
         [self.delegate didSelect:nil ofSection:sectionObj];
     }
 }

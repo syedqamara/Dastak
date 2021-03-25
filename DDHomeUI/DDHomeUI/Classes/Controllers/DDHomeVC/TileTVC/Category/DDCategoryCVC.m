@@ -15,13 +15,13 @@
     // Initialization code
 }
 -(void)designUI {
-    self.titleLabel.font = [UIFont DDSemiBoldFont:14];
-    self.titleLabel.textColor = HOME_THEME.text_white.colorValue;
+    self.titleLabel.font = [UIFont DDMediumFont:14];
+    self.titleLabel.textColor = HOME_THEME.text_black.colorValue;
 }
 -(void)setData:(id)data {
     DDHomeSectionListM *list = data;
     self.titleLabel.text = list.title;
-    self.bgView.backgroundColor = list.background_color.colorValue;
+   // self.bgView.backgroundColor = list.background_color.colorValue;
     [self.categoryImageView loadImageWithString:list.image_url forClass:self.class];
     [super setData:data];
 }

@@ -28,7 +28,9 @@
 -(void)directionApi {
     self.base_url = @"https://maps.googleapis.com/maps/api/directions/";
 }
--(void)homeApi {}
+-(void)homeApi {
+    self.show_local_response = YES;
+}
 -(void)merchantDetail {}
 -(void)orderDetail {}
 -(void)orderHistory {}

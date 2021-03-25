@@ -210,7 +210,6 @@
     [self createAndSendRequest];
 }
 
-+(void)registerApiConfiguration {
-}
++(void)registerApiConfiguration {}
 @end
 

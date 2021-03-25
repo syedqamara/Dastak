@@ -11,11 +11,11 @@
 NS_ASSUME_NONNULL_BEGIN
 
 #define IS_PROD_ENV 0
-#define DD_PROD NO // Make sure to change KEYCHAIN_ACCESS_GROUP & APPS_GROUP_FOR_DEFAULTS for App store builds and remove .ent
+#define DD_PROD YES // Make sure to change KEYCHAIN_ACCESS_GROUP & APPS_GROUP_FOR_DEFAULTS for App store builds and remove .ent
 
 #define DD_DEV NO
 #define DD_QA NO
-#define DD_UAT YES
+#define DD_UAT NO
 #define DD_RC NO
 #define DD_EYBRIX NO
 
